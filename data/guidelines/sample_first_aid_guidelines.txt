@@ -1,0 +1,55 @@
+FIRST AID GUIDELINES (SAMPLE EXTRACT FOR DEVELOPMENT/TESTING)
+
+NOTE: This is a small illustrative extract written for pipeline development and
+testing only. For the real project you must replace this with the full authoritative
+guideline documents: the IFRC International First Aid, Resuscitation and Education
+Guidelines (2020) and the Resuscitation Council UK Guidelines (2021). Do not report
+research results based on this sample.
+
+CHOKING (ADULT)
+If an adult is choking and cannot speak, cough or breathe, act quickly. First,
+encourage them to cough. If coughing does not clear the obstruction, give up to five
+sharp back blows between the shoulder blades with the heel of your hand. If back
+blows do not work, give up to five abdominal thrusts. Call 999 if the blockage does
+not clear. Continue alternating five back blows and five abdominal thrusts until help
+arrives or the object is dislodged.
+
+CARDIAC ARREST / NOT BREATHING (ADULT)
+If a person is unresponsive and not breathing normally, they may be in cardiac
+arrest. Call 999 immediately and ask for an ambulance. Start cardiopulmonary
+resuscitation (CPR). Push hard and fast in the centre of the chest at a rate of 100
+to 120 compressions per minute. If an automated external defibrillator (AED) is
+available, switch it on and follow its spoken instructions. Do not stop CPR until
+professional help takes over or the person shows signs of life.
+
+SEVERE BLEEDING
+For severe external bleeding, call 999. Apply firm, direct pressure to the wound with
+a clean cloth or dressing. If an object is embedded in the wound, do not remove it;
+instead apply pressure around the object. Keep pressure applied until emergency
+services arrive. Lie the person down and reassure them.
+
+BURNS
+For a burn, cool the burn under cool running water for at least 20 minutes. Remove
+any jewellery or clothing near the burn unless it is stuck to the skin. Do not apply
+creams, butter, or ice. Cover the burn loosely with cling film or a clean, non-fluffy
+dressing. Seek medical help for large or deep burns, or burns to the face, hands, or
+genitals.
+
+HEART ATTACK
+If someone may be having a heart attack, call 999 immediately. Help them to sit down
+and rest in a comfortable position. If they are not allergic and it is available,
+help them take a 300 mg aspirin and advise them to chew it slowly. Stay with them and
+monitor their breathing until the ambulance arrives.
+
+ANAPHYLAXIS (SEVERE ALLERGIC REACTION)
+Anaphylaxis is a medical emergency. Call 999 immediately. If the person has an
+adrenaline auto-injector (such as an EpiPen), help them use it without delay. Help
+them lie down with their legs raised, unless they are having trouble breathing, in
+which case let them sit up. A second dose may be given after five minutes if there is
+no improvement and a second injector is available.
+
+SEIZURES
+During a seizure, protect the person from injury by moving nearby objects away. Do
+not restrain them and do not put anything in their mouth. Cushion their head. Time the
+seizure. Call 999 if the seizure lasts longer than five minutes, if another seizure
+follows, or if the person is injured or does not regain consciousness.

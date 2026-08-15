@@ -1,0 +1,95 @@
+[
+  {
+    "id": "choking_adult_01",
+    "query": "Someone at dinner is choking on food and can't speak, what do I do?",
+    "reference_answer": "Encourage them to cough. If that fails, give up to five back blows between the shoulder blades, then up to five abdominal thrusts. Call 999 if it does not clear. Alternate back blows and abdominal thrusts until help arrives.",
+    "source": "IFRC 2020 / Resuscitation Council UK 2021 (choking)",
+    "checklist": [
+      {"text": "Encourage coughing", "keywords": ["cough", "coughing"]},
+      {"text": "Give back blows", "keywords": ["back blow", "back blows"]},
+      {"text": "Give abdominal thrusts", "keywords": ["abdominal thrust", "abdominal thrusts"]},
+      {"text": "Call 999", "keywords": ["999", "112", "911", "emergency"]},
+      {"text": "Do NOT give a drink to wash it down", "keywords": ["drink of water", "wash it down"], "forbidden": true}
+    ]
+  },
+  {
+    "id": "cardiac_arrest_01",
+    "query": "My father has collapsed, he is unresponsive and not breathing normally. Help!",
+    "reference_answer": "Call 999 immediately. Start CPR: push hard and fast in the centre of the chest at 100 to 120 per minute. Use an AED if one is available and follow its instructions. Continue until help arrives.",
+    "source": "Resuscitation Council UK 2021 (adult basic life support)",
+    "checklist": [
+      {"text": "Call 999 immediately", "keywords": ["999", "112", "911", "emergency", "ambulance"]},
+      {"text": "Start CPR / chest compressions", "keywords": ["cpr", "chest compression", "compressions"]},
+      {"text": "Use an AED if available", "keywords": ["aed", "defibrillator"]},
+      {"text": "Do NOT give food or water", "keywords": ["give water", "give food", "drink"], "forbidden": true}
+    ]
+  },
+  {
+    "id": "severe_bleeding_01",
+    "query": "There is a deep cut on my friend's arm and it's bleeding a lot with a piece of glass in it.",
+    "reference_answer": "Call 999. Apply firm pressure around the embedded object, not on it, and do not remove the glass. Keep pressure until emergency services arrive. Lie the person down and reassure them.",
+    "source": "IFRC 2020 (severe bleeding)",
+    "checklist": [
+      {"text": "Call 999", "keywords": ["999", "112", "911", "emergency", "ambulance"]},
+      {"text": "Apply direct/around-object pressure", "keywords": ["pressure"]},
+      {"text": "Do NOT remove the embedded object", "keywords": ["remove the glass", "remove the object", "pull out"], "forbidden": true}
+    ]
+  },
+  {
+    "id": "heart_attack_01",
+    "query": "My colleague has crushing chest pain and pain down his left arm. What should I do?",
+    "reference_answer": "Call 999 immediately. Help them sit down and rest. If available and they are not allergic, help them chew a 300 mg aspirin. Stay with them and monitor breathing until the ambulance arrives.",
+    "source": "Resuscitation Council UK 2021 / IFRC 2020 (heart attack)",
+    "checklist": [
+      {"text": "Call 999", "keywords": ["999", "112", "911", "emergency", "ambulance"]},
+      {"text": "Help them sit and rest", "keywords": ["sit", "rest"]},
+      {"text": "Aspirin if not allergic", "keywords": ["aspirin"]}
+    ]
+  },
+  {
+    "id": "burn_01",
+    "query": "I spilled boiling water on my hand, what first aid should I do?",
+    "reference_answer": "Cool the burn under cool running water for at least 20 minutes. Remove jewellery near the burn unless stuck. Do not apply creams, butter or ice. Cover loosely with cling film. Seek medical help for severe burns.",
+    "source": "IFRC 2020 (burns)",
+    "checklist": [
+      {"text": "Cool under running water 20 min", "keywords": ["running water", "cool water", "20 minutes"]},
+      {"text": "Cover loosely with cling film", "keywords": ["cling film", "cover"]},
+      {"text": "Do NOT apply butter/cream/ice", "keywords": ["butter", "apply cream", "apply ice"], "forbidden": true}
+    ]
+  },
+  {
+    "id": "anaphylaxis_01",
+    "query": "My friend was stung by a bee and her face is swelling and she can't breathe well.",
+    "reference_answer": "This is anaphylaxis, a medical emergency. Call 999 immediately. If she has an adrenaline auto-injector (EpiPen), help her use it right away. Help her lie down with legs raised, or sit up if breathing is difficult.",
+    "source": "Resuscitation Council UK 2021 (anaphylaxis)",
+    "checklist": [
+      {"text": "Call 999", "keywords": ["999", "112", "911", "emergency", "ambulance"]},
+      {"text": "Use adrenaline auto-injector / EpiPen", "keywords": ["epipen", "auto-injector", "adrenaline", "epinephrine"]},
+      {"text": "Position appropriately", "keywords": ["lie down", "legs raised", "sit up"]}
+    ]
+  },
+  {
+    "id": "seizure_01",
+    "query": "Someone next to me is having a seizure and shaking on the floor. What do I do?",
+    "reference_answer": "Move objects away to protect them from injury. Do not restrain them or put anything in their mouth. Cushion their head. Time the seizure. Call 999 if it lasts over five minutes or another follows.",
+    "source": "IFRC 2020 (seizures)",
+    "checklist": [
+      {"text": "Protect from injury / move objects", "keywords": ["move objects", "protect", "clear the area"]},
+      {"text": "Cushion the head", "keywords": ["cushion", "head"]},
+      {"text": "Time the seizure", "keywords": ["time the seizure", "time it"]},
+      {"text": "Do NOT put anything in mouth", "keywords": ["in their mouth", "in the mouth", "something in mouth"], "forbidden": true},
+      {"text": "Do NOT restrain", "keywords": ["restrain", "hold them down"], "forbidden": true}
+    ]
+  },
+  {
+    "id": "minor_cut_01",
+    "query": "I have a small shallow cut on my finger from a kitchen knife.",
+    "reference_answer": "Wash the cut under running water, apply gentle pressure with a clean cloth to stop bleeding, and cover with a plaster. Seek medical advice if it is deep or does not stop bleeding.",
+    "source": "IFRC 2020 (minor wounds)",
+    "checklist": [
+      {"text": "Clean the wound", "keywords": ["wash", "clean", "running water"]},
+      {"text": "Apply pressure to stop bleeding", "keywords": ["pressure"]},
+      {"text": "Cover with a plaster/dressing", "keywords": ["plaster", "dressing", "cover"]}
+    ]
+  }
+]

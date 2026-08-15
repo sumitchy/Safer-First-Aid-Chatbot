@@ -1,0 +1,90 @@
+{
+  "choking_adult": {
+    "examples": [
+      "someone is choking on food",
+      "food stuck in throat can't breathe",
+      "person choking cannot speak",
+      "my friend is choking help",
+      "choking on a piece of meat",
+      "he can't breathe something is stuck in his throat"
+    ],
+    "answer": "1. Encourage them to cough. 2. If coughing does not clear it, give up to five back blows between the shoulder blades. 3. If that fails, give up to five abdominal thrusts. 4. Call 999 if the blockage does not clear. Alternate five back blows and five abdominal thrusts until help arrives."
+  },
+  "cardiac_arrest": {
+    "examples": [
+      "person collapsed not breathing",
+      "unresponsive and not breathing normally",
+      "someone had a cardiac arrest",
+      "he is not breathing and unconscious",
+      "collapsed no pulse not breathing",
+      "my dad collapsed and isn't breathing"
+    ],
+    "answer": "1. Call 999 immediately and ask for an ambulance. 2. Start CPR: push hard and fast in the centre of the chest at 100 to 120 compressions per minute. 3. If an AED is available, switch it on and follow its instructions. 4. Do not stop until professional help takes over."
+  },
+  "severe_bleeding": {
+    "examples": [
+      "deep cut bleeding heavily",
+      "wound won't stop bleeding",
+      "severe bleeding from the arm",
+      "lots of blood from a cut",
+      "bleeding badly with glass in the wound",
+      "heavy bleeding what do I do"
+    ],
+    "answer": "1. Call 999. 2. Apply firm direct pressure to the wound with a clean cloth. 3. If an object is embedded, do not remove it; apply pressure around it. 4. Keep pressure on until emergency services arrive. Lie the person down and reassure them."
+  },
+  "heart_attack": {
+    "examples": [
+      "crushing chest pain",
+      "chest pain and pain down left arm",
+      "he might be having a heart attack",
+      "tight chest pain sweating",
+      "pain in chest and arm",
+      "possible heart attack symptoms"
+    ],
+    "answer": "1. Call 999 immediately. 2. Help them sit down and rest. 3. If available and they are not allergic, help them chew a 300 mg aspirin. 4. Stay with them and monitor their breathing until the ambulance arrives."
+  },
+  "burn": {
+    "examples": [
+      "spilled boiling water on my hand",
+      "burnt my arm on the oven",
+      "scald from hot water",
+      "burn from a hot pan",
+      "how to treat a burn",
+      "burnt my hand what do I do"
+    ],
+    "answer": "1. Cool the burn under cool running water for at least 20 minutes. 2. Remove jewellery or clothing near the burn unless stuck to the skin. 3. Do not apply creams, butter, or ice. 4. Cover loosely with cling film. Seek medical help for large or deep burns."
+  },
+  "anaphylaxis": {
+    "examples": [
+      "allergic reaction face swelling can't breathe",
+      "bee sting swelling and trouble breathing",
+      "severe allergic reaction",
+      "anaphylaxis after eating nuts",
+      "throat closing up allergic reaction",
+      "she is having an allergic reaction and struggling to breathe"
+    ],
+    "answer": "1. This is a medical emergency, call 999 immediately. 2. If they have an adrenaline auto-injector (EpiPen), help them use it without delay. 3. Help them lie down with legs raised, or sit up if breathing is difficult. 4. A second dose may be given after five minutes if needed and available."
+  },
+  "seizure": {
+    "examples": [
+      "someone is having a seizure",
+      "person shaking on the floor convulsing",
+      "epileptic fit what to do",
+      "having a fit on the ground",
+      "convulsions and shaking",
+      "seizure help"
+    ],
+    "answer": "1. Move nearby objects away to protect them from injury. 2. Do not restrain them and do not put anything in their mouth. 3. Cushion their head. 4. Time the seizure. Call 999 if it lasts longer than five minutes or another follows."
+  },
+  "minor_cut": {
+    "examples": [
+      "small cut on my finger",
+      "shallow cut from a knife",
+      "minor cut what to do",
+      "little cut bleeding slightly",
+      "nicked my finger",
+      "small kitchen knife cut"
+    ],
+    "answer": "1. Wash the cut under running water. 2. Apply gentle pressure with a clean cloth to stop the bleeding. 3. Cover with a plaster or dressing. Seek medical advice if it is deep or does not stop bleeding."
+  }
+}

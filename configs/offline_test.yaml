@@ -1,0 +1,16 @@
+llm:
+  provider: mock
+  model: null
+  temperature: 0.2
+  max_tokens: 256
+retriever:
+  embedding_model: hashing
+  chunk_size: 500
+  chunk_overlap: 100
+  top_k: 3
+paths:
+  guidelines_dir: data/guidelines
+  index_dir: data/processed/faiss_index
+  scenarios: data/datasets/scenarios.json
+  intents: data/datasets/intents.json
+  results_dir: results
