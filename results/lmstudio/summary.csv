@@ -1,0 +1,4 @@
+system,n_scenarios,mean_congruence,full_congruence_rate,dangerous_output_rate,dangerous_output_count,mean_latency_s,bleu,rouge1,rouge2,rougeL,bertscore_f1,flesch_reading_ease
+RAG,8,0.7292,0.375,0.25,2,34.1275,,,,,,
+VanillaLLM,8,1.0,0.625,0.375,3,40.5108,,,,,,
+IntentClassifier,8,0.4271,0.25,0.0,0,0.0012,,,,,,

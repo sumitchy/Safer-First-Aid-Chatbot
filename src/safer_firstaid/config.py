@@ -12,10 +12,11 @@ from pathlib import Path
 
 @dataclass
 class LLMConfig:
-    provider: str = "huggingface"        # ollama | gemini | huggingface
+    provider: str = "huggingface"        # ollama | gemini | huggingface | lmstudio
     model: str | None = None             # None => backend default
     temperature: float = 0.2
     max_tokens: int = 512
+    base_url: str | None = None          # for lmstudio/openai-compatible/vllm
 
 
 @dataclass

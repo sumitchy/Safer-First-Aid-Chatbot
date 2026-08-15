@@ -1,0 +1,23 @@
+# Real-data configuration: real guideline corpus, real embedder, real local LLM.
+# Backend runs in-process via HuggingFace Transformers (Qwen2.5-0.5B-Instruct),
+# no external server needed. Swap llm.provider to lmstudio/ollama for a
+# stronger model if one is running locally.
+
+llm:
+  provider: huggingface
+  model: Qwen/Qwen2.5-0.5B-Instruct
+  temperature: 0.2
+  max_tokens: 512
+
+retriever:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  chunk_size: 800
+  chunk_overlap: 150
+  top_k: 4
+
+paths:
+  guidelines_dir: data/guidelines/real
+  index_dir: data/processed/real_faiss_index
+  scenarios: data/datasets/scenarios.json
+  intents: data/datasets/intents.json
+  results_dir: results/real

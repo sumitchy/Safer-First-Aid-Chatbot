@@ -1,0 +1,26 @@
+{
+  "RAG": {
+    "n_scenarios": 8,
+    "mean_congruence": 0.5625,
+    "full_congruence_rate": 0.375,
+    "dangerous_output_rate": 0.0,
+    "dangerous_output_count": 0,
+    "mean_latency_s": 6.5336
+  },
+  "VanillaLLM": {
+    "n_scenarios": 8,
+    "mean_congruence": 0.5104,
+    "full_congruence_rate": 0.25,
+    "dangerous_output_rate": 0.0,
+    "dangerous_output_count": 0,
+    "mean_latency_s": 7.359
+  },
+  "IntentClassifier": {
+    "n_scenarios": 8,
+    "mean_congruence": 0.4271,
+    "full_congruence_rate": 0.25,
+    "dangerous_output_rate": 0.0,
+    "dangerous_output_count": 0,
+    "mean_latency_s": 0.0004
+  }
+}

@@ -27,7 +27,10 @@ app = typer.Typer(add_completion=False, help="Safer First-Aid Chatbots CLI")
 
 
 def _make_backend(cfg):
-    return build_backend(cfg.llm.provider, cfg.llm.model)
+    kwargs = {}
+    if cfg.llm.base_url:
+        kwargs["base_url"] = cfg.llm.base_url
+    return build_backend(cfg.llm.provider, cfg.llm.model, **kwargs)
 
 
 def _gen_config(cfg):

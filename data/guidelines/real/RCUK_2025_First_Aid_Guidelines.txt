@@ -1,0 +1,318 @@
+Resuscitation Council UK
+First Aid Guidelines 2025
+
+Source: European Resuscitation Council Guidelines 2025 First Aid.
+Resuscitation 2025;215 (Suppl 1):110752. https://doi.org/10.1016/j.resuscitation.2025.110752
+Published 27 October 2025.
+
+Key points
+
+Expectations of a first aid provider: Always call for help early and, ideally,
+use a speakerphone, especially if alone. As a general principle, only use
+equipment and medications you have been trained to use.
+Structured assessment: Use an ABCDE approach (Airway, Breathing,
+Circulation, Disability, Exposure) to promptly identify and treat
+life-threatening conditions.
+Foreign body airway obstruction: Use an escalating approach — cough,
+back blows, abdominal thrusts — in adults who are choking.
+Life-threatening bleeding: an escalating approach with manual direct
+pressure and, thereafter, haemostatic dressing and/or tourniquets.
+Drowning: offer flotation, remove the person from the water, provide
+immediate care as needed, including preventing hypothermia.
+
+Introduction
+
+First aid is a helping behaviour by anyone, for any emergency condition, in
+any situation, including self-care. It typically involves recognising,
+assessing and prioritising needs, providing care within the provider's
+competencies while recognising their limitations, and seeking additional
+help such as activating the emergency services. First aid serves as the
+crucial first link in the chain of survival.
+
+Expectations of a first aid provider
+
+Three key principles minimise further injury, improve health and prevent
+death:
+1. Check for scene safety.
+2. Call 999.
+3. Only use available equipment or medications you have been trained to use.
+
+There are occasions when a first aider may be directed by the emergency
+services to use equipment they have not had in-depth training on.
+
+First aid kits
+
+All workplaces, leisure centres, public buildings, homes and cars should
+have first aid kits. Public kits should be clearly marked and readily
+accessible. Contents should be based on the setting, expected risks and the
+users. Inspect and maintain kits regularly.
+
+Cardiac arrest
+
+If you suspect cardiac arrest, call 999 and follow the call handler's
+instructions on performing CPR. Saving a life is the priority — do not be
+concerned about causing harm. Continue CPR until professional help arrives
+and takes over (or tells you to stop), the person becomes responsive
+(speaks, opens eyes, moves purposefully, or breathes normally), or you
+become exhausted.
+
+Structured first aid assessment (ABCDE)
+
+Pay immediate attention to safety, the person's responsiveness, and
+life-threatening bleeding. Use the ABCDE framework (Airway, Breathing,
+Circulation, Disability, Exposure) to structure your assessment.
+
+Recovery position
+
+Place adults and children with a decreased level of responsiveness who do
+NOT meet the criteria for CPR into a lateral (side-lying) recovery position.
+In cases of agonal breathing or trauma, do NOT move the person into the
+recovery position.
+
+Oxygen and pulse oximetry for acute breathing difficulty
+
+If trained to deliver oxygen, give it to a person with difficulty breathing
+and/or looking cyanosed (blue tinges on skin/lips; for darker skin tones,
+look for pallor or blue tinges inside the lips). Use a pulse oximeter to
+titrate, aiming for 94-98% saturation via simple face mask or non-rebreathing
+mask (88-92% for known COPD). In life-threatening hypoxaemia
+(saturation < 88%) out of hospital, give higher-flow oxygen to everyone,
+including those with COPD.
+
+Medical emergencies
+
+Anaphylaxis
+
+Suspect anaphylaxis if someone has:
+- Breathing difficulties ranging from noisy breathing (stridor) from upper
+  airway swelling to wheezing from lower airway obstruction.
+- Flushing, rash (hives), cold or clammy skin, or feeling faint.
+- Abdominal pain, vomiting, or diarrhoea.
+- Recent exposure to a known food allergen or insect sting.
+
+Actions:
+- Call 999.
+- Lie the person down unless breathing difficulties make sitting up (legs
+  extended) preferable.
+- Remove the trigger if known and possible.
+- Give intramuscular adrenaline (self-administered or by a trained person)
+  as soon as possible via autoinjector into the outer thigh.
+- If symptoms persist 5 minutes after administration, give a second dose,
+  ideally in the opposite leg.
+
+Choking in an adult
+
+Suspect choking if a person suddenly cannot speak or cough, particularly
+while eating.
+- Ask: "Are you choking?"
+- Encourage coughing.
+- If coughing is ineffective or impossible, give up to 5 back blows.
+- If back blows are ineffective, give up to 5 abdominal thrusts.
+- If choking is not relieved after 5 abdominal thrusts, call 999 and
+  continue alternating 5 back blows with 5 abdominal thrusts until relieved
+  or the person becomes unresponsive.
+- Do NOT use blind finger sweeps to try to remove a foreign body.
+- If the person becomes unresponsive, start CPR and ensure 999 has been
+  called.
+- Anyone treated for choking with abdominal thrusts or chest compressions
+  should be evaluated by a healthcare practitioner afterward, since
+  complications and injuries can occur.
+
+Asthma
+
+If a person with asthma has breathing difficulties, help them use their own
+reliever inhaler, with a spacer device if available.
+
+Chest pain
+
+- Reassure the person; sit or lie them in a comfortable position.
+- Call 999.
+- Help a person with cardiac-sounding chest pain self-administer 300 mg of
+  aspirin (ideally chewable/dissolvable) while awaiting help — but not if
+  they have a known aspirin allergy.
+- Help a person with known angina self-administer their nitroglycerine spray
+  or tablets.
+- Stay with them until help arrives.
+
+Hypoglycaemia (low blood sugar)
+
+Suspect in someone with diabetes or chronic malnutrition who suddenly has
+impaired responsiveness or a behavioural change.
+- If awake and able to swallow, give glucose or dextrose tablets (15-20 g)
+  by mouth.
+- If feasible, measure capillary blood sugar and treat if low
+  (< 4.0 mmol/L or 70 mg/dL); re-measure after treatment.
+- If tablets aren't available, give other dietary sugars — a handful of
+  sugary sweets, or 50-100 mL of fruit juice or a sugary drink.
+- If oral glucose isn't available, give a glucose gel (partly held in the
+  cheek, partly swallowed).
+- Repeat oral glucose if symptoms persist and haven't improved after 15 min.
+- For an uncooperative but NOT unresponsive child, consider half a teaspoon
+  of table sugar (2.5 g) under the tongue.
+- Call 999 if the person is or becomes unresponsive, or doesn't improve.
+- Once recovered (5-10 min after sugar), encourage a light snack.
+- In an unresponsive person, do NOT give oral sugar (aspiration risk) —
+  call 999 and consider the recovery position instead.
+
+Opiate/opioid poisoning
+
+Suspect an overdose if the person: is breathing slowly; has irregular or
+absent breathing; is extremely drowsy or unresponsive; has very small
+pupils.
+- Call 999.
+- If unresponsive and not breathing normally, start CPR.
+- Give naloxone if you are trained to.
+- Reassess using the ABCDE approach.
+- Follow the packaging instructions on repeat dosing.
+- Keep the person under observation until emergency help arrives.
+
+Stroke
+
+Use a stroke assessment scale such as FAST (Face, Arm, Speech, Time) to
+speed up recognition, and call 999. Only give oxygen if trained and the
+person shows signs of hypoxia (blue tinges to skin/lips, or for darker skin
+tones, pallor or blue tinges inside the lips).
+
+Suicidal thoughts
+
+- If you think a person might harm themselves, ask if they're alright, how
+  they feel, and why. Ask directly if they have suicidal thoughts.
+- Assess risk: has the person communicated about or made plans to take
+  their own life?
+- Explore their thoughts and listen non-judgmentally.
+- If they have made concrete threats or plans, tell them you're going to
+  get help, and call 999.
+- If those warning signs aren't present, listen non-judgmentally and
+  encourage seeking professional or other support (e.g. GP, a suicide
+  hotline such as Samaritans).
+
+Trauma emergencies
+
+Cervical spinal motion restriction
+
+Suspect a cervical spine injury after a fall/dive from height, crush by
+machinery/heavy object, or a road traffic or sporting accident.
+- Minimise neck movement. If awake and alert, encourage the person to hold
+  their own neck in a comfortable, stable position.
+- Never force an uncooperative person into any position — this may worsen
+  an injury.
+- If unresponsive and lying on their back: kneel behind their head and
+  immobilise head/neck in a neutral in-line position (head or trapezius
+  squeeze technique). Airway opening always takes priority over
+  immobilisation — use a jaw-thrust, which should maintain neck neutrality.
+- If unresponsive and lying face down: check the airway is open, hold the
+  neck stable; if you need to open the airway, get help to roll them as a
+  unit onto their back, keeping the neck in line, then apply the head/
+  trapezius squeeze.
+- Only those with specialised training (lifeguard, mountain rescue) should
+  consider spinal motion restriction devices/collars, per their protocols.
+
+Control of life-threatening bleeding
+
+- Call 999.
+- Apply firm, direct manual pressure to the bleeding site.
+- Apply a standard, or ideally haemostatic, dressing directly to the wound,
+  then firm direct pressure — packing the dressing into the wound if the
+  site requires it. Any clean material can be used if no dressing is
+  available; the priority is stopping the bleeding.
+- Once controlled, apply a pressure dressing.
+- Apply a tourniquet as soon as possible for life-threatening limb bleeding
+  not controlled by direct pressure:
+  - Place it around the limb 5-7 cm above the injury, not over a joint.
+  - Tighten until bleeding slows and stops — this may be painful.
+  - Write down the time it was applied.
+  - Do not release it — only a healthcare professional should do that.
+  - A second tourniquet above the first may be needed in some cases.
+
+Open chest wounds
+
+- Call 999.
+- Leave an open chest wound exposed to the air — do NOT apply a dressing or
+  cover it.
+- If necessary, control localised bleeding with direct pressure.
+- If trained and equipped, apply a specialised non-occlusive/vented
+  dressing that allows air to escape on exhalation. Watch for airflow
+  obstruction from bleeding or clotted blood.
+
+Preservation of an amputated body part
+
+- Manage severe bleeding first.
+- Retrieve the part quickly and keep it cold without freezing it:
+  - Wrap it in a sterile dressing or clean cloth moistened with saline or
+    water.
+  - Place it in a clean, watertight bag or container.
+  - Place that inside another bag/container with ice or ice water (or a
+    cooler/instant cold packs if no ice).
+  - Keep it cooled at all times; avoid direct contact with ice or freezing.
+    Label the container with the person's name and the time it was stored.
+  - Transport the part with the injured person to the same hospital as
+    quickly as possible.
+
+Concussion
+
+Suspect concussion if a person has trouble thinking/remembering, physical
+symptoms (headache, vision changes, dizziness, nausea/vomiting, seizures,
+light/noise sensitivity), emotional changes, or behaviour changes (increased
+sleepiness, reduced activity, loss of responsiveness, confusion).
+- Remove them from physical activity.
+- Refer to a healthcare professional for assessment and advice.
+
+Environmental emergencies
+
+Drowning
+
+- If not trained in water rescue, do NOT enter the water — you risk
+  drowning too.
+- If the person is awake and responsive, stay on land and reach out with a
+  flotation device, lifebuoy, rescue tube, or other equipment.
+- Trained first aiders/lifeguards in the water or on a boat: call 999 before
+  entering the water; provide a flotation device; keep the person's head
+  out of the water; if unresponsive and not breathing, and it's feasible and
+  safe with an effective flotation device, give five rescue breaths in the
+  water as soon as possible; retrieve them to land/boat as soon as possible.
+- Once on land/boat: check if unresponsive and not breathing. If so, give
+  five rescue breaths immediately, then begin standard CPR.
+- If an AED is available, dry the chest quickly and follow its prompts.
+- Continue CPR and AED use until the person shows signs of life or
+  emergency help arrives and takes over.
+
+Prevention of hypothermia
+
+- Insulation: cover with dry blankets/clothing to minimise heat loss.
+- Wind protection: shield from wind with barriers or move to shelter.
+- Wet clothing removal: gently remove wet clothing, replace with dry.
+- Ground isolation: place insulating material between the person and cold
+  ground.
+- In settings where hypothermia is common, use tailored prevention plans
+  and training.
+
+Heat stroke
+
+Suspect heat stroke if the person shows confusion, agitation, disorientation,
+seizures or unresponsiveness — can occur in high ambient temperatures,
+especially during endurance sporting events (exertional heat stroke can
+occur at any ambient temperature during exertion).
+- Remove from the heat source; start passive cooling by removing excess
+  clothing and moving to a cooler/shaded spot.
+- Use whatever active cooling is available immediately. Gold standard:
+  whole-body (neck down) cold water (1-26°C) immersion until core
+  temperature falls below 39°C.
+- Alternatives: tarp-assisted cooling oscillation (TACO), ice sheets,
+  commercial ice packs, a fan alone, cold shower, hand cooling devices,
+  cooling vests/jackets, or evaporative cooling (mist + fan).
+- Monitor core temperature if possible (rectal thermometer). If not
+  possible, cool for 15 min or until neurological symptoms resolve,
+  whichever comes first.
+- Cool first, transfer second. Continue cooling during transport to a
+  medical facility.
+
+Snake bite
+
+The only venomous snake native to the UK is the Adder (European Viper),
+with haemolytic toxic venom.
+- Call 999.
+- Keep the person calm and at rest.
+- Keep the bitten limb still and immobilised — this may slow venom spread.
+- Remove tight clothes, rings or watches from the affected limb.
+- Avoid harmful actions: do NOT apply a pressure dressing, ice, heat, or a
+  tourniquet. Do NOT cut the wound or try to suck out venom.

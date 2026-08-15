@@ -1,0 +1,177 @@
+Resuscitation Council UK
+Paediatric Basic Life Support and Choking (lay/bystander sections)
+
+Source: European Resuscitation Council Guidelines 2025 Paediatric Life Support.
+Resuscitation 2025;215 (Suppl 1):110767. https://doi.org/10.1016/j.resuscitation.2025.110767
+Published 27 October 2025.
+
+Note: extracted from the RCUK "Paediatric Life Support (basic and advanced)"
+guideline. Only the sections relevant to untrained/lay bystanders are included
+here; the clinical PALS algorithm (drug dosing, defibrillation joules, ECPR,
+hospital shock/seizure management) is deliberately excluded as out of scope
+for lay first aid.
+
+What is a paediatric patient
+
+Paediatric patients are aged 0-18. "Infant" = neonates up to 1 year. "Child" =
+1-12 years. "Adolescent" = 13-18 years.
+
+Recognising a critically ill child (BBB-tool, for parents/caregivers)
+
+All parents/caregivers should learn basic recognition of critical illness and
+basic first-aid life-saving procedures. Immediately call for medical help or
+call the ambulance service if a child shows signs of critical illness, described
+by the BBB-tool (Behaviour, Breathing, Body colour):
+
+Behaviour: a child who
+- is not fully conscious or is difficult to rouse, floppy or rigid
+- is having a seizure
+- is confused, agitated, or interacting abnormally with parents/caregivers
+- is crying inconsolably
+- is not able to move one or more limbs
+- has severe pain or is unable to speak or walk, if previously able to do so
+
+Breathing: a child who has difficulty breathing, such that they
+- are unable to take a deep breath
+- are working hard to take each breath (breathing fast, grunting, flaring of
+  the nostrils, indrawing between or under the ribs)
+- are making additional noises while breathing
+- are breathing too fast, too slowly or irregularly, or stop breathing
+- adopt an abnormal posture to aid breathing
+
+Body colour: the child's skin is cyanosed, mottled, abnormally pale or
+greyish. Look at the hand palms, soles of the feet and mucosal membranes,
+especially in children with dark skin tones.
+
+Parents of children with specific chronic conditions should have an emergency
+plan for any sudden deterioration, and caregivers should be trained in initial
+life-saving procedures.
+
+Paediatric basic life support (PBLS) — untrained rescuers and dispatcher-assisted CPR
+
+If you encounter a child who appears unresponsive and you have no training
+in PBLS, ensure your own safety and that of the child and follow the 3 steps
+to save a life:
+1. Check — see if the child reacts to a non-painful stimulus.
+2. Call — call the ambulance service immediately if the child does not react,
+   and follow the dispatcher's advice.
+3. CPR — start CPR immediately following the instructions of the dispatcher.
+
+Ambulance service call handlers should encourage bystanders to perform both
+rescue breaths and chest compressions in children of all ages, using a 30:2
+ratio with 5 initial rescue breaths for untrained bystanders or bystanders
+trained only in adult BLS. If bystanders are not willing or able to perform
+rescue breathing, dispatchers should encourage compression-only CPR in all
+children. Call handlers should instruct bystanders to use age-specific
+techniques for chest compressions and breathing in infants, children and
+adolescents.
+
+PBLS steps for trained rescuers in paediatric out-of-hospital cardiac arrest
+
+- Ensure your own safety and that of the child.
+- Use verbal and tactile stimulation to assess responsiveness. Do not use
+  painful stimuli.
+- Call, or have someone call, the ambulance service immediately, using the
+  speaker function of your mobile phone. Follow the dispatcher's advice.
+- Use the head tilt chin lift manoeuvre to open the airway, assess breathing
+  and look for signs of life for no longer than 10 seconds.
+- Give five initial rescue breaths.
+- Immediately proceed with chest compressions.
+- Continue CPR. Use a compression-to-ventilation ratio of 15:2 if you are
+  specifically trained in PBLS; otherwise, use a ratio of 30:2.
+- Focus on consistently high-quality compressions and effective
+  ventilations. Minimise chest compression pauses.
+- If a second rescuer is available, they should call the ambulance service
+  while the first rescuer starts CPR, then bring and attach an AED as soon
+  as possible for children of all ages. Once attached, follow the AED
+  instructions.
+- If there is only a single rescuer, calling the ambulance service and
+  starting CPR should be prioritised over fetching and attaching an AED.
+- Do not interrupt CPR unless there are clear signs of life, or you are
+  instructed to do so by the AED.
+- In an unresponsive child who is clearly breathing effectively, keep the
+  airway open by continued head tilt/chin lift, or place them in the
+  recovery position (not in suspected trauma), especially if there is a
+  risk of vomiting. Check breathing continuously or at least every minute.
+
+Airway and rescue breaths (no equipment)
+
+- In infants, keep the head in a neutral position by slightly tilting the
+  head and lifting the chin with two fingers on the chin bone (head tilt
+  chin lift), without pressing on the soft tissues. In older children, more
+  head tilt is needed. In adolescents, full extension of the head is needed,
+  as in adults.
+- Look for chest movement, listen and feel for airflow from the nose/mouth.
+  If in doubt whether breathing is normal, act as if it is not normal.
+- Blow steadily into the child's mouth (or infant's mouth and nose) for
+  about 1 second, enough to make the chest visibly rise, then let it fall
+  back passively before the next breath.
+- If the chest does not rise, the airway may be obstructed: remove any
+  visible obstruction in the mouth if easy to do so (do not perform a blind
+  finger sweep), and reposition the head/chin.
+
+Chest compressions
+
+- Perform on a firm surface if immediately available. Remove clothes only
+  if they hinder compressions.
+- Compress the lower half of the sternum (breastbone) in all age groups.
+- Infants: use the two-thumb encircling method.
+- Children over 1 year: use the one-hand or two-hand technique (whichever
+  achieves high-quality compressions).
+- Rate 100-120 per minute. Depress the chest by at least one third of its
+  depth; use the adult depth of 5-6 cm in adolescents, never exceeding 6 cm
+  at any age. Allow full chest recoil between compressions. Do not interrupt
+  compressions except for ventilations or AED instruction.
+
+Using an AED on a child
+
+- Follow the AED's instructions. Apply pads with minimal interruption to
+  CPR (one person applies pads, a second continues CPR).
+- Activate paediatric mode if available for infants and children under
+  ~25 kg (roughly under 8 years old). For larger children/adolescents, or if
+  no paediatric mode exists, use standard adult mode.
+- Pad placement: for infants and children under 25 kg, use the
+  anteroposterior position (one pad mid-chest left of the sternum, the
+  other on the back between the shoulder blades). For children over 25 kg
+  and adolescents, use the anterolateral position (below right clavicle,
+  and left axilla) or the anteroposterior position; avoid placing pads over
+  breast tissue in adolescents.
+- Do not touch the child while the AED analyses the rhythm. Restart chest
+  compressions immediately after a shock is delivered.
+
+Foreign body airway obstruction (choking) — infants, children, adolescents
+
+Suspect choking due to a foreign body if the child is unable to speak
+(children/adolescents) or cry aloud (infants/smaller children), especially
+during feeding, eating, or playing unsupervised.
+
+- Call, or have someone call, the ambulance service as soon as possible.
+- Encourage an older child or adolescent to cough.
+- If coughing is not possible or becomes ineffective, give up to 5 back
+  blows:
+  - Infants: turn the infant face down along your forearm, forearm resting
+    on your leg, supporting the head with your hand, head held lower than
+    the thorax. Give a sharp blow between the shoulder blades. Repeat up
+    to 5 times or until the obstruction clears.
+  - Children/adolescents: lean them forward and give blows between the
+    shoulder blades, up to 5 times.
+- If back blows are not effective, give up to 5 chest/abdominal thrusts:
+  - Infants: turn the infant onto their back on your knees. Use the
+    two-thumb encircling technique to give sharper chest thrusts than
+    for compressions. Repeat up to 5 times or until clear.
+  - Children/adolescents: stand behind the child, arms around the upper
+    abdomen, lean them forward, clench your fist between the navel and
+    the breastbone, grasp it with your other hand, and pull sharply
+    inwards and upwards. Repeat up to 5 times or until clear.
+- If the child is still conscious and the obstruction persists, keep
+  alternating up to 5 back blows with up to 5 chest/abdominal thrusts.
+- Stop immediately if there are signs the obstruction has cleared
+  (coughing, loud breathing, crying).
+- Do not use blind finger sweeps in the mouth — only remove a clearly
+  visible obstruction with a single sweep.
+- Call for help/the ambulance service as soon as practical if not already
+  done, at the latest when the child loses consciousness.
+- Start CPR immediately with five rescue breaths as soon as the child
+  becomes unconscious.
+- RCUK/ERC make no recommendation for or against suction-based
+  anti-choking devices, due to insufficient evidence.

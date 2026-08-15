@@ -1,0 +1,2723 @@
+{
+  "intent_000": {
+    "examples": [
+      "What to do if someone has a cardicac arrest?"
+    ],
+    "answer": "If you think someone is in cardiac arrest, there are four steps you can take to help them.\n    Find a person nearby. Make eye contact, point to them, and say: 'Call 911.'\n    Start doing chest compressions on the person who needs help. Using both your hands, push down hard and fast in the center of the person's chest. Let their chest come back up naturally between compressions. You may hear pops or snaps; this is normal.\n    Keep going until someone with more training arrives.\n    If you're trained in CPR, you can use chest compressions and rescue breathing.\n    If it's available, use an AED. However, do not put off doing chest compressions to go look for an AED. If possible, instruct someone else to go find the device and bring it to you."
+  },
+  "intent_001": {
+    "examples": [
+      "My friend is injured and bleeding, what to do?"
+    ],
+    "answer": "Put on disposable gloves if you have them. This will protect you from infectious diseases like viral hepatitis and HIV/AIDS that can be spread in a person's blood.6\n    Rinse the wound with water.\n    Cover the wound with a gauze or cloth (e.g., towel, blanket, clothing).\n    Apply direct pressure to stop the flow of blood and encourage clotting (when blood naturally thickens to stop blood loss).\n    Elevate the bleeding body part above the person's heart if you can.\n    Do not remove the cloth if it becomes soaked. Removing the first layer will interfere with the clotting process and result in more blood loss. Instead, add more layers if needed.\n    Once bleeding has stopped, put a clean bandage on the wound.\n\nGet medical help if:\n\n    The wound is deep.\n    The wound has widely separated sides.\n    The injury oozes blood after pressure has been applied.\n    The injury is from an animal or human bite.\n    The injury is a puncture, burn, or electrical injury.\n    You think there is arterial bleeding.\n    Blood is soaking through the bandages.\n    The bleeding is not stopping."
+  },
+  "intent_002": {
+    "examples": [
+      "what is chocking?"
+    ],
+    "answer": "Choking happens when a person's windpipe (trachea) gets blocked by food or an object. It is a serious event that can lead to unconsciousness or even death"
+  },
+  "intent_003": {
+    "examples": [
+      "what to do is someone is chocking?"
+    ],
+    "answer": "Stand behind the person and lean them slightly forward.\n    Put your arms around their waist.\n    Clench your fist and place it between their belly button (navel) and rib cage.\n    Grab your fist with your other hand.\n    Pull your clenched fist sharply backward and upward under the person's rib cage in five quick thrusts.\n    Repeat until the object is coughed up."
+  },
+  "intent_004": {
+    "examples": [
+      "For someone who is obese or pregnant, how to help if they are chocking?"
+    ],
+    "answer": "perform the thrusts around the chest instead of the abdomen."
+  },
+  "intent_005": {
+    "examples": [
+      "What to do if someone was chocking and is now unconscious?"
+    ],
+    "answer": "Place them on their back and kneel over them.\n    Place the heel of your hand slightly above their belly button.\n    Place your other hand on top of it.\n    Give quick upward thrusts to dislodge the object."
+  },
+  "intent_006": {
+    "examples": [
+      "what to do if a baby is chocking?"
+    ],
+    "answer": "If a baby is choking, you need to use different first aid techniques to help them.\n\nStart with back blows:\n    Lay the baby across your forearm, face down.\n    Support them with your lap or upper thigh.\n    Hold their chest in your hand and jaw between your fingers (the baby's head should be pointed down so it's lower than their body).\n    With the heel of your free hand, give five quick, forceful blows to the baby's back between the shoulder blades.\n\nIf back blows don't work, try chest thrusts:\n    Turn the baby face up, keeping them on your lap for support.\n    Keeping their head angled down, lower than their body, hold the back of their head with your hand to steady it.\n    Place two or three of your fingers in the center of the baby's chest just below the nipples.\n    Give five quick thrusts downward so the breastbone gets pushed in about 1.5 inches."
+  },
+  "intent_007": {
+    "examples": [
+      "I am chocking, and I am all alone, help me!"
+    ],
+    "answer": "Call 911 first, even though you will not be able to speak. Leave the phone connected. 911 can pinpoint your location and send emergency help. Use a landline if available. If a landline isn't available, a cell phone can be used.\nGrasp one fist with the other hand and place above your belly button.\nThrust inward and upward with your fist. Repeat until the object is dislodged.\nYou can also bend over a hard surface such as the back of a chair. Use the hard surface to apply repeated thrusts to your abdomen. Repeat until the object is dislodged."
+  },
+  "intent_008": {
+    "examples": [
+      "what is the first thing to do when someone is burnt?"
+    ],
+    "answer": "The first step to treating a burn is to stop the burning process\n This might mean:\n    Cleaning up chemicals\n    Turning off electricity\n    Cooling heat with running water\n    Covering up or taking a person inside out of the sun"
+  },
+  "intent_009": {
+    "examples": [
+      "what are the different degrees of burns?"
+    ],
+    "answer": "First-degree burn: This kind of burn only affects only the outer layer of skin and causes redness and swelling. It is considered a minor burn.\nSecond-degree burn: This kind of burn affects two layers of skin and causes blistering, redness, and swelling. It is considered a major burn if it's more than 3 inches wide or is on the face, hands, feet, genitals, buttocks, or over a major joint.\nThird-degree burn: This kind of burn affects deeper layers of skin and causes white or blackened skin that can be numb. It is always considered a major burn"
+  },
+  "intent_010": {
+    "examples": [
+      "what to do in case of burns?"
+    ],
+    "answer": "Major burns need emergency medical attention. Once you've stopped the burning process, call 911 or get someone else to.\n\nFor burns that are not an emergency, you can take these first aid steps:\n\n    Flush the burned area with cool running water for several minutes. Do not use ice.\n    Apply a light gauze bandage. If the burn is minor, you can put on an ointment, like aloe vera, before you cover it.\n    Take Motrin (ibuprofen) or Tylenol (acetaminophen) for pain relief if you need it.\n    Do not break any blisters that form"
+  },
+  "intent_011": {
+    "examples": [
+      "what are blisters?"
+    ],
+    "answer": "Blisters protect damaged skin while it heals.\n\nSome blisters need to be treated and others don't. Whether you need to treat a blister depends on how bad it is and your overall health."
+  },
+  "intent_012": {
+    "examples": [
+      "What to do in case of a blister?"
+    ],
+    "answer": "If the blister is small, not open, and doesn't hurt, it's best to leave it alone. You can cover it to prevent rubbing, which could cause it to swell and burst.\n\nDo not pop a small blister.This could let bacteria get inside it and cause an infection.\n\nIf the blister is big or painful, you need to take different steps to treat it.\n\nHere are the first-aid steps to take for a more serious blister:\n\n    Wash your hands.\n    Sterilize a needle with alcohol.\n    Make small holes at the edge of the blister.\n    Gently push out the fluid.\n    Apply antibiotic ointment.\n    Put on a bandage.\n    If possible, take steps to protect the area from further rubbing or pressure."
+  },
+  "intent_013": {
+    "examples": [
+      "Are there complications that can occur from a blister?"
+    ],
+    "answer": "If you have a compromised immune system, you are more likely to get an infection and should not drain a blister on your own.However, your healthcare provider may want to drain it to help prevent infection.\n\nIf a blister breaks open on its own:\n\n    Gently wash the area with clean water only.\n    Smooth the flap of broken skin over the newly exposed skin, unless it's dirty, torn, or there is pus under it.\n    Put petroleum jelly on it.\n    Cover it with a bandage."
+  },
+  "intent_014": {
+    "examples": [
+      "What are broken bones or fractures?"
+    ],
+    "answer": "Any injury to your limbs, hands, and feet needs to be treated as a broken bone until an X-ray can be done.\n\nWhile broken bones or fractures do need medical treatment, they do not all require an emergency trip to the hospital. First aid steps can help stabilize the bone until you can see a healthcare provider."
+  },
+  "intent_015": {
+    "examples": [
+      "What should we do in case we see someone with a broken part?"
+    ],
+    "answer": "Do not try to straighten the bone.\n    For a limb, use a splint and padding to keep it still, then elevate it.\n    Put a cold pack on the injury'but not directly on the skin. Use a barrier between the ice and the skin to keep the tissue from being damaged. If all you have is ice, put it in a plastic bag and wrap it in a shirt or towel before applying it.\n    Give the person anti-inflammatory drugs like Advil (ibuprofen) or Aleve (naproxen) for pain."
+  },
+  "intent_016": {
+    "examples": [
+      "When should we call the emergency if we see someone with a broken part?"
+    ],
+    "answer": "Call 911 if:\n\n    The person is bleeding a lot, is unresponsive, is not breathing, or has more than one injury.\n    You think a person has a fracture or other serious injury in their spinal column, head, hip, pelvis, or thigh. In this case, do not move the person.\n    A broken bone is poking through the skin (open or compound fracture).\n    The area below an injured joint feels cold and clammy or looks bluish.\n    You cannot keep the injury from moving well enough to transport the person."
+  },
+  "intent_017": {
+    "examples": [
+      "Do you know what is a sparin?"
+    ],
+    "answer": "A sprain is an injury to the connective tissues that hold bones, cartilage, and joints together (ligaments).\nSprains are most often caused when the twisting of a joint overstretches or tears these tissues. They tend to happen in the ankles, knees, and wrists.\nAmerican Academy of Orthopaedic Surgeons. Sprains, strains and Other soft-tissue injuries.\nThe symptoms of a sprain are similar to those of a broken bone. A person will need to have an X-ray to figure out which injury they have."
+  },
+  "intent_018": {
+    "examples": [
+      "what are the actions to take in case of a sprain?"
+    ],
+    "answer": "The first thing to do is make sure that the injured person stops any unnecessary activity, as moving can make the injury worse.\nSprains often don't require emergency treatment.However, you should get immediate medical care if the injured person:\n    Has severe pain when they move or are touched\n    Cannot put any weight on the injured joint\n    Has increased bruising\n    Has numbness or pins-and-needles near the sprain\n    Shows signs of infection\n    Has little or no improvement during the first week after the injury happens\nIf emergency care is not needed, follow these first aid steps:\n    Keep the limb as still as possible.\n    Apply a cold pack.\n    Elevate the injured part if you can do so safely.\n    Use NSAIDs for pain.\n    Ask your provider about any other treatment for a sprain you might need."
+  },
+  "intent_019": {
+    "examples": [
+      "My friend has a sprain and is not able to move."
+    ],
+    "answer": "you should get immediate medical care"
+  },
+  "intent_020": {
+    "examples": [
+      "Is a bee sting dangerous?"
+    ],
+    "answer": "Bee stings can hurt a lot but are only a minor problem for many people. However, for people who are allergic to bee venom, a sting can be deadly."
+  },
+  "intent_021": {
+    "examples": [
+      "what are the signs of an allergic reaction to a sting"
+    ],
+    "answer": "Swelling away from the area that was stung\nFlushing\nHives (raised, large red or skin-colored bumps)\nItching\nSigns of anaphylaxis (a life-threatening allergic reaction that can cause hives, swelling, chest pain, confusion, sweating, blue lips and nails, and trouble breathing)"
+  },
+  "intent_022": {
+    "examples": [
+      "what to do in case of a bee sting?"
+    ],
+    "answer": "Call 911 immediately or get the person to the hospital if they have signs of an allergic reaction to a bee sting.\n\nIf the person who was stung has a known allergy to bee stings, use an EpiPen to prevent anaphylaxis.\n\nIn someone without a known bee allergy, watch for signs of an allergy while you're performing first aid:\n\n    Get the stinger out immediately. This will prevent additional venom from getting into the person. To remove a stinger, it is best to use a straight-edged object such as a credit card to scrape the stinger out of the skin. Avoid squeezing the venom sac with tweezers or your fingers, as this can inject venom into the skin.\n    Wash the area with soap and water.\n    Use a cold pack to help with the swelling at the site; however, do not apply ice directly to the skin.\n    Use an allergy medication or antihistamine (like Benadryl) to reduce swelling and itching.\n    Use Tylenol (acetaminophen) or Advil (ibuprofen) for pain."
+  },
+  "intent_023": {
+    "examples": [
+      "what are the causes of nosebleeds or nose bleedings?"
+    ],
+    "answer": "Nosebleeds can have various causes. In children, the most common cause of a nosebleed is digital trauma'better known as picking your nose\nOther causes of a bloody nose include:\n    Dry or hot air\n    High altitudes\n    Chemical fumes that irritate the nasal passages\n    Colds and allergies\n    Blowing your nose hard or often\n    Trauma to the nose\n    Deviated septum\nNasal polyps (non-cancerous or cancerous growths in the nasal passage and sinuses) or nasal tumors\nBleeding disorders (e.g., hemophilia and leukemia)\nHigh blood pressure\nPregnancy\nFrequent use of nasal sprays, decongestants, and antihistamines\nNSAIDs\nBlood thinners (e.g. warfarin)\nCocaine and other drugs that are inhaled or snorted"
+  },
+  "intent_024": {
+    "examples": [
+      "What is the first thing to do if my nose is bleeding?"
+    ],
+    "answer": "If your nose is bleeding:\n\n    Lean slightly forward, not back.\n    Pinch your nose just below the bridge. It needs to be high enough that the nostrils are not pinched closed.\n    After five minutes, check to see if the bleeding has stopped. If not, continue pinching and check after another 10 minutes.\n    Apply a cold pack to the bridge of your nose while you're pinching.\n Call 911 or go to the emergency room if:\n\n    The bleeding will not stop even after more than 15 minutes of direct pressure.\n    There is a lot of blood loss.\n    You have a hard time breathing.\n    You've swallowed a lot of blood and vomited it up.\n    You've had a serious injury or a blow to the head."
+  },
+  "intent_025": {
+    "examples": [
+      "What is a basic first aid kit?"
+    ],
+    "answer": "A basic first-aid kit should contain:\n\n    Adhesive bandages in multiple sizes and shapes\n    Gauze pads in multiple sizes\n    Compress dressings\n    Adhesive cloth tape\n    A roll of gauze\n    Gloves\n    Antiseptic wipes\n    Antibiotic ointment\n    Hydrocortisone ointment\n    A breathing barrier for performing CPR\n    An instant cold compress\n    Baby aspirin\n    Tweezers\n    An oral thermometer\n    An emergency blanket"
+  },
+  "intent_026": {
+    "examples": [
+      "My brother is unconscious and not breathing."
+    ],
+    "answer": "If an unconscious casualty is not breathing, it may be due to one of the following causes:\nThe head is tilted forward;\nThe tongue is blocking the air passage due to the loss of muscular control in the throat;\nSaliva is lying in the back of the throat and blocking the airway due to impaired reflexes;\nThere is a foreign body in the throat blocking the airway (e.g. vomit, dentures and weeds).\nIt is essential to establish a clear airway immediately to ensure the survival of the casualty.Open and clear the airway using the chin lift position.\nEnsure the patient is on his back; if necessary roll him onto his back.\nPlace one hand on his forehead and gently tilt the head back.\nPlace the fingers of your other hand along the line of the jaw.\nLift the chin using the fingers.\nThese combined actions, called 'head tilt chin lift', will open the airway.\nOnce breathing starts, place the patient in the Recovery Position."
+  },
+  "intent_027": {
+    "examples": [
+      "How to know if someone is chocking"
+    ],
+    "answer": "Signs of choking include:\n Coughing, either forcefully or weakly\n Clutching the throat with one or both hands\nInability to cough, speak, cry or breathe\n Making high-pitched noises while inhaling or noisy breathing\n Panic\n Bluish skin colour\n Sometimes, the person may cough weakly or make high-pitched noises, which indicates he\nor she is not getting enough air to stay alive."
+  },
+  "intent_028": {
+    "examples": [
+      "What is a CPR?"
+    ],
+    "answer": "Cardio Pulmonary Resuscitation (CPR) should begin immediately if the victim is not breathing\nnormally, or unconscious (unresponsive).\nC. Cardio\nP. Pulmonary\nR. Resuscitation\nEssential when both breathing and heart beat are affected.\nSteps: 1. Thumping the heart region.\n2. External Cardiac Compression.\n3. Mouth to Mouth respiration.\nIf two First Aiders are available one does ECC 30 times followed by the other mouth to mouth\nrespiration twice, repeat. If there is only a single First Aider, ECC 30 times followed by mouth to\nmouth respiration twice ' given by the same person.\nIf you are not able, or willing to give rescue breaths, perform compression-only CPR. Compression\nonly CPR will maintain blood flow to the brain and has proven to be effective"
+  },
+  "intent_029": {
+    "examples": [
+      "What are the signs of head injuries?"
+    ],
+    "answer": "Signs and symptoms of Head Injuries\n Changes in level of consciousness and behaviour\n Severe pain in the head\n Blood or clear fluid coming from the ears or nose.\n Bleeding from the Scalp\n Unusual bumps on the head\n Fits\n Problem of breathing or seeing.\n Nausea or vomiting\n Unequal pupil size\n Slow a or fast pulse\n Weakness or an inability to use a leg or arm\n Bruising of the head, especially around the eyes, behind the ears/ nose."
+  },
+  "intent_030": {
+    "examples": [
+      "What to do in case of head injury?"
+    ],
+    "answer": "First Aid in Head injury\n If bleeding, apply pressure bandage\n Attention should be paid to airway and breathing in all victims with a head injury\n Treat for shock and keep a careful watch on the pulse, breathing, colour of skin ,lips and nails\nTransport the casualty to hospital in recovery position taking Special care for Head & Neck"
+  },
+  "intent_031": {
+    "examples": [
+      "What to do in case of lower jaw injury?"
+    ],
+    "answer": "Ask the casualty not to speak, and do not give anything by mouth.\n2. Remove false teeth, if any. Make sure the tongue does not fall back. Ensure and open airway.\n3. With the patient leaning forward place the palm or your hand on the chin and gently press the lower jaw upwards against the upper jaw (which acts as splint)\n4. Place a narrow bandage under the chin. Carry one end up and over the top the head, cross with the other end over the ear. Carry the shorter end across the\nfront of forehead and the longer and in the opposite direction around the back\nof the head. Tie just above the opposite ear\n5. If the casualty show signs of vomiting, remove the bandage and tie it up again after\nvomiting stops.\n6. Remove him to hospital as early as possible"
+  },
+  "intent_032": {
+    "examples": [
+      "What to do in case of a upper arm injury?(Fracture)"
+    ],
+    "answer": "Place a pad of rolled handkerchief in the axilla\nlightly tie the arm to the chest.\n Bend the elbow and the hand place on the opposite and apply shoulder a triangular sling.\nFor all injuries of arm and elbow, always feel the pulse of the injured limb. If the pulse weakens after splintage relax the bandage till the pulse comes back"
+  },
+  "intent_033": {
+    "examples": [
+      "What to do in case of lower arm injury?(Fracture)"
+    ],
+    "answer": "If elbow can be bent, strap arm to the chest and support forearm in a triangular sling.\nIf elbow cannot be bent, strap arm and forearm on the side of body in extended position."
+  },
+  "intent_034": {
+    "examples": [
+      "Actions to take in case of dental injury?"
+    ],
+    "answer": "First aid treatment for an avulsed tooth includes the following:\n Clean bleeding wound(s) with saline or tap water.\n Stop bleeding by applying pressure with gauze or cotton.\n Handle the tooth by the top (crown) not the root; i.e., do not handle the part that is below the gum line.\n Place the tooth in milk, or if milk is not available, in water.\n Have victim evaluated by dentist as soon as possible."
+  },
+  "intent_035": {
+    "examples": [
+      "What are some guidelines for snakebites?"
+    ],
+    "answer": "->Guidelines\n Suction should not be applied to pull venom out, because it is ineffective and may be\nharmful\n Properly performed compression and immobilization of extremities should be applied in first\naid\n When performing compression for snakebite, the pressure applied should be a bandage that will allow a finger to be inserted underneath (40 to 70 mm Hg).\n->Actions\nIn regions where very venomous snakes are found:\nContact the local health centre to find out where and how to get antivenin for victims of poisonous snakes and what specific treatments are needed."
+  },
+  "intent_036": {
+    "examples": [
+      "What to do in case of poisoning?"
+    ],
+    "answer": "Actions\n For a toxic substance exposure, the preferred action is to stop or limit further effect of the poison by stopping continued exposure.\nIn the case of inhalation of a toxic gas, the victim should be removed from the area, but this should be done only while maintaining rescuer safety.\n In the case of external or internal contact with a toxic material: Dry chemicals/powders should be removed before the victim is rinsed, body surface should be rinsed, the (caustic) toxin should be diluted.\n Mouth-to-mouth resuscitation should be avoided in the presence of toxins.\n Immediate medical help should be called."
+  },
+  "intent_037": {
+    "examples": [
+      "What are the general guidelines for bandaging a wound?"
+    ],
+    "answer": "To properly bandage a wound, first clean the wound with water or a saline solution. Apply an antibiotic ointment if necessary. Cover the wound with a sterile gauze pad or bandage. Wrap the bandage snugly but not too tight to ensure blood circulation. Check the bandage regularly and change it if it becomes wet or dirty."
+  },
+  "intent_038": {
+    "examples": [
+      "How do I know if my bandage is too tight?"
+    ],
+    "answer": "If the bandage is too tight, you may experience tingling, numbness, or a change in color (such as blue or purple) in the area beyond the bandage. If you notice any of these signs, loosen the bandage immediately and rewrap it more loosely."
+  },
+  "intent_039": {
+    "examples": [
+      "Can I use any cloth as a bandage in an emergency?"
+    ],
+    "answer": "In an emergency, you can use any clean cloth as a temporary bandage. Make sure it is clean to prevent infection. However, replace it with a sterile bandage as soon as possible."
+  },
+  "intent_040": {
+    "examples": [
+      "When should I use a triangular bandage?"
+    ],
+    "answer": "A triangular bandage can be used in various situations, such as creating a sling for an injured arm, securing splints, or covering large wounds. It is versatile and can be folded or tied to suit different needs."
+  },
+  "intent_041": {
+    "examples": [
+      "How do I make a sling with a triangular bandage?"
+    ],
+    "answer": "To make a sling, first fold the triangular bandage into a cravat. Place the bandage under the injured arm, with one end at the shoulder and the other end extending past the elbow. Bring the ends of the bandage up and tie them at the neck. Adjust the sling to ensure the arm is supported and at a comfortable height."
+  },
+  "intent_042": {
+    "examples": [
+      "Can a triangular bandage be used for head injuries?"
+    ],
+    "answer": "Yes, a triangular bandage can be used to cover head injuries. Place the center of the bandage on the forehead and bring the ends around the back of the head, tying them securely but not too tight. This can help hold dressings in place on the scalp."
+  },
+  "intent_043": {
+    "examples": [
+      "What should I do if I get a cut or scrape?"
+    ],
+    "answer": "For minor cuts and scrapes, start by washing your hands. Clean the wound with water to remove dirt and debris. Apply an antibiotic ointment to prevent infection. Cover the wound with a sterile bandage or gauze. Change the bandage daily or if it gets wet or dirty."
+  },
+  "intent_044": {
+    "examples": [
+      "How can I tell if a cut needs stitches?"
+    ],
+    "answer": "A cut may need stitches if it is deep, gaping, longer than half an inch, or located on a joint or area that moves a lot. If the bleeding doesn't stop after applying pressure for 10 minutes or if you can see underlying tissues like fat or muscle, seek medical attention."
+  },
+  "intent_045": {
+    "examples": [
+      "What should I do if a scrape is still bleeding after a few hours?"
+    ],
+    "answer": "If a scrape continues to bleed after a few hours, apply direct pressure with a clean cloth or bandage. If the bleeding doesn't stop, seek medical attention as it may indicate a more serious injury or the need for stitches."
+  },
+  "intent_046": {
+    "examples": [
+      "How should I treat a puncture wound?"
+    ],
+    "answer": "For a puncture wound, start by washing your hands. Rinse the wound under clean water to remove any dirt. Do not use hydrogen peroxide or iodine as they can delay healing. Apply an antibiotic ointment and cover the wound with a sterile bandage. Watch for signs of infection and seek medical attention if necessary."
+  },
+  "intent_047": {
+    "examples": [
+      "Do I need a tetanus shot for a puncture wound?"
+    ],
+    "answer": "You may need a tetanus shot if your puncture wound is deep, dirty, or caused by a rusty object, especially if it's been more than five years since your last tetanus booster. Consult a healthcare professional to determine if you need a tetanus shot."
+  },
+  "intent_048": {
+    "examples": [
+      "How can I prevent infection in a puncture wound?"
+    ],
+    "answer": "To prevent infection, keep the wound clean and covered with a sterile bandage. Change the bandage daily and watch for signs of infection, such as redness, swelling, warmth, or pus. If you notice any of these signs, seek medical attention promptly."
+  },
+  "intent_049": {
+    "examples": [
+      "What are the signs of an infected wound?"
+    ],
+    "answer": "Signs of an infected wound include redness, swelling, warmth, pain, pus or discharge, and fever. You might also notice red streaks spreading from the wound. If you suspect an infection, seek medical attention immediately."
+  },
+  "intent_050": {
+    "examples": [
+      "How can I prevent a wound from becoming infected?"
+    ],
+    "answer": "To prevent infection, clean the wound thoroughly with water, apply an antibiotic ointment, and cover it with a sterile bandage. Change the bandage daily or whenever it becomes wet or dirty. Avoid touching the wound with unwashed hands."
+  },
+  "intent_051": {
+    "examples": [
+      "What should I do if my wound shows signs of infection?"
+    ],
+    "answer": "If your wound shows signs of infection, such as increased redness, swelling, warmth, or discharge, seek medical attention. You may need antibiotics to treat the infection. Keep the wound clean and covered until you can see a healthcare professional."
+  },
+  "intent_052": {
+    "examples": [
+      "What should I do if I get a thermal burn?"
+    ],
+    "answer": "For a minor thermal burn, cool the burn under cool (not cold) running water for 10-15 minutes. Apply a clean, cool, wet cloth to the burn to reduce pain and swelling. Do not use ice, as it can cause further damage. Cover the burn with a sterile, non-stick bandage."
+  },
+  "intent_053": {
+    "examples": [
+      "How do I know if a burn is severe and needs medical attention?"
+    ],
+    "answer": "A burn is severe if it covers a large area, penetrates all layers of the skin, causes white or charred skin, or is located on the face, hands, feet, groin, or over a major joint. Seek medical attention immediately for severe burns."
+  },
+  "intent_054": {
+    "examples": [
+      "Can I apply butter or oil to a burn?"
+    ],
+    "answer": "No, do not apply butter, oil, or any home remedies to a burn. These substances can trap heat in the skin and cause further damage. Stick to cool water and sterile bandages."
+  },
+  "intent_055": {
+    "examples": [
+      "How should I treat a chemical burn?"
+    ],
+    "answer": "For a chemical burn, immediately remove any contaminated clothing and rinse the affected area with large amounts of cool running water for at least 15-20 minutes. Avoid using any neutralizing substances. Seek medical attention immediately."
+  },
+  "intent_056": {
+    "examples": [
+      "What if the chemical burn is in the eye?"
+    ],
+    "answer": "If a chemical burn affects the eye, flush the eye with cool running water for at least 15-20 minutes, keeping the affected eye lower than the unaffected eye to prevent spreading. Seek emergency medical attention immediately."
+  },
+  "intent_057": {
+    "examples": [
+      "Is it safe to touch a chemical burn directly?"
+    ],
+    "answer": "No, avoid direct contact with the chemical burn. Use gloves or other protective barriers to remove contaminated clothing and rinse the area thoroughly with water."
+  },
+  "intent_058": {
+    "examples": [
+      "What should I do if someone suffers an electrical burn?"
+    ],
+    "answer": "If someone suffers an electrical burn, do not touch them if they are still in contact with the electrical source. Turn off the power or use a non-conductive object to separate them from the source. Once it is safe, check for responsiveness and breathing, and call emergency services immediately."
+  },
+  "intent_059": {
+    "examples": [
+      "How can I provide first aid for an electrical burn?"
+    ],
+    "answer": "After ensuring the person is no longer in contact with the electrical source, cover the burn with a sterile, non-stick bandage. Avoid using adhesive bandages or any substance on the burn. Monitor for signs of shock and seek medical attention immediately."
+  },
+  "intent_060": {
+    "examples": [
+      "Can electrical burns cause internal damage?"
+    ],
+    "answer": "Yes, electrical burns can cause serious internal damage even if the external injury appears minor. It is crucial to seek medical attention immediately to assess and treat any potential internal injuries."
+  },
+  "intent_061": {
+    "examples": [
+      "What should I do if I get a sunburn?"
+    ],
+    "answer": "For a sunburn, cool the affected area with cool (not cold) water or apply a cool, damp cloth. Avoid using ice. Apply aloe vera gel or a moisturizing lotion to soothe the skin. Stay hydrated and avoid further sun exposure until the burn heals."
+  },
+  "intent_062": {
+    "examples": [
+      "How can I prevent sunburn in the future?"
+    ],
+    "answer": "To prevent sunburn, use broad-spectrum sunscreen with an SPF of at least 30, reapply it every two hours, and after swimming or sweating. Wear protective clothing, a wide-brimmed hat, and sunglasses. Seek shade, especially during peak sun hours."
+  },
+  "intent_063": {
+    "examples": [
+      "What are the signs of a severe sunburn that requires medical attention?"
+    ],
+    "answer": "What are the signs of a severe sunburn that requires medical attention?\"\nAnswer: \"Signs of a severe sunburn include blistering, severe pain, swelling, headache, fever, chills, and nausea. If you experience these symptoms, seek medical attention immediately."
+  },
+  "intent_064": {
+    "examples": [
+      "How should I treat a bruise?"
+    ],
+    "answer": "To treat a bruise, apply a cold compress or ice pack wrapped in a cloth to the area for 15-20 minutes. This helps reduce swelling and pain. Elevate the affected area if possible and avoid putting pressure on it. Over-the-counter pain relievers can help if needed."
+  },
+  "intent_065": {
+    "examples": [
+      "When should I be concerned about a bruise?"
+    ],
+    "answer": "Seek medical attention if the bruise is unusually large or painful, appears without any known cause, does not improve within a few days, or is accompanied by other symptoms such as difficulty moving the affected area, numbness, or persistent pain."
+  },
+  "intent_066": {
+    "examples": [
+      "Can I continue to exercise with a bruise?"
+    ],
+    "answer": "It's best to avoid strenuous activities that could worsen the bruise or cause additional injury. Allow the bruise to heal and gradually return to normal activities as the pain and swelling decrease."
+  },
+  "intent_067": {
+    "examples": [
+      ": \"How do I safely remove a splinter?"
+    ],
+    "answer": "To remove a splinter, first wash your hands and the affected area. Use sterilized tweezers to gently pull out the splinter at the same angle it entered. If it's deeply embedded, use a sterilized needle to gently lift the skin and expose the splinter. Clean the area with water and apply an antibiotic ointment and a bandage."
+  },
+  "intent_068": {
+    "examples": [
+      "What if I can't remove the entire splinter?"
+    ],
+    "answer": "If you can't remove the entire splinter or if it breaks off under the skin, it's best to seek medical attention. Trying to dig it out may cause more harm or lead to infection."
+  },
+  "intent_069": {
+    "examples": [
+      "How can I prevent splinters in the future?"
+    ],
+    "answer": "To prevent splinters, wear protective gloves when handling materials like wood, metal, or glass. Inspect and maintain surfaces to reduce the risk of splintering and avoid walking barefoot in areas where splinters are common."
+  },
+  "intent_070": {
+    "examples": [
+      "What should I do if I have a nosebleed?"
+    ],
+    "answer": "If you have a nosebleed, sit upright and lean slightly forward. Pinch the soft part of your nose just below the bridge for about 10-15 minutes. Breathe through your mouth and avoid lying down, as this can cause blood to drain down your throat. Applying a cold compress to the bridge of your nose can help constrict blood vessels and stop the bleeding. If the bleeding persists after 20 minutes, seek medical attention."
+  },
+  "intent_071": {
+    "examples": [
+      "Why should I avoid tilting my head back during a nosebleed?"
+    ],
+    "answer": "Tilting your head back during a nosebleed can cause blood to flow down your throat, which might lead to choking or vomiting. It is safer to lean forward, allowing the blood to exit through the nostrils while pinching your nose to stop the flow."
+  },
+  "intent_072": {
+    "examples": [
+      "What if my nosebleed happens frequently?"
+    ],
+    "answer": "Frequent nosebleeds could be a sign of an underlying issue such as dry nasal passages, allergies, or a blood clotting disorder. It's important to keep your nasal passages moist with saline sprays or a humidifier. If the problem persists, consult a healthcare professional for further evaluation and treatment."
+  },
+  "intent_073": {
+    "examples": [
+      "What should I do if a child puts something in their nose?"
+    ],
+    "answer": "If a child inserts a foreign object into their nose, remain calm. Encourage the child to breathe through their mouth. Try to see if the object is visible and gently remove it with tweezers if you can. Do not attempt to remove it if it is deep or if you can't see it, as this may push it further in. Seek medical attention immediately."
+  },
+  "intent_074": {
+    "examples": [
+      "How can I tell if there's a foreign object in my nose?"
+    ],
+    "answer": "Signs of a foreign object in the nose include difficulty breathing through that nostril, a foul-smelling discharge, pain, or a visible object. If you suspect something is stuck in your nose and you cannot remove it safely, see a healthcare professional."
+  },
+  "intent_075": {
+    "examples": [
+      "What should I avoid doing if there's a foreign object in my nose?"
+    ],
+    "answer": "Avoid blowing your nose forcefully, as this could push the object further in. Do not use cotton swabs or other tools to try and remove the object, as these could cause injury or push the object deeper. It is best to seek medical assistance to safely remove the object."
+  },
+  "intent_076": {
+    "examples": [
+      "What should I do if a tooth gets knocked out?"
+    ],
+    "answer": "If a tooth is knocked out, handle it by the crown (the part that's usually visible in the mouth) and avoid touching the root. Rinse it gently with water if it's dirty, but do not scrub or remove any attached tissue. Try to place the tooth back in its socket if possible. If not, keep it moist by placing it in a container of milk or a saline solution. Seek emergency dental care immediately, as time is critical for successful reimplantation."
+  },
+  "intent_077": {
+    "examples": [
+      "What should I do if I can't reinsert the knocked-out tooth?"
+    ],
+    "answer": "If you can't reinsert the tooth, keep it moist by placing it in a container of milk, a saline solution, or your saliva. Avoid storing it in plain water, as this can damage the cells on the root. Get to a dentist within 30 minutes to an hour for the best chance of saving the tooth."
+  },
+  "intent_078": {
+    "examples": [
+      "How can I reduce pain and swelling after a tooth is knocked out?"
+    ],
+    "answer": "To reduce pain and swelling, apply a cold compress to the affected area. Over-the-counter pain relievers like ibuprofen can help manage pain. Avoid taking aspirin, as it can increase bleeding. Be sure to see a dentist as soon as possible."
+  },
+  "intent_079": {
+    "examples": [
+      "What should I do if I get something in my eye?"
+    ],
+    "answer": "If you get a foreign object in your eye, avoid rubbing it. Rinse your eye with clean water or a saline solution. Blink repeatedly to try to flush out the object. If the object does not come out or if you experience significant pain, redness, or vision problems, seek medical attention immediately."
+  },
+  "intent_080": {
+    "examples": [
+      "How do I treat a chemical burn in the eye?"
+    ],
+    "answer": "For a chemical burn in the eye, immediately flush the eye with clean, cool water for at least 15-20 minutes. Hold your eyelid open and pour water into the eye from a jug, or use a sink faucet or eye wash station. Seek emergency medical help immediately, as chemical burns can cause serious damage."
+  },
+  "intent_081": {
+    "examples": [
+      "What if I injure my eye with a sharp object?"
+    ],
+    "answer": "If your eye is injured by a sharp object, do not attempt to remove the object or apply pressure. Cover the eye with a rigid shield or the bottom of a paper cup to protect it without applying pressure. Seek emergency medical attention immediately, as penetrating eye injuries require prompt treatment."
+  },
+  "intent_082": {
+    "examples": [
+      "What should I do if I suspect an ear injury?"
+    ],
+    "answer": "If you suspect an ear injury, avoid inserting any objects into the ear. If there is bleeding, gently wipe away any blood with a clean cloth but do not apply pressure. If you experience severe pain, hearing loss, or dizziness, seek medical attention immediately."
+  },
+  "intent_083": {
+    "examples": [
+      "How should I treat a foreign object in the ear?"
+    ],
+    "answer": "For a foreign object in the ear, try tilting your head to the affected side and gently shaking it to dislodge the object. Do not use cotton swabs or other tools, as these can push the object further in. If the object does not come out easily or if you experience pain, seek medical help."
+  },
+  "intent_084": {
+    "examples": [
+      "What if I have an insect in my ear?"
+    ],
+    "answer": "If an insect is in your ear, do not attempt to remove it with tweezers or other objects. Tilt your head to the affected side and pour a small amount of warm oil (like olive oil) into the ear to float the insect out. If the insect does not come out, seek medical attention."
+  },
+  "intent_085": {
+    "examples": [
+      "What should I do if someone has an object impaled in their body?"
+    ],
+    "answer": "If someone has an object impaled in their body, do not attempt to remove it, as this could cause more damage and increase bleeding. Stabilize the object by securing it with clean cloths or bandages around it. Keep the person still and seek emergency medical help immediately."
+  },
+  "intent_086": {
+    "examples": [
+      "How can I help if the object is impaled in the chest?"
+    ],
+    "answer": "If an object is impaled in the chest, do not remove it. Stabilize the object with bulky dressings or cloths around it to prevent movement. Have the person sit or lie in a comfortable position and monitor their breathing. Call emergency services immediately."
+  },
+  "intent_087": {
+    "examples": [
+      "What if the impaled object is causing severe bleeding?"
+    ],
+    "answer": "If the impaled object is causing severe bleeding, do not remove it. Apply pressure around the object to control the bleeding. Use sterile dressings or clean cloths to pack around the object. Seek emergency medical help immediately."
+  },
+  "intent_088": {
+    "examples": [
+      "What should I do if someone suffers an amputation?"
+    ],
+    "answer": "If someone suffers an amputation, first call emergency services. Control the bleeding by applying direct pressure to the wound with a sterile dressing or clean cloth. Elevate the injured area if possible. If you find the severed part, rinse it with clean water, wrap it in a sterile cloth, and place it in a plastic bag. Keep the bag on ice but do not allow the part to freeze. Bring it to the hospital with the patient."
+  },
+  "intent_089": {
+    "examples": [
+      "How can I help manage pain after an amputation?"
+    ],
+    "answer": "To help manage pain after an amputation, have the person lie down and elevate the injured area. Apply pressure to control bleeding and cover the wound with sterile dressings. Offer reassurance and keep them calm while waiting for emergency services. Administer over-the-counter pain relievers if available and appropriate."
+  },
+  "intent_090": {
+    "examples": [
+      "What should I do with the severed part during an amputation?"
+    ],
+    "answer": "Rinse the severed part gently with clean water, wrap it in a sterile cloth or gauze, and place it in a sealed plastic bag. Keep the bag in a container of ice water to preserve the tissue, but do not allow it to come into direct contact with ice. Bring the severed part with the patient to the hospital."
+  },
+  "intent_091": {
+    "examples": [
+      "How should I respond to a crush injury?"
+    ],
+    "answer": "For a crush injury, call emergency services immediately. If the person is trapped, do not attempt to move them unless there is immediate danger. Control any visible bleeding with direct pressure. Keep the injured person still and calm, and monitor for signs of shock, such as pale skin, rapid pulse, or shallow breathing."
+  },
+  "intent_092": {
+    "examples": [
+      "What are the signs of a serious crush injury?"
+    ],
+    "answer": "Signs of a serious crush injury include severe pain, swelling, bruising, deformity, inability to move the affected area, and signs of shock (e.g., rapid pulse, clammy skin, dizziness). If you observe any of these symptoms, seek emergency medical help immediately."
+  },
+  "intent_093": {
+    "examples": [
+      "How can I prevent complications from a crush injury?"
+    ],
+    "answer": "To prevent complications, avoid moving the injured person unnecessarily, control bleeding, and keep the affected area elevated if possible. Monitor for signs of shock and provide reassurance. Crush injuries can cause serious complications, including compartment syndrome, so immediate medical evaluation is essential."
+  },
+  "intent_094": {
+    "examples": [
+      "What should I do if someone has a penetrating chest injury?"
+    ],
+    "answer": "If someone has a penetrating chest injury, do not remove the object. Cover the wound with a sterile dressing or clean cloth, and secure it with tape on three sides to create a one-way valve that allows air to escape but not re-enter. This helps prevent a collapsed lung. Call emergency services immediately."
+  },
+  "intent_095": {
+    "examples": [
+      "How can I help someone with a penetrating chest injury while waiting for emergency services?"
+    ],
+    "answer": "Keep the person calm and still. Help them sit in a semi-upright position if it's more comfortable. Monitor their breathing and be prepared to perform CPR if necessary. Do not give them anything to eat or drink."
+  },
+  "intent_096": {
+    "examples": [
+      "What are the signs of a serious penetrating chest injury?"
+    ],
+    "answer": "Signs of a serious penetrating chest injury include difficulty breathing, chest pain, coughing up blood, rapid heart rate, and signs of shock (e.g., pale, clammy skin, confusion). Seek emergency medical help immediately if these symptoms are present."
+  },
+  "intent_097": {
+    "examples": [
+      "What should I do if someone has a blunt chest injury?"
+    ],
+    "answer": "For a blunt chest injury, have the person rest in a comfortable position, preferably semi-upright. Apply an ice pack to the injured area to reduce swelling and pain. Monitor for signs of difficulty breathing or chest pain. Seek medical attention to rule out serious injuries such as broken ribs or internal bleeding."
+  },
+  "intent_098": {
+    "examples": [
+      "How can I recognize a serious blunt chest injury?"
+    ],
+    "answer": "Signs of a serious blunt chest injury include severe chest pain, difficulty breathing, bruising, deformity, or a 'crunching' feeling under the skin (crepitus). These symptoms may indicate broken ribs, a collapsed lung, or internal bleeding. Seek medical help immediately."
+  },
+  "intent_099": {
+    "examples": [
+      "What complications can arise from a blunt chest injury?"
+    ],
+    "answer": "Complications from a blunt chest injury can include broken ribs, lung contusions, pneumothorax (collapsed lung), and internal bleeding. These conditions require prompt medical evaluation and treatment to prevent further complications."
+  },
+  "intent_100": {
+    "examples": [
+      "What should I do if someone has an abdominal wound?"
+    ],
+    "answer": "For an abdominal wound, call emergency services immediately. Do not attempt to push any protruding organs back inside. Cover the wound with a clean, moist dressing, and secure it loosely. Keep the person still and calm, and avoid giving them anything to eat or drink."
+  },
+  "intent_101": {
+    "examples": [
+      "How can I help manage pain for someone with an abdominal wound?"
+    ],
+    "answer": "To help manage pain, have the person lie on their back with their knees bent to reduce tension on the abdominal muscles. Cover the wound with a moist dressing and provide reassurance. Avoid moving the person unnecessarily and seek medical help immediately."
+  },
+  "intent_102": {
+    "examples": [
+      "What are the signs of a serious abdominal wound?"
+    ],
+    "answer": "Signs of a serious abdominal wound include severe pain, bleeding, visible organs, swelling, and signs of shock (e.g., pale, clammy skin, rapid pulse, dizziness). Seek emergency medical help immediately if these symptoms are present."
+  },
+  "intent_103": {
+    "examples": [
+      "What should I do if someone is injured in a blast?"
+    ],
+    "answer": "If someone is injured in a blast, call emergency services immediately. Assess the scene for safety before approaching. Check for breathing and responsiveness. Control any visible bleeding with direct pressure and cover wounds with sterile dressings. Keep the person still and monitor for signs of shock."
+  },
+  "intent_104": {
+    "examples": [
+      "What are the common injuries from a blast?"
+    ],
+    "answer": "Common injuries from a blast include lacerations, fractures, burns, and internal injuries from the force of the explosion. Blast waves can cause lung injuries, ruptured eardrums, and internal bleeding. Immediate medical evaluation is crucial for all blast injury victims."
+  },
+  "intent_105": {
+    "examples": [
+      "How can I provide first aid for blast injuries while waiting for help?"
+    ],
+    "answer": "Provide first aid by controlling bleeding with direct pressure, covering wounds with sterile dressings, and keeping the person calm and still. Monitor their breathing and be prepared to perform CPR if necessary. Avoid moving the person unless they are in immediate danger, and seek emergency medical help as soon as possible."
+  },
+  "intent_106": {
+    "examples": [
+      "I've been experiencing painful muscle cramps after working outside in the heat. What should I do?"
+    ],
+    "answer": "Heat cramps are muscle spasms that typically occur in the abdomen, arms, or legs after strenuous activity in a hot environment. To treat heat cramps, stop all activity and rest in a cool, shaded area. Drink plenty of fluids, preferably sports drinks that replace lost salts and electrolytes. Stretch the affected muscles gently and massage them. Avoid strenuous activity for a few hours to allow your body to recover. If cramps persist or you have other symptoms like dizziness or nausea, seek medical attention."
+  },
+  "intent_107": {
+    "examples": [
+      "Why do heat cramps occur and how can I prevent them?"
+    ],
+    "answer": "Heat cramps occur due to loss of fluids and electrolytes through sweating during prolonged physical activity in the heat. To prevent them, stay hydrated by drinking water or sports drinks regularly, especially before, during, and after exercise. Take breaks in the shade or a cool area to rest and recover. Wear lightweight, breathable clothing and avoid strenuous activities during the hottest parts of the day."
+  },
+  "intent_108": {
+    "examples": [
+      "I've heard that drinking sports drinks can help with heat cramps. Is that true?"
+    ],
+    "answer": "Yes, sports drinks can be beneficial because they contain electrolytes such as sodium and potassium, which help replenish what you lose through sweat. This can help prevent and relieve heat cramps. Be sure to drink these fluids as soon as you start feeling cramps or even before engaging in strenuous activity in hot conditions."
+  },
+  "intent_109": {
+    "examples": [
+      "I've been feeling extremely tired, sweaty, and dizzy after being in the heat. What should I do?"
+    ],
+    "answer": "It sounds like you might be experiencing heat exhaustion, which occurs when your body overheats. Move to a cooler place immediately, preferably an air-conditioned area. Lie down and elevate your legs slightly to improve circulation. Drink cool water or sports drinks to rehydrate. Remove or loosen any tight or heavy clothing. Apply cool, wet cloths to your skin or take a cool shower. Rest for the remainder of the day and avoid strenuous activities. If your symptoms worsen or don't improve within an hour, seek medical attention."
+  },
+  "intent_110": {
+    "examples": [
+      "What are the warning signs of heat exhaustion?"
+    ],
+    "answer": "Heat exhaustion symptoms include heavy sweating, weakness, dizziness, headache, nausea or vomiting, muscle cramps, and pale, clammy skin. You might also experience a rapid, weak pulse and shallow breathing. If left untreated, heat exhaustion can progress to heat stroke, a more severe condition, so it's important to cool down and rehydrate promptly."
+  },
+  "intent_111": {
+    "examples": [
+      "How can I prevent heat exhaustion when working outdoors?"
+    ],
+    "answer": "To prevent heat exhaustion, drink plenty of fluids, take regular breaks in the shade or a cool environment, and wear lightweight, light-colored, and loose-fitting clothing. Try to schedule strenuous activities during the cooler parts of the day, such as early morning or late afternoon. Acclimate yourself gradually to the heat if you're not used to working in hot conditions. Pay attention to your body and stop to rest and cool down if you start feeling unwell."
+  },
+  "intent_112": {
+    "examples": [
+      "My friend has been out in the sun all day and now they're confused and not sweating. What should I do?"
+    ],
+    "answer": "Your friend might be suffering from heat stroke, a serious condition that requires immediate medical attention. Call emergency services right away. Move your friend to a cooler place and try to cool them down while waiting for help. Remove excess clothing and apply cool water to their skin. You can also place ice packs on their armpits, groin, neck, and back, where blood vessels are close to the surface. Do not give them anything to drink if they are unconscious or very confused."
+  },
+  "intent_113": {
+    "examples": [
+      "What are the symptoms of heat stroke and why is it so dangerous?"
+    ],
+    "answer": "Heat stroke occurs when the body's temperature regulation system fails, causing the core body temperature to rise above 104\u00c2\u00b0F (40\u00c2\u00b0C). Symptoms include a high body temperature, hot and dry skin, confusion, seizures, loss of consciousness, and a rapid, strong pulse. Heat stroke is dangerous because it can cause permanent organ damage or death if not treated promptly. Immediate cooling and emergency medical treatment are crucial."
+  },
+  "intent_114": {
+    "examples": [
+      "How can heat stroke be prevented during extreme heat?"
+    ],
+    "answer": "Preventing heat stroke involves staying hydrated, avoiding strenuous activity during peak heat, wearing appropriate clothing, and taking frequent breaks in a cool or shaded area. Use fans or air conditioning to keep cool indoors. Pay attention to heat advisories and limit outdoor activities during extreme heat. If you must be outside, drink plenty of fluids, apply sunscreen, and take breaks often."
+  },
+  "intent_115": {
+    "examples": [
+      "What should I do if I suspect someone has frostbite?"
+    ],
+    "answer": "If you suspect frostbite, move the person to a warmer environment immediately. Avoid walking on frostbitten feet or toes to prevent further damage. Do not rub or massage the frostbitten area, as this can cause more injury. Gently warm the affected area by soaking it in warm (not hot) water for 15-30 minutes until the skin appears red and feels warm. Avoid direct heat, such as heating pads or fires, as numb areas can be easily burned. Seek medical attention as soon as possible, even if the skin starts to feel better."
+  },
+  "intent_116": {
+    "examples": [
+      "What are the signs of frostbite and how can I recognize it?"
+    ],
+    "answer": "Signs of frostbite include skin that is cold, hard, and pale or white. As frostbite progresses, the skin may feel numb and develop blisters. Severe frostbite can cause the skin to turn blue or black and lose all sensation. It typically affects extremities such as fingers, toes, ears, and the nose. If you notice these symptoms, it's important to act quickly to rewarm the affected area and seek medical care."
+  },
+  "intent_117": {
+    "examples": [
+      "How can I prevent frostbite when spending time outdoors in cold weather?"
+    ],
+    "answer": "To prevent frostbite, dress in layers with moisture-wicking, insulating, and windproof materials. Protect your extremities by wearing gloves, thick socks, and a hat that covers your ears. Stay dry and avoid prolonged exposure to cold and windy conditions. Take frequent breaks in a warm area and keep an eye on weather conditions to avoid being caught in severe cold."
+  },
+  "intent_118": {
+    "examples": [
+      "I've been outside in the cold for a long time and now I'm shivering uncontrollably. Could this be hypothermia?"
+    ],
+    "answer": "Shivering is an early sign of hypothermia, which occurs when your body loses heat faster than it can produce it, causing your core body temperature to drop. Other symptoms include fatigue, confusion, slurred speech, and loss of coordination. If you suspect hypothermia, get to a warm place immediately. Remove any wet clothing and replace it with dry, warm layers. Use blankets, warm beverages, and body heat to warm up gradually. Avoid direct heat, such as hot baths, as this can cause shock. Seek medical attention if symptoms persist or worsen."
+  },
+  "intent_119": {
+    "examples": [
+      "What are the more severe symptoms of hypothermia, and when should I seek help?"
+    ],
+    "answer": "Severe hypothermia symptoms include confusion, drowsiness, shallow breathing, weak pulse, and loss of consciousness. If someone exhibits these symptoms, they need immediate medical attention. Call emergency services and continue to warm the person while waiting for help. Use blankets, warm packs, and body heat to help stabilize their temperature."
+  },
+  "intent_120": {
+    "examples": [
+      "How can I avoid hypothermia when camping in cold weather?"
+    ],
+    "answer": "To avoid hypothermia, wear appropriate clothing in layers, including moisture-wicking, insulating, and waterproof layers. Stay dry and change out of wet clothes promptly. Use a high-quality sleeping bag rated for cold weather and insulate yourself from the ground with a sleeping pad. Stay hydrated and eat high-energy foods to keep your body fuelled. Be aware of the signs of hypothermia and take action if you start feeling cold and shivering."
+  },
+  "intent_121": {
+    "examples": [
+      "What should I do if my skin gets stuck to a metal object in the cold?"
+    ],
+    "answer": "If your skin sticks to a metal object in cold weather, do not pull away forcefully, as this can tear the skin. Warm the metal and your skin by using warm water or breathing warm air onto the area until the skin releases. If warm water is not available, gently cover the area with a warm cloth. Once the skin is free, treat any injuries with warm water and a clean bandage. Seek medical attention if there is significant damage or if the skin does not warm up properly."
+  },
+  "intent_122": {
+    "examples": [
+      "Why does skin freeze to metal objects in cold weather?"
+    ],
+    "answer": "Skin can freeze to metal objects in cold weather because metal conducts heat away from your skin quickly, causing moisture on your skin to freeze and create a bond with the metal. This is why it's important to avoid touching metal objects with bare skin in freezing temperatures."
+  },
+  "intent_123": {
+    "examples": [
+      "How can I prevent my skin from sticking to metal in the cold?"
+    ],
+    "answer": "To prevent your skin from sticking to metal, avoid touching metal objects with bare skin in cold weather. Wear gloves and use tools with insulated handles. Be mindful of children, who might be tempted to touch metal objects like playground equipment. Educate them about the dangers and ensure they wear gloves and appropriate clothing."
+  },
+  "intent_124": {
+    "examples": [
+      "After skiing, my eyes are red and very painful. What should I do?"
+    ],
+    "answer": "It sounds like you might have snow blindness, which is a sunburn of the cornea caused by exposure to UV rays reflected off snow. To treat it, move to a darkened room and avoid bright light. Apply cool, damp compresses to your eyes and take over-the-counter pain relievers if necessary. Avoid rubbing your eyes, as this can cause further irritation. Wear sunglasses or goggles when outside to prevent further damage. If pain or symptoms persist, seek medical attention."
+  },
+  "intent_125": {
+    "examples": [
+      "What are the symptoms of snow blindness?"
+    ],
+    "answer": "Symptoms of snow blindness include red, painful eyes, a gritty feeling in the eyes, sensitivity to light, and blurred vision. You might also experience headache and see halos around lights. These symptoms usually appear several hours after exposure and can be very uncomfortable."
+  },
+  "intent_126": {
+    "examples": [
+      "How can I prevent snow blindness when spending time in snowy environments?"
+    ],
+    "answer": "To prevent snow blindness, wear sunglasses or goggles that block UV rays whenever you're outside in snowy conditions. Choose eyewear with side shields to protect your eyes from reflective glare. Take breaks from bright sunlight and avoid looking directly at the snow for extended periods."
+  },
+  "intent_127": {
+    "examples": [
+      "I fell into cold water while fishing, and now I'm extremely cold and shivering. What should I do?"
+    ],
+    "answer": "Cold-water immersion can quickly lead to hypothermia. Get out of the water immediately and find shelter. Remove any wet clothing and dry off as much as possible. Put on dry, warm clothing and wrap yourself in blankets. Drink warm, non-alcoholic beverages to help raise your body temperature. If you're unable to warm up or if you feel confused or lethargic, seek medical attention immediately."
+  },
+  "intent_128": {
+    "examples": [
+      "Why is cold-water immersion so dangerous?"
+    ],
+    "answer": "Cold-water immersion is dangerous because it can rapidly lower your body temperature, leading to hypothermia. The initial shock of cold water can cause you to gasp and inhale water, increasing the risk of drowning. Prolonged exposure can impair your ability to move and make it difficult to get out of the water, which is why immediate action is necessary."
+  },
+  "intent_129": {
+    "examples": [
+      "How can I stay safe while engaging in activities around cold water?"
+    ],
+    "answer": "To stay safe, wear a life jacket whenever you're near cold water. Dress in layers and consider wearing a wet or dry suit for added insulation. Avoid alcohol, as it can impair your judgment and increase heat loss. Be aware of the signs of hypothermia and take immediate action if you fall into cold water."
+  },
+  "intent_130": {
+    "examples": [
+      "What should I do if I see someone struggling to stay afloat in the water?"
+    ],
+    "answer": "If you see someone struggling in the water, act quickly but safely. Call for help and, if possible, throw a flotation device or something that floats to the person. Use a reaching or throwing assist, such as a pole, rope, or towel, to help pull them to safety without putting yourself at risk. Only enter the water to rescue if you are trained and it's safe to do so. Once the person is out of the water, check for breathing and responsiveness and provide first aid if necessary. Keep them warm and seek medical attention."
+  },
+  "intent_131": {
+    "examples": [
+      "How can I safely rescue someone from drowning without putting myself at risk?"
+    ],
+    "answer": "To safely rescue someone, follow the reach, throw, row, go approach. First, try to reach the person with an extended object. If that's not possible, throw a flotation device or rope to them. If the person is too far to reach or throw something, use a boat to row to them. Only go into the water as a last resort and if you are a strong swimmer. Ensure your own safety by wearing a flotation device."
+  },
+  "intent_132": {
+    "examples": [
+      "What should I do after rescuing someone who was drowning but is now responsive?"
+    ],
+    "answer": "After rescuing a responsive person, keep them calm and warm. Check for any injuries and monitor their breathing and responsiveness. Encourage them to cough up any water they might have swallowed. Seek medical attention as soon as possible, as they might have inhaled water or suffered other injuries that aren't immediately apparent."
+  },
+  "intent_133": {
+    "examples": [
+      "What should I do if I find someone unresponsive in the water?"
+    ],
+    "answer": "If you find someone unresponsive in the water, call for help immediately. If it's safe to do so, carefully remove them from the water. Check for breathing and a pulse. If they are not breathing, begin CPR right away. Provide chest compressions and rescue breaths until emergency services arrive or the person starts to breathe on their own. Use an automated external defibrillator (AED) if one is available and follow the prompts."
+  },
+  "intent_134": {
+    "examples": [
+      "How do I perform CPR on someone who has drowned and is unresponsive?"
+    ],
+    "answer": "To perform CPR, first ensure the person is on a firm surface. Start with 30 chest compressions by placing your hands in the center of their chest and pressing down hard and fast at a rate of 100-120 compressions per minute. Follow with two rescue breaths by tilting their head back, lifting their chin, and blowing into their mouth until you see their chest rise. Continue the cycle of 30 compressions and two breaths until emergency help arrives or the person starts breathing on their own."
+  },
+  "intent_135": {
+    "examples": [
+      "What are the critical steps to take while waiting for emergency services after rescuing an unresponsive drowning victim?"
+    ],
+    "answer": "While waiting for emergency services, continue performing CPR if the person is not breathing. Keep them warm and dry by covering them with blankets or clothing. Monitor their condition and be prepared to provide additional first aid if necessary. Inform emergency responders of the situation and any steps you've taken. If the person starts breathing on their own, place them in the recovery position and continue to monitor their condition until help arrives."
+  },
+  "intent_136": {
+    "examples": [
+      "What to do if Cuts?",
+      "How to cure Cuts?",
+      "Which medicine to apply for Cuts?",
+      "what to apply on cuts?",
+      "Cuts"
+    ],
+    "answer": "Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1-2 minutes until bleeding stops. Apply Petroleum Jelly to make sure that the wound is moist for quick healing. Finally cover the cut with a sterile bandage. Pain relievers such as acetaminophen can be applied."
+  },
+  "intent_137": {
+    "examples": [
+      "What to do if Burns?",
+      "How to treat Burns?",
+      "Which ointment to apply for Burns?",
+      "How to heal Burns?",
+      "Burns"
+    ],
+    "answer": "Cool the burn under running water for at least 10 minutes. Avoid ice as it can damage tissues. Apply aloe vera gel or a burn ointment to soothe the skin. Cover the burn with a sterile non-stick bandage. Take pain relievers like ibuprofen or acetaminophen if needed. Seek medical attention if the burn is severe."
+  },
+  "intent_138": {
+    "examples": [
+      "What to do if Sprain?",
+      "How to treat Sprains?",
+      "How to heal a Sprain?",
+      "Which bandage to use for Sprains?",
+      "Sprains"
+    ],
+    "answer": "Rest the injured area and avoid putting weight on it. Apply ice packs for 15-20 minutes every 2-3 hours. Compress the area with an elastic bandage to reduce swelling. Elevate the injured limb above heart level. Use over-the-counter pain relievers to manage pain. Seek medical advice if necessary."
+  },
+  "intent_139": {
+    "examples": [
+      "How to treat Sunburn?",
+      "What to do for Sunburn?",
+      "Which lotion to use for Sunburn?",
+      "Sunburn remedies",
+      "Sunburn"
+    ],
+    "answer": "Stay out of the sun and keep the affected area cool with cold compresses or cool baths. Apply aloe vera gel or a moisturizer containing aloe vera. Drink plenty of water to stay hydrated. Avoid breaking any blisters. Take pain relievers like ibuprofen to reduce pain and inflammation."
+  },
+  "intent_140": {
+    "examples": [
+      "How to treat a Fracture?",
+      "What to do for a broken bone?",
+      "First aid for Fracture?",
+      "How to heal a broken bone?",
+      "Fracture",
+      "How to treat Broken Bone?",
+      "What to do for Broken Bone?",
+      "First aid for Broken Bone?",
+      "How to manage Broken Bone?",
+      "Broken Bone"
+    ],
+    "answer": "Immobilize the injured area using a splint or sling. Apply ice packs to reduce swelling. Avoid moving the person unless necessary. Seek medical help immediately. Do not attempt to realign the bone."
+  },
+  "intent_141": {
+    "examples": [
+      "How to treat Choking?",
+      "What to do if someone is Choking?",
+      "Choking first aid",
+      "Steps to help Choking person",
+      "Choking"
+    ],
+    "answer": "Perform the Heimlich maneuver by standing behind the person and giving abdominal thrusts. If the person is unconscious, perform CPR and call for emergency help. Encourage the person to cough if they can. Avoid giving the person anything to eat or drink."
+  },
+  "intent_142": {
+    "examples": [
+      "How to treat Nosebleeds?",
+      "What to do for a Nosebleed?",
+      "How to stop a Nosebleed?",
+      "Nosebleed remedies",
+      "Nosebleed"
+    ],
+    "answer": "Sit the person down and lean them forward slightly. Pinch the soft part of the nose and hold for 10-15 minutes. Apply a cold compress to the nose and cheeks. Avoid blowing the nose or inserting anything into the nostrils. Seek medical attention if bleeding persists."
+  },
+  "intent_143": {
+    "examples": [
+      "How to treat Insect Bites?",
+      "What to do for Insect Bites?",
+      "How to relieve Insect Bites?",
+      "Insect Bite remedies",
+      "Insect Bites"
+    ],
+    "answer": "Wash the area with soap and water. Apply a cold compress to reduce swelling. Use over-the-counter creams or lotions to relieve itching. Avoid scratching the bite to prevent infection. Take antihistamines if needed to reduce allergic reactions. Seek medical help if symptoms worsen."
+  },
+  "intent_144": {
+    "examples": [
+      "How to treat Poisoning?",
+      "What to do if someone is Poisoned?",
+      "First aid for Poisoning?",
+      "How to manage Poisoning?",
+      "Poisoning"
+    ],
+    "answer": "Call emergency services immediately. Do not induce vomiting unless instructed by a professional. Try to determine the type of poison ingested. Follow the advice of medical professionals over the phone. Keep the person calm and still while waiting for help."
+  },
+  "intent_145": {
+    "examples": [
+      "How to treat Frostbite?",
+      "What to do for Frostbite?",
+      "First aid for Frostbite?",
+      "How to warm Frostbitten area?",
+      "Frostbite"
+    ],
+    "answer": "Move the person to a warm environment. Remove any wet clothing and replace it with dry, warm clothing. Gently warm the affected area using warm water (not hot). Avoid rubbing the frostbitten area. Seek medical attention immediately. Do not use direct heat like stoves or heaters."
+  },
+  "intent_146": {
+    "examples": [
+      "What to do for Seizures?",
+      "How to handle a Seizure?",
+      "First aid for Seizures?",
+      "Seizure management",
+      "Seizures"
+    ],
+    "answer": "Stay calm and time the seizure. Protect the person from injury by moving objects away from them. Do not hold the person down or put anything in their mouth. Place them in the recovery position once the seizure stops. Seek medical help if the seizure lasts more than 5 minutes or if it's their first seizure."
+  },
+  "intent_147": {
+    "examples": [
+      "How to treat Hypothermia?",
+      "What to do for Hypothermia?",
+      "First aid for Hypothermia?",
+      "How to warm someone with Hypothermia?",
+      "Hypothermia"
+    ],
+    "answer": "Move the person to a warm, dry place. Remove any wet clothing and replace with dry, warm clothing. Use blankets to warm the person gradually. Give warm (not hot) beverages if the person is conscious. Seek medical attention immediately. Avoid using direct heat like heaters or hot water."
+  },
+  "intent_148": {
+    "examples": [
+      "How to treat Heat Stroke?",
+      "What to do for Heat Stroke?",
+      "First aid for Heat Stroke?",
+      "How to cool someone with Heat Stroke?",
+      "Heat Stroke"
+    ],
+    "answer": "Move the person to a cooler environment. Remove excess clothing and cool the person with damp cloths or a cool bath. Fan the person to promote sweating and evaporation. Give cool (not cold) water if the person is conscious. Seek medical attention immediately as heat stroke is a medical emergency."
+  },
+  "intent_149": {
+    "examples": [
+      "How to treat Allergic Reactions?",
+      "What to do for Allergic Reactions?",
+      "First aid for Allergic Reactions?",
+      "How to manage Allergic Reactions?",
+      "Allergic Reactions"
+    ],
+    "answer": "Identify and avoid the allergen if possible. Use antihistamines to relieve mild symptoms. For severe reactions, use an epinephrine auto-injector if available. Seek medical help immediately for severe reactions. Monitor the person for any changes in condition."
+  },
+  "intent_150": {
+    "examples": [
+      "How to treat Heart Attack?",
+      "What to do for Heart Attack?",
+      "First aid for Heart Attack?",
+      "Heart Attack management",
+      "Heart Attack"
+    ],
+    "answer": "Call emergency services immediately. Keep the person calm and seated. Loosen any tight clothing. If the person is conscious, give them aspirin if they are not allergic. Monitor their condition until help arrives. Be prepared to perform CPR if the person becomes unconscious."
+  },
+  "intent_151": {
+    "examples": [
+      "How to treat Stroke?",
+      "What to do for Stroke?",
+      "First aid for Stroke?",
+      "How to recognize Stroke symptoms?",
+      "Stroke"
+    ],
+    "answer": "Call emergency services immediately. Note the time when symptoms first appeared. Keep the person comfortable and calm. Do not give them anything to eat or drink. Monitor their condition until help arrives. Be prepared to perform CPR if necessary."
+  },
+  "intent_152": {
+    "examples": [
+      "How to treat Asthma Attack?",
+      "What to do for Asthma Attack?",
+      "First aid for Asthma Attack?",
+      "How to manage Asthma Attack?",
+      "Asthma Attack"
+    ],
+    "answer": "Help the person use their prescribed inhaler. Encourage slow, deep breaths. Keep the person calm and seated. If symptoms persist, call emergency services. Monitor their condition until help arrives."
+  },
+  "intent_153": {
+    "examples": [
+      "How to treat Dehydration?",
+      "What to do for Dehydration?",
+      "First aid for Dehydration?",
+      "How to rehydrate?",
+      "Dehydration"
+    ],
+    "answer": "Encourage the person to drink water or oral rehydration solutions. Move them to a cool place if they are overheated. Monitor for signs of severe dehydration like confusion or fainting. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_154": {
+    "examples": [
+      "How to treat Hyperventilation?",
+      "What to do for Hyperventilation?",
+      "First aid for Hyperventilation?",
+      "How to calm Hyperventilation?",
+      "Hyperventilation"
+    ],
+    "answer": "Encourage the person to breathe slowly and deeply into a paper bag or cupped hands. Stay calm and provide reassurance. Move them to a quiet, comfortable place. Monitor their condition until they are calm. Seek medical help if symptoms persist."
+  },
+  "intent_155": {
+    "examples": [
+      "How to treat Hypoglycemia?",
+      "What to do for Low Blood Sugar?",
+      "First aid for Hypoglycemia?",
+      "How to raise Blood Sugar?",
+      "Hypoglycemia"
+    ],
+    "answer": "Give the person a sugary snack or drink, such as fruit juice or glucose tablets. Monitor their condition for improvement. Encourage them to rest. If symptoms do not improve or worsen, seek medical help. If the person becomes unconscious, call emergency services immediately."
+  },
+  "intent_156": {
+    "examples": [
+      "How to treat Fainting?",
+      "What to do for Fainting?",
+      "First aid for Fainting?",
+      "How to revive someone from Fainting?",
+      "Fainting"
+    ],
+    "answer": "Lay the person flat on their back and elevate their legs. Loosen any tight clothing. Ensure they have plenty of fresh air. If they do not regain consciousness within a minute, seek medical help. Monitor their condition until help arrives."
+  },
+  "intent_157": {
+    "examples": [
+      "How to treat Blisters?",
+      "What to do for Blisters?",
+      "First aid for Blisters?",
+      "How to care for Blisters?",
+      "Blisters"
+    ],
+    "answer": "Leave the blister intact if possible. Cover it with a sterile bandage or blister pad. If the blister is painful, drain it using a sterile needle. Clean the area with antiseptic. Apply an antibiotic ointment and cover with a bandage. Monitor for signs of infection."
+  },
+  "intent_158": {
+    "examples": [
+      "How to treat Diarrhea?",
+      "What to do for Diarrhea?",
+      "First aid for Diarrhea?",
+      "How to manage Diarrhea?",
+      "Diarrhea"
+    ],
+    "answer": "Stay hydrated by drinking plenty of water or oral rehydration solutions. Avoid caffeine, alcohol, and dairy products. Eat bland foods like bananas, rice, and toast. Use over-the-counter medications like loperamide if needed. Seek medical help if symptoms persist or worsen."
+  },
+  "intent_159": {
+    "examples": [
+      "How to treat Constipation?",
+      "What to do for Constipation?",
+      "First aid for Constipation?",
+      "How to relieve Constipation?",
+      "Constipation"
+    ],
+    "answer": "Increase fiber intake through fruits, vegetables, and whole grains. Drink plenty of water. Exercise regularly to stimulate bowel movements. Use over-the-counter laxatives if necessary. Seek medical help if symptoms persist."
+  },
+  "intent_160": {
+    "examples": [
+      "How to treat Nausea?",
+      "What to do for Nausea?",
+      "First aid for Nausea?",
+      "How to manage Nausea?",
+      "Nausea"
+    ],
+    "answer": "Sit or lie down in a comfortable position. Drink clear or ice-cold drinks. Eat light, bland foods like crackers or toast. Avoid strong odors and foods that are greasy or sweet. Use over-the-counter medications like antacids or antihistamines if necessary."
+  },
+  "intent_161": {
+    "examples": [
+      "How to treat Earache?",
+      "What to do for Earache?",
+      "First aid for Earache?",
+      "How to relieve Earache?",
+      "Earache"
+    ],
+    "answer": "Apply a warm compress to the affected ear. Use over-the-counter pain relievers like ibuprofen or acetaminophen. Avoid inserting anything into the ear. Seek medical help if the pain persists or is accompanied by other symptoms."
+  },
+  "intent_162": {
+    "examples": [
+      "How to treat Pink Eye?",
+      "What to do for Pink Eye?",
+      "First aid for Pink Eye?",
+      "How to manage Pink Eye?",
+      "Pink Eye"
+    ],
+    "answer": "Wash hands frequently and avoid touching the eyes. Use a warm or cool compress to relieve discomfort. Avoid sharing towels, pillows, or makeup. Use over-the-counter eye drops if necessary. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_163": {
+    "examples": [
+      "How to treat Toothache?",
+      "What to do for Toothache?",
+      "First aid for Toothache?",
+      "How to relieve Toothache?",
+      "Toothache"
+    ],
+    "answer": "Rinse the mouth with warm salt water. Use over-the-counter pain relievers like ibuprofen or acetaminophen. Apply a cold compress to the outside of the cheek. Avoid very hot or cold foods. Seek dental care if the pain persists."
+  },
+  "intent_164": {
+    "examples": [
+      "How to treat Migraine?",
+      "What to do for Migraine?",
+      "First aid for Migraine?",
+      "How to relieve Migraine?",
+      "Migraine"
+    ],
+    "answer": "Rest in a quiet, dark room. Apply a cold compress to the forehead. Stay hydrated by drinking plenty of water. Use over-the-counter medications like ibuprofen or acetaminophen. Avoid triggers such as caffeine, alcohol, and stress. Seek medical help if the migraine is severe or persistent."
+  },
+  "intent_165": {
+    "examples": [
+      "How to treat Sore Throat?",
+      "What to do for Sore Throat?",
+      "First aid for Sore Throat?",
+      "How to relieve Sore Throat?",
+      "Sore Throat"
+    ],
+    "answer": "Gargle with warm salt water. Drink warm liquids like tea with honey. Use over-the-counter lozenges or throat sprays. Avoid smoking and secondhand smoke. Seek medical help if the sore throat is severe or persistent."
+  },
+  "intent_166": {
+    "examples": [
+      "How to treat Cough?",
+      "What to do for Cough?",
+      "First aid for Cough?",
+      "How to relieve Cough?",
+      "Cough"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Use over-the-counter cough suppressants or lozenges. Inhale steam from a bowl of hot water or take a hot shower. Avoid irritants like smoke and strong odors. Seek medical help if the cough persists or is accompanied by other symptoms."
+  },
+  "intent_167": {
+    "examples": [
+      "How to treat Vomiting?",
+      "What to do for Vomiting?",
+      "First aid for Vomiting?",
+      "How to manage Vomiting?",
+      "Vomiting"
+    ],
+    "answer": "Stay hydrated by drinking small sips of clear fluids. Avoid solid foods until vomiting subsides. Rest in a comfortable position. Use over-the-counter medications like antiemetics if necessary. Seek medical help if vomiting persists or is accompanied by other symptoms."
+  },
+  "intent_168": {
+    "examples": [
+      "How to treat Stomach Ache?",
+      "What to do for Stomach Ache?",
+      "First aid for Stomach Ache?",
+      "How to relieve Stomach Ache?",
+      "Stomach Ache"
+    ],
+    "answer": "Drink plenty of water and avoid fatty or spicy foods. Use a heating pad or hot water bottle on the abdomen. Take over-the-counter antacids or pain relievers if necessary. Rest in a comfortable position. Seek medical help if the pain is severe or persistent."
+  },
+  "intent_169": {
+    "examples": [
+      "How to treat Back Pain?",
+      "What to do for Back Pain?",
+      "First aid for Back Pain?",
+      "How to relieve Back Pain?",
+      "Back Pain"
+    ],
+    "answer": "Apply a cold or hot compress to the affected area. Use over-the-counter pain relievers like ibuprofen or acetaminophen. Avoid heavy lifting or strenuous activities. Perform gentle stretches to ease muscle tension. Seek medical help if the pain persists or is severe."
+  },
+  "intent_170": {
+    "examples": [
+      "How to treat Dizziness?",
+      "What to do for Dizziness?",
+      "First aid for Dizziness?",
+      "How to relieve Dizziness?",
+      "Dizziness"
+    ],
+    "answer": "Sit or lie down immediately to prevent falls. Drink plenty of water to stay hydrated. Avoid sudden movements or standing up too quickly. Use over-the-counter medications like antihistamines if necessary. Seek medical help if dizziness persists or is accompanied by other symptoms."
+  },
+  "intent_171": {
+    "examples": [
+      "How to treat Hangover?",
+      "What to do for Hangover?",
+      "First aid for Hangover?",
+      "How to relieve Hangover?",
+      "Hangover"
+    ],
+    "answer": "Drink plenty of water to rehydrate. Eat light, bland foods like toast or crackers. Take over-the-counter pain relievers like ibuprofen or acetaminophen. Rest in a comfortable position. Avoid alcohol and caffeinated drinks. Seek medical help if symptoms are severe or persistent."
+  },
+  "intent_172": {
+    "examples": [
+      "How to treat Jet Lag?",
+      "What to do for Jet Lag?",
+      "First aid for Jet Lag?",
+      "How to relieve Jet Lag?",
+      "Jet Lag"
+    ],
+    "answer": "Adjust your sleep schedule to the new time zone as soon as possible. Stay hydrated by drinking plenty of water. Avoid caffeine and alcohol. Get plenty of natural light exposure during the day. Take short naps if needed. Seek medical help if symptoms persist."
+  },
+  "intent_173": {
+    "examples": [
+      "How to treat Insomnia?",
+      "What to do for Insomnia?",
+      "First aid for Insomnia?",
+      "How to manage Insomnia?",
+      "Insomnia"
+    ],
+    "answer": "Maintain a regular sleep schedule. Avoid caffeine, alcohol, and heavy meals before bedtime. Create a relaxing bedtime routine. Keep the sleep environment dark, quiet, and cool. Use over-the-counter sleep aids if necessary. Seek medical help if insomnia persists."
+  },
+  "intent_174": {
+    "examples": [
+      "How to treat Anxiety?",
+      "What to do for Anxiety?",
+      "First aid for Anxiety?",
+      "How to manage Anxiety?",
+      "Anxiety"
+    ],
+    "answer": "Practice deep breathing exercises to calm the mind. Engage in regular physical activity. Avoid caffeine and alcohol. Use relaxation techniques like meditation or yoga. Seek professional help if anxiety is severe or persistent."
+  },
+  "intent_175": {
+    "examples": [
+      "How to treat Depression?",
+      "What to do for Depression?",
+      "First aid for Depression?",
+      "How to manage Depression?",
+      "Depression"
+    ],
+    "answer": "Encourage the person to talk about their feelings. Suggest engaging in physical activities and hobbies. Avoid alcohol and drugs. Use over-the-counter supplements like St. John's Wort if appropriate. Seek professional help if depression is severe or persistent."
+  },
+  "intent_176": {
+    "examples": [
+      "How to treat Panic Attack?",
+      "What to do for Panic Attack?",
+      "First aid for Panic Attack?",
+      "How to manage Panic Attack?",
+      "Panic Attack"
+    ],
+    "answer": "Encourage slow, deep breathing to calm the person. Move them to a quiet, safe place. Reassure them that the attack will pass. Use grounding techniques like focusing on surroundings. Seek professional help if panic attacks are frequent or severe."
+  },
+  "intent_177": {
+    "examples": [
+      "How to treat Anaphylaxis?",
+      "What to do for Anaphylaxis?",
+      "First aid for Anaphylaxis?",
+      "How to manage Anaphylaxis?",
+      "Anaphylaxis"
+    ],
+    "answer": "Administer an epinephrine auto-injector immediately if available. Call emergency services. Keep the person lying down with their legs elevated. Loosen any tight clothing. Monitor their condition until help arrives. Be prepared to perform CPR if necessary."
+  },
+  "intent_178": {
+    "examples": [
+      "How to treat Meningitis?",
+      "What to do for Meningitis?",
+      "First aid for Meningitis?",
+      "How to manage Meningitis?",
+      "Meningitis"
+    ],
+    "answer": "Seek medical help immediately as meningitis can be life-threatening. Keep the person comfortable and monitor their condition. Provide plenty of fluids if they are able to drink. Avoid bright lights and loud noises. Be prepared to follow medical advice and care instructions."
+  },
+  "intent_179": {
+    "examples": [
+      "How to treat Rabies?",
+      "What to do for Rabies?",
+      "First aid for Rabies?",
+      "How to manage Rabies?",
+      "Rabies"
+    ],
+    "answer": "Seek medical help immediately as rabies is a medical emergency. Wash the wound thoroughly with soap and water. Avoid applying any creams or ointments. Follow the advice of medical professionals for post-exposure prophylaxis. Monitor the person's condition closely."
+  },
+  "intent_180": {
+    "examples": [
+      "How to treat Tetanus?",
+      "What to do for Tetanus?",
+      "First aid for Tetanus?",
+      "How to manage Tetanus?",
+      "Tetanus"
+    ],
+    "answer": "Seek medical help immediately as tetanus requires prompt treatment. Clean the wound thoroughly with soap and water. Avoid applying any creams or ointments. Ensure the person is up to date with their tetanus vaccination. Follow the advice of medical professionals."
+  },
+  "intent_181": {
+    "examples": [
+      "How to treat Snakebite?",
+      "What to do for Snakebite?",
+      "First aid for Snakebite?",
+      "How to manage Snakebite?",
+      "Snakebite"
+    ],
+    "answer": "Seek medical help immediately as snakebites can be life-threatening. Keep the person calm and still to slow the spread of venom. Immobilize the bitten limb and keep it below heart level. Avoid applying ice or a tourniquet. Monitor the person's condition until help arrives."
+  },
+  "intent_182": {
+    "examples": [
+      "How to treat Spider Bite?",
+      "What to do for Spider Bite?",
+      "First aid for Spider Bite?",
+      "How to manage Spider Bite?",
+      "Spider Bite"
+    ],
+    "answer": "Wash the bite area with soap and water. Apply a cold compress to reduce swelling. Use over-the-counter pain relievers and antihistamines if necessary. Seek medical help if symptoms worsen or if the bite is from a venomous spider. Monitor for signs of infection."
+  },
+  "intent_183": {
+    "examples": [
+      "How to treat Jellyfish Sting?",
+      "What to do for Jellyfish Sting?",
+      "First aid for Jellyfish Sting?",
+      "How to manage Jellyfish Sting?",
+      "Jellyfish Sting"
+    ],
+    "answer": "Rinse the sting area with vinegar to neutralize the toxins. Remove any tentacles using a pair of tweezers. Avoid rubbing the sting area. Apply a cold pack to reduce pain and swelling. Seek medical help if symptoms worsen or if the person has a severe allergic reaction."
+  },
+  "intent_184": {
+    "examples": [
+      "How to treat Poison Ivy?",
+      "What to do for Poison Ivy?",
+      "First aid for Poison Ivy?",
+      "How to manage Poison Ivy?",
+      "Poison Ivy",
+      "How to treat Poison Oak?",
+      "What to do for Poison Oak?",
+      "First aid for Poison Oak?",
+      "How to manage Poison Oak?",
+      "Poison Oak",
+      "How to treat Poison Sumac?",
+      "What to do for Poison Sumac?",
+      "First aid for Poison Sumac?",
+      "How to manage Poison Sumac?",
+      "Poison Sumac"
+    ],
+    "answer": "Wash the affected area with soap and water as soon as possible. Apply calamine lotion or hydrocortisone cream to reduce itching and swelling. Use cold compresses to relieve discomfort. Avoid scratching the rash. Seek medical help if the rash is severe or covers a large area."
+  },
+  "intent_185": {
+    "examples": [
+      "How to treat Food Poisoning?",
+      "What to do for Food Poisoning?",
+      "First aid for Food Poisoning?",
+      "How to manage Food Poisoning?",
+      "Food Poisoning"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Rest and avoid solid foods until vomiting and diarrhea subside. Eat bland foods like crackers and toast. Use over-the-counter medications like antidiarrheals if necessary. Seek medical help if symptoms persist or are severe."
+  },
+  "intent_186": {
+    "examples": [
+      "How to treat Scabies?",
+      "What to do for Scabies?",
+      "First aid for Scabies?",
+      "How to manage Scabies?",
+      "Scabies"
+    ],
+    "answer": "Apply prescribed topical medications to the affected areas. Wash all clothing, bedding, and towels in hot water. Avoid close contact with others until treated. Keep the skin clean and dry. Seek medical help if symptoms persist or worsen."
+  },
+  "intent_187": {
+    "examples": [
+      "How to treat Ringworm?",
+      "What to do for Ringworm?",
+      "First aid for Ringworm?",
+      "How to manage Ringworm?",
+      "Ringworm"
+    ],
+    "answer": "Use over-the-counter antifungal creams or ointments. Keep the affected area clean and dry. Avoid sharing personal items like towels and clothing. Wash hands frequently to prevent the spread. Seek medical help if symptoms persist or worsen."
+  },
+  "intent_188": {
+    "examples": [
+      "How to treat Athlete's Foot?",
+      "What to do for Athlete's Foot?",
+      "First aid for Athlete's Foot?",
+      "How to manage Athlete's Foot?",
+      "Athlete's Foot"
+    ],
+    "answer": "Use over-the-counter antifungal creams or powders. Keep the feet clean and dry. Wear breathable shoes and change socks regularly. Avoid walking barefoot in public areas. Seek medical help if symptoms persist or worsen."
+  },
+  "intent_189": {
+    "examples": [
+      "How to treat Eczema?",
+      "What to do for Eczema?",
+      "First aid for Eczema?",
+      "How to manage Eczema?",
+      "Eczema"
+    ],
+    "answer": "Apply prescribed topical medications or over-the-counter creams. Keep the skin moisturized with hypoallergenic lotions. Avoid triggers such as harsh soaps and stress. Wear soft, breathable clothing. Seek medical help if symptoms persist or worsen."
+  },
+  "intent_190": {
+    "examples": [
+      "How to treat Psoriasis?",
+      "What to do for Psoriasis?",
+      "First aid for Psoriasis?",
+      "How to manage Psoriasis?",
+      "Psoriasis"
+    ],
+    "answer": "Apply prescribed topical treatments or over-the-counter creams. Keep the skin moisturized with hypoallergenic lotions. Avoid triggers such as stress and certain foods. Get regular sunlight exposure. Seek medical help if symptoms persist or worsen."
+  },
+  "intent_191": {
+    "examples": [
+      "How to treat Chickenpox?",
+      "What to do for Chickenpox?",
+      "First aid for Chickenpox?",
+      "How to manage Chickenpox?",
+      "Chickenpox",
+      "How to treat Measles?",
+      "What to do for Measles?",
+      "First aid for Measles?",
+      "How to manage Measles?",
+      "Measles",
+      "How to treat Mumps?",
+      "What to do for Mumps?",
+      "First aid for Mumps?",
+      "How to manage Mumps?",
+      "Mumps",
+      "How to treat Rubella?",
+      "What to do for Rubella?",
+      "First aid for Rubella?",
+      "How to manage Rubella?",
+      "Rubella",
+      "How to treat Dengue Fever?",
+      "What to do for Dengue Fever?",
+      "First aid for Dengue Fever?",
+      "How to manage Dengue Fever?",
+      "Dengue Fever",
+      "How to treat Zika Virus?",
+      "What to do for Zika Virus?",
+      "First aid for Zika Virus?",
+      "How to manage Zika Virus?",
+      "Zika Virus"
+    ],
+    "answer": "Keep the person comfortable and hydrated. Use over-the-counter medications to reduce fever and pain. Avoid mosquito bites by using nets and repellents. Seek medical help if symptoms worsen or if complications arise. Avoid contact with pregnant women."
+  },
+  "intent_192": {
+    "examples": [
+      "How to treat Scarlet Fever?",
+      "What to do for Scarlet Fever?",
+      "First aid for Scarlet Fever?",
+      "How to manage Scarlet Fever?",
+      "Scarlet Fever",
+      "How to treat Whooping Cough?",
+      "What to do for Whooping Cough?",
+      "First aid for Whooping Cough?",
+      "How to manage Whooping Cough?",
+      "Whooping Cough",
+      "How to treat Typhoid?",
+      "What to do for Typhoid?",
+      "First aid for Typhoid?",
+      "How to manage Typhoid?",
+      "Typhoid"
+    ],
+    "answer": "Administer prescribed antibiotics as directed. Keep the person comfortable and hydrated. Use over-the-counter medications to reduce fever and pain. Ensure good sanitation and hygiene practices. Seek medical help if symptoms worsen or if complications arise."
+  },
+  "intent_193": {
+    "examples": [
+      "How to treat Tuberculosis?",
+      "What to do for Tuberculosis?",
+      "First aid for Tuberculosis?",
+      "How to manage Tuberculosis?",
+      "Tuberculosis"
+    ],
+    "answer": "Administer prescribed antibiotics as directed. Ensure the person takes the full course of medication. Keep the person isolated to prevent the spread. Ensure good ventilation in living areas. Seek medical help if symptoms worsen or if complications arise."
+  },
+  "intent_194": {
+    "examples": [
+      "How to treat Malaria?",
+      "What to do for Malaria?",
+      "First aid for Malaria?",
+      "How to manage Malaria?",
+      "Malaria"
+    ],
+    "answer": "Administer prescribed antimalarial medications as directed. Keep the person comfortable and hydrated. Use over-the-counter medications to reduce fever and pain. Avoid mosquito bites by using nets and repellents. Seek medical help if symptoms worsen or if complications arise."
+  },
+  "intent_195": {
+    "examples": [
+      "How to treat Cholera?",
+      "What to do for Cholera?",
+      "First aid for Cholera?",
+      "How to manage Cholera?",
+      "Cholera"
+    ],
+    "answer": "Administer oral rehydration solutions to prevent dehydration. Keep the person comfortable and hydrated. Use over-the-counter medications to reduce diarrhea and pain. Ensure good sanitation and hygiene practices. Seek medical help if symptoms worsen or if complications arise."
+  },
+  "intent_196": {
+    "examples": [
+      "How to treat Ebola?",
+      "What to do for Ebola?",
+      "First aid for Ebola?",
+      "How to manage Ebola?",
+      "Ebola"
+    ],
+    "answer": "Seek medical help immediately as Ebola is a medical emergency. Keep the person isolated to prevent the spread. Ensure they are hydrated and comfortable. Follow the advice of medical professionals. Be prepared to follow strict infection control procedures."
+  },
+  "intent_197": {
+    "examples": [
+      "How to treat Swine Flu?",
+      "What to do for Swine Flu?",
+      "First aid for Swine Flu?",
+      "How to manage Swine Flu?",
+      "Swine Flu",
+      "How to treat Avian Flu?",
+      "What to do for Avian Flu?",
+      "First aid for Avian Flu?",
+      "How to manage Avian Flu?",
+      "Avian Flu"
+    ],
+    "answer": "Administer prescribed antiviral medications as directed. Keep the person comfortable and hydrated. Use over-the-counter medications to reduce fever and pain. Avoid close contact with others to prevent the spread. Seek medical help if symptoms worsen or if complications arise."
+  },
+  "intent_198": {
+    "examples": [
+      "How to treat HIV?",
+      "What to do for HIV?",
+      "First aid for HIV?",
+      "How to manage HIV?",
+      "HIV",
+      "How to treat AIDS?",
+      "What to do for AIDS?",
+      "First aid for AIDS?",
+      "How to manage AIDS?",
+      "AIDS"
+    ],
+    "answer": "Administer prescribed antiretroviral medications as directed. Ensure the person follows their treatment plan. Maintain a healthy diet and lifestyle. Avoid sharing needles and practice safe sex. Seek medical help if symptoms worsen or if complications arise."
+  },
+  "intent_199": {
+    "examples": [
+      "How to treat COVID-19?",
+      "What to do for COVID-19?",
+      "First aid for COVID-19?",
+      "How to manage COVID-19?",
+      "COVID-19"
+    ],
+    "answer": "Follow public health guidelines and protocols. Keep the person isolated to prevent the spread. Ensure they are hydrated and comfortable. Use over-the-counter medications to reduce fever and pain. Seek medical help if symptoms worsen or if complications arise."
+  },
+  "intent_200": {
+    "examples": [
+      "How to treat Frostbite?",
+      "What to do for Frostbite?",
+      "First aid for Frostbite?",
+      "How to manage Frostbite?",
+      "Frostbite"
+    ],
+    "answer": "Move the person to a warm environment. Remove any wet clothing and cover the affected areas with dry, sterile dressings. Gradually warm the frostbitten areas with warm (not hot) water. Avoid rubbing the frostbitten skin. Seek medical help if the condition is severe or if blisters develop."
+  },
+  "intent_201": {
+    "examples": [
+      "How to treat Hypothermia?",
+      "What to do for Hypothermia?",
+      "First aid for Hypothermia?",
+      "How to manage Hypothermia?",
+      "Hypothermia"
+    ],
+    "answer": "Move the person to a warm environment. Remove any wet clothing and replace with dry, warm blankets. Provide warm, non-alcoholic beverages if the person is conscious. Avoid using direct heat sources. Seek medical help immediately."
+  },
+  "intent_202": {
+    "examples": [
+      "How to treat Heat Exhaustion?",
+      "What to do for Heat Exhaustion?",
+      "First aid for Heat Exhaustion?",
+      "How to manage Heat Exhaustion?",
+      "Heat Exhaustion"
+    ],
+    "answer": "Move the person to a cool, shaded area. Loosen tight clothing and apply cool, wet cloths to the skin. Encourage the person to drink cool water or electrolyte drinks. Avoid giving caffeine or alcohol. Seek medical help if symptoms worsen or do not improve within an hour."
+  },
+  "intent_203": {
+    "examples": [
+      "How to treat Heat Stroke?",
+      "What to do for Heat Stroke?",
+      "First aid for Heat Stroke?",
+      "How to manage Heat Stroke?",
+      "Heat Stroke"
+    ],
+    "answer": "Call emergency services immediately as heat stroke is a medical emergency. Move the person to a cool, shaded area and remove excess clothing. Cool the person by spraying with water, applying cool, wet cloths, or using ice packs on the neck, armpits, and groin. Do not give fluids if the person is unconscious."
+  },
+  "intent_204": {
+    "examples": [
+      "How to treat Choking?",
+      "What to do for Choking?",
+      "First aid for Choking?",
+      "How to manage Choking?",
+      "Choking"
+    ],
+    "answer": "Perform the Heimlich maneuver if the person cannot speak, cough, or breathe. Stand behind the person and wrap your arms around their waist. Make a fist with one hand and place it just above the navel. Grasp your fist with the other hand and perform quick, upward thrusts. Seek medical help if the person does not recover quickly."
+  },
+  "intent_205": {
+    "examples": [
+      "How to treat Electric Shock?",
+      "What to do for Electric Shock?",
+      "First aid for Electric Shock?",
+      "How to manage Electric Shock?",
+      "Electric Shock"
+    ],
+    "answer": "Ensure the scene is safe and turn off the source of electricity if possible. Do not touch the person with bare hands if they are still in contact with the source. Call emergency services immediately. If the person is unconscious, check for breathing and pulse, and begin CPR if necessary."
+  },
+  "intent_206": {
+    "examples": [
+      "How to treat Burns?",
+      "What to do for Burns?",
+      "First aid for Burns?",
+      "How to manage Burns?",
+      "Burns"
+    ],
+    "answer": "Cool the burn under running water for at least 10 minutes. Cover the burn with a sterile, non-stick dressing or cloth. Do not apply creams, oils, or ice to the burn. Seek medical help for burns that are large, deep, or involve the face, hands, feet, or genitals."
+  },
+  "intent_207": {
+    "examples": [
+      "How to treat Chemical Burns?",
+      "What to do for Chemical Burns?",
+      "First aid for Chemical Burns?",
+      "How to manage Chemical Burns?",
+      "Chemical Burns"
+    ],
+    "answer": "Remove any contaminated clothing and rinse the affected area with running water for at least 20 minutes. Avoid using strong streams of water that could further damage the skin. Do not apply creams or ointments. Seek medical help immediately."
+  },
+  "intent_208": {
+    "examples": [
+      "How to treat Nosebleeds?",
+      "What to do for Nosebleeds?",
+      "First aid for Nosebleeds?",
+      "How to manage Nosebleeds?",
+      "Nosebleeds"
+    ],
+    "answer": "Sit the person upright and lean forward slightly. Pinch the soft part of the nose just above the nostrils for 10-15 minutes. Encourage the person to breathe through their mouth. Avoid blowing the nose or inserting anything into the nostrils. Seek medical help if the bleeding does not stop after 20 minutes or is severe."
+  },
+  "intent_209": {
+    "examples": [
+      "How to treat Eye Injuries?",
+      "What to do for Eye Injuries?",
+      "First aid for Eye Injuries?",
+      "How to manage Eye Injuries?",
+      "Eye Injuries"
+    ],
+    "answer": "Avoid rubbing the eye and do not attempt to remove any objects stuck in the eye. Rinse the eye gently with clean water if there is debris. Cover the eye with a sterile bandage or cloth. Seek medical help immediately."
+  },
+  "intent_210": {
+    "examples": [
+      "How to treat Ear Injuries?",
+      "What to do for Ear Injuries?",
+      "First aid for Ear Injuries?",
+      "How to manage Ear Injuries?",
+      "Ear Injuries"
+    ],
+    "answer": "Avoid inserting anything into the ear canal. Gently clean the outer ear with a sterile cloth if there is bleeding. Apply a cold pack to reduce swelling. Seek medical help if there is severe pain, hearing loss, or signs of infection."
+  },
+  "intent_211": {
+    "examples": [
+      "How to treat Toothache?",
+      "What to do for Toothache?",
+      "First aid for Toothache?",
+      "How to manage Toothache?",
+      "Toothache"
+    ],
+    "answer": "Rinse the mouth with warm salt water. Use over-the-counter pain relievers to reduce pain. Apply a cold pack to the outside of the cheek to reduce swelling. Avoid eating very hot or cold foods. Seek dental help if the pain persists or is severe."
+  },
+  "intent_212": {
+    "examples": [
+      "How to treat Swallowed Object?",
+      "What to do for Swallowed Object?",
+      "First aid for Swallowed Object?",
+      "How to manage Swallowed Object?",
+      "Swallowed Object"
+    ],
+    "answer": "If the person is coughing or able to speak, encourage them to continue coughing to expel the object. If they are unable to breathe or speak, perform the Heimlich maneuver. Seek medical help immediately if the object is not expelled or if the person shows signs of distress."
+  },
+  "intent_213": {
+    "examples": [
+      "How to treat Dislocation?",
+      "What to do for Dislocation?",
+      "First aid for Dislocation?",
+      "How to manage Dislocation?",
+      "Dislocation"
+    ],
+    "answer": "Immobilize the affected joint using a splint or sling. Apply ice packs to reduce swelling. Avoid moving the joint or attempting to realign it. Seek medical help immediately."
+  },
+  "intent_214": {
+    "examples": [
+      "How to treat Sprain?",
+      "What to do for Sprain?",
+      "First aid for Sprain?",
+      "How to manage Sprain?",
+      "Sprain"
+    ],
+    "answer": "Rest the injured area and avoid putting weight on it. Apply ice packs to reduce swelling and pain. Use compression bandages to support the area. Elevate the injured limb to reduce swelling. Seek medical help if the pain and swelling do not improve."
+  },
+  "intent_215": {
+    "examples": [
+      "How to treat Strain?",
+      "What to do for Strain?",
+      "First aid for Strain?",
+      "How to manage Strain?",
+      "Strain"
+    ],
+    "answer": "Rest the injured muscle and avoid activities that cause pain. Apply ice packs to reduce swelling and pain. Use compression bandages to support the area. Elevate the injured limb to reduce swelling. Seek medical help if the pain and swelling do not improve."
+  },
+  "intent_216": {
+    "examples": [
+      "How to treat Blisters?",
+      "What to do for Blisters?",
+      "First aid for Blisters?",
+      "How to manage Blisters?",
+      "Blisters"
+    ],
+    "answer": "Clean the blister with mild soap and water. Cover it with a sterile bandage or blister pad. Avoid popping the blister as it can lead to infection. If the blister breaks, clean it and apply an antibiotic ointment. Seek medical help if there are signs of infection."
+  },
+  "intent_217": {
+    "examples": [
+      "How to treat Splinter?",
+      "What to do for Splinter?",
+      "First aid for Splinter?",
+      "How to manage Splinter?",
+      "Splinter"
+    ],
+    "answer": "Clean the area with soap and water. Use sterilized tweezers to gently remove the splinter. Wash the area again and apply an antibiotic ointment. Cover with a sterile bandage if necessary. Seek medical help if the splinter is deeply embedded or if there are signs of infection."
+  },
+  "intent_218": {
+    "examples": [
+      "How to treat Bee Sting?",
+      "What to do for Bee Sting?",
+      "First aid for Bee Sting?",
+      "How to manage Bee Sting?",
+      "Bee Sting"
+    ],
+    "answer": "Remove the stinger by scraping it off with a flat object. Wash the area with soap and water. Apply a cold pack to reduce swelling and pain. Use over-the-counter antihistamines or pain relievers if necessary. Seek medical help if there are signs of an allergic reaction."
+  },
+  "intent_219": {
+    "examples": [
+      "How to treat Tick Bite?",
+      "What to do for Tick Bite?",
+      "First aid for Tick Bite?",
+      "How to manage Tick Bite?",
+      "Tick Bite"
+    ],
+    "answer": "Remove the tick using tweezers, grasping it close to the skin and pulling steadily. Clean the bite area with soap and water. Apply an antiseptic to the bite area. Monitor for signs of infection or illness. Seek medical help if a rash or fever develops."
+  },
+  "intent_220": {
+    "examples": [
+      "How to treat Spider Bite?",
+      "What to do for Spider Bite?",
+      "First aid for Spider Bite?",
+      "How to manage Spider Bite?",
+      "Spider Bite"
+    ],
+    "answer": "Wash the bite area with soap and water. Apply a cold pack to reduce swelling and pain. Use over-the-counter pain relievers if necessary. Monitor for signs of an allergic reaction or infection. Seek medical help if symptoms worsen or if the bite is from a venomous spider."
+  },
+  "intent_221": {
+    "examples": [
+      "How to treat Animal Bite?",
+      "What to do for Animal Bite?",
+      "First aid for Animal Bite?",
+      "How to manage Animal Bite?",
+      "Animal Bite"
+    ],
+    "answer": "Wash the bite area thoroughly with soap and water. Apply an antiseptic to the wound. Cover with a sterile bandage. Seek medical help immediately to assess the risk of rabies or other infections. Keep the person calm and still."
+  },
+  "intent_222": {
+    "examples": [
+      "How to treat Jellyfish Sting?",
+      "What to do for Jellyfish Sting?",
+      "First aid for Jellyfish Sting?",
+      "How to manage Jellyfish Sting?",
+      "Jellyfish Sting"
+    ],
+    "answer": "Rinse the sting area with vinegar or seawater to deactivate the stingers. Do not use fresh water. Remove any tentacles with a stick or tweezers. Soak the area in hot water (not scalding) for 20-45 minutes. Seek medical help if symptoms worsen or if there are signs of an allergic reaction."
+  },
+  "intent_223": {
+    "examples": [
+      "How to treat Sunburn?",
+      "What to do for Sunburn?",
+      "First aid for Sunburn?",
+      "How to manage Sunburn?",
+      "Sunburn"
+    ],
+    "answer": "Cool the burn with lukewarm water or cool compresses. Apply aloe vera or moisturizing lotion to the affected area. Drink plenty of fluids to stay hydrated. Avoid further sun exposure until the burn heals. Seek medical help if there are signs of severe sunburn or dehydration."
+  },
+  "intent_224": {
+    "examples": [
+      "How to treat Earache?",
+      "What to do for Earache?",
+      "First aid for Earache?",
+      "How to manage Earache?",
+      "Earache"
+    ],
+    "answer": "Apply a warm compress to the affected ear. Use over-the-counter pain relievers to reduce discomfort. Keep the ear dry and avoid inserting anything into the ear canal. Seek medical help if the pain persists or if there are signs of infection."
+  },
+  "intent_225": {
+    "examples": [
+      "How to treat Cough?",
+      "What to do for Cough?",
+      "First aid for Cough?",
+      "How to manage Cough?",
+      "Cough"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Use over-the-counter cough medications or throat lozenges to relieve symptoms. Use a humidifier to keep the air moist. Avoid smoking and exposure to irritants. Seek medical help if the cough persists for more than a week or is accompanied by other severe symptoms."
+  },
+  "intent_226": {
+    "examples": [
+      "How to treat Sore Throat?",
+      "What to do for Sore Throat?",
+      "First aid for Sore Throat?",
+      "How to manage Sore Throat?",
+      "Sore Throat"
+    ],
+    "answer": "Gargle with warm salt water several times a day. Use throat lozenges or over-the-counter pain relievers to ease discomfort. Stay hydrated by drinking plenty of fluids. Avoid smoking and exposure to irritants. Seek medical help if the sore throat persists for more than a week or is accompanied by other severe symptoms."
+  },
+  "intent_227": {
+    "examples": [
+      "How to treat Ear Infection?",
+      "What to do for Ear Infection?",
+      "First aid for Ear Infection?",
+      "How to manage Ear Infection?",
+      "Ear Infection"
+    ],
+    "answer": "Use over-the-counter pain relievers to reduce discomfort. Apply a warm compress to the affected ear. Keep the ear dry and avoid inserting anything into the ear canal. Seek medical help for proper diagnosis and treatment, which may include antibiotics."
+  },
+  "intent_228": {
+    "examples": [
+      "How to treat Respiratory Infection?",
+      "What to do for Respiratory Infection?",
+      "First aid for Respiratory Infection?",
+      "How to manage Respiratory Infection?",
+      "Respiratory Infection",
+      "How to treat Fever?",
+      "What to do for Fever?",
+      "First aid for Fever?",
+      "How to manage Fever?",
+      "Fever",
+      "How to treat Flu?",
+      "What to do for Flu?",
+      "First aid for Flu?",
+      "How to manage Flu?",
+      "Flu",
+      "How to treat Cold?",
+      "What to do for Cold?",
+      "First aid for Cold?",
+      "How to manage Cold?",
+      "Cold",
+      "How to treat Hand, Foot, and Mouth Disease?",
+      "What to do for Hand, Foot, and Mouth Disease?",
+      "First aid for Hand, Foot, and Mouth Disease?",
+      "How to manage Hand, Foot, and Mouth Disease?",
+      "Hand, Foot, and Mouth Disease",
+      "How to treat Fifth Disease?",
+      "What to do for Fifth Disease?",
+      "First aid for Fifth Disease?",
+      "How to manage Fifth Disease?",
+      "Fifth Disease",
+      "How to treat Infectious Mononucleosis?",
+      "What to do for Infectious Mononucleosis?",
+      "First aid for Infectious Mononucleosis?",
+      "How to manage Infectious Mononucleosis?",
+      "Infectious Mononucleosis"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Use over-the-counter medications to relieve symptoms. Rest as much as possible. Avoid contact sports to prevent spleen injury. Seek medical help if symptoms worsen or if there are signs of a more serious infection."
+  },
+  "intent_229": {
+    "examples": [
+      "How to treat Stomach Ache?",
+      "What to do for Stomach Ache?",
+      "First aid for Stomach Ache?",
+      "How to manage Stomach Ache?",
+      "Stomach Ache"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Eat bland foods such as rice, bananas, and toast. Avoid spicy, fatty, or greasy foods. Use over-the-counter medications to relieve symptoms. Seek medical help if the pain is severe or persists for more than a few days."
+  },
+  "intent_230": {
+    "examples": [
+      "How to treat Vomiting?",
+      "What to do for Vomiting?",
+      "First aid for Vomiting?",
+      "How to manage Vomiting?",
+      "Vomiting"
+    ],
+    "answer": "Stay hydrated by drinking small sips of water or oral rehydration solutions. Avoid solid foods until vomiting subsides. Rest as much as possible. Use over-the-counter medications to relieve symptoms if necessary. Seek medical help if vomiting persists for more than 24 hours or if there are signs of dehydration."
+  },
+  "intent_231": {
+    "examples": [
+      "How to treat Diarrhea?",
+      "What to do for Diarrhea?",
+      "First aid for Diarrhea?",
+      "How to manage Diarrhea?",
+      "Diarrhea"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids or oral rehydration solutions. Eat bland foods such as rice, bananas, and toast. Avoid dairy, fatty, or greasy foods. Use over-the-counter medications to relieve symptoms if necessary. Seek medical help if diarrhea persists for more than 48 hours or if there are signs of dehydration."
+  },
+  "intent_232": {
+    "examples": [
+      "How to treat Constipation?",
+      "What to do for Constipation?",
+      "First aid for Constipation?",
+      "How to manage Constipation?",
+      "Constipation"
+    ],
+    "answer": "Increase fiber intake by eating fruits, vegetables, and whole grains. Stay hydrated by drinking plenty of fluids. Engage in regular physical activity. Use over-the-counter laxatives if necessary. Seek medical help if constipation persists for more than a week or is accompanied by severe pain."
+  },
+  "intent_233": {
+    "examples": [
+      "How to treat Gas?",
+      "What to do for Gas?",
+      "First aid for Gas?",
+      "How to manage Gas?",
+      "Gas"
+    ],
+    "answer": "Avoid foods that cause gas such as beans, carbonated drinks, and certain vegetables. Eat slowly and avoid chewing gum. Use over-the-counter medications to relieve symptoms. Engage in light physical activity to help move gas through the digestive system. Seek medical help if the pain is severe or persistent."
+  },
+  "intent_234": {
+    "examples": [
+      "How to treat Heartburn?",
+      "What to do for Heartburn?",
+      "First aid for Heartburn?",
+      "How to manage Heartburn?",
+      "Heartburn"
+    ],
+    "answer": "Avoid foods and drinks that trigger heartburn such as spicy foods, alcohol, and caffeine. Eat smaller, more frequent meals. Avoid lying down immediately after eating. Use over-the-counter antacids to relieve symptoms. Seek medical help if heartburn occurs frequently or is severe."
+  },
+  "intent_235": {
+    "examples": [
+      "How to treat Indigestion?",
+      "What to do for Indigestion?",
+      "First aid for Indigestion?",
+      "How to manage Indigestion?",
+      "Indigestion"
+    ],
+    "answer": "Eat smaller, more frequent meals. Avoid spicy, fatty, or greasy foods. Stay upright for at least 30 minutes after eating. Use over-the-counter antacids to relieve symptoms. Seek medical help if indigestion occurs frequently or is severe."
+  },
+  "intent_236": {
+    "examples": [
+      "How to treat Ulcer?",
+      "What to do for Ulcer?",
+      "First aid for Ulcer?",
+      "How to manage Ulcer?",
+      "Ulcer",
+      "How to treat Gastritis?",
+      "What to do for Gastritis?",
+      "First aid for Gastritis?",
+      "How to manage Gastritis?",
+      "Gastritis"
+    ],
+    "answer": "Avoid foods and drinks that irritate the stomach lining such as spicy foods, alcohol, and caffeine. Take medications as prescribed by a healthcare provider. Eat smaller, more frequent meals. Avoid smoking and reduce stress. Seek medical help if symptoms worsen or if there is severe pain or bleeding."
+  },
+  "intent_237": {
+    "examples": [
+      "How to treat Pancreatitis?",
+      "What to do for Pancreatitis?",
+      "First aid for Pancreatitis?",
+      "How to manage Pancreatitis?",
+      "Pancreatitis"
+    ],
+    "answer": "Seek medical help immediately as pancreatitis can be a serious condition. Avoid eating or drinking until assessed by a healthcare provider. Rest and stay hydrated. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_238": {
+    "examples": [
+      "How to treat Appendicitis?",
+      "What to do for Appendicitis?",
+      "First aid for Appendicitis?",
+      "How to manage Appendicitis?",
+      "Appendicitis"
+    ],
+    "answer": "Seek medical help immediately as appendicitis is a medical emergency. Avoid eating or drinking until assessed by a healthcare provider. Rest and avoid strenuous activities. Follow the treatment plan prescribed by the healthcare provider, which may include surgery."
+  },
+  "intent_239": {
+    "examples": [
+      "How to treat Gallbladder Attack?",
+      "What to do for Gallbladder Attack?",
+      "First aid for Gallbladder Attack?",
+      "How to manage Gallbladder Attack?",
+      "Gallbladder Attack"
+    ],
+    "answer": "Seek medical help immediately if there is severe pain or signs of infection. Avoid eating or drinking until assessed by a healthcare provider. Rest and stay hydrated. Follow the treatment plan prescribed by the healthcare provider, which may include medication or surgery."
+  },
+  "intent_240": {
+    "examples": [
+      "How to treat Kidney Stones?",
+      "What to do for Kidney Stones?",
+      "First aid for Kidney Stones?",
+      "How to manage Kidney Stones?",
+      "Kidney Stones"
+    ],
+    "answer": "Drink plenty of fluids to help pass the stone. Use over-the-counter pain relievers to manage pain. Avoid foods high in oxalate and reduce salt intake. Seek medical help if there is severe pain, blood in the urine, or signs of infection. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_241": {
+    "examples": [
+      "How to treat Urinary Tract Infection?",
+      "What to do for Urinary Tract Infection?",
+      "First aid for Urinary Tract Infection?",
+      "How to manage Urinary Tract Infection?",
+      "Urinary Tract Infection",
+      "How to treat Bladder Infection?",
+      "What to do for Bladder Infection?",
+      "First aid for Bladder Infection?",
+      "How to manage Bladder Infection?",
+      "Bladder Infection"
+    ],
+    "answer": "Drink plenty of fluids to flush out the bacteria. Take medications as prescribed by a healthcare provider. Avoid caffeine, alcohol, and spicy foods that can irritate the bladder. Seek medical help if symptoms worsen or do not improve within a few days. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_242": {
+    "examples": [
+      "How to treat Allergic Reaction?",
+      "What to do for Allergic Reaction?",
+      "First aid for Allergic Reaction?",
+      "How to manage Allergic Reaction?",
+      "Allergic Reaction"
+    ],
+    "answer": "Remove the person from the source of the allergen. Use over-the-counter antihistamines to reduce symptoms. Apply cool compresses to reduce itching and swelling. Seek medical help if symptoms worsen or if there are signs of a severe allergic reaction. Carry an epinephrine auto-injector if prescribed by a healthcare provider."
+  },
+  "intent_243": {
+    "examples": [
+      "How to treat Anaphylaxis?",
+      "What to do for Anaphylaxis?",
+      "First aid for Anaphylaxis?",
+      "How to manage Anaphylaxis?",
+      "Anaphylaxis"
+    ],
+    "answer": "Call emergency services immediately as anaphylaxis is a life-threatening condition. Use an epinephrine auto-injector if available. Keep the person calm and lying down. If they are conscious, help them to a comfortable position. Seek medical help even if symptoms improve after using the auto-injector."
+  },
+  "intent_244": {
+    "examples": [
+      "How to treat Food Poisoning?",
+      "What to do for Food Poisoning?",
+      "First aid for Food Poisoning?",
+      "How to manage Food Poisoning?",
+      "Food Poisoning",
+      "How to treat Salmonella?",
+      "What to do for Salmonella?",
+      "First aid for Salmonella?",
+      "How to manage Salmonella?",
+      "Salmonella",
+      "How to treat E. Coli?",
+      "What to do for E. Coli?",
+      "First aid for E. Coli?",
+      "How to manage E. Coli?",
+      "E. Coli"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Rest as much as possible. Avoid solid foods until vomiting or diarrhea subsides. Gradually reintroduce bland foods such as rice, bananas, and toast. Seek medical help if symptoms persist for more than 48 hours or if there are signs of severe dehydration."
+  },
+  "intent_245": {
+    "examples": [
+      "How to treat Botulism?",
+      "What to do for Botulism?",
+      "First aid for Botulism?",
+      "How to manage Botulism?",
+      "Botulism"
+    ],
+    "answer": "Seek medical help immediately as botulism is a serious condition. Do not induce vomiting. Provide supportive care such as keeping the person comfortable and hydrated. Follow the treatment plan prescribed by the healthcare provider, which may include antitoxin therapy."
+  },
+  "intent_246": {
+    "examples": [
+      "How to treat Sepsis?",
+      "What to do for Sepsis?",
+      "First aid for Sepsis?",
+      "How to manage Sepsis?",
+      "Sepsis"
+    ],
+    "answer": "Seek medical help immediately as sepsis is a life-threatening condition. Provide supportive care such as keeping the person comfortable and hydrated. Follow the treatment plan prescribed by the healthcare provider, which may include antibiotics and hospitalization."
+  },
+  "intent_247": {
+    "examples": [
+      "How to treat Meningitis?",
+      "What to do for Meningitis?",
+      "First aid for Meningitis?",
+      "How to manage Meningitis?",
+      "Meningitis"
+    ],
+    "answer": "Seek medical help immediately as meningitis is a serious condition. Provide supportive care such as keeping the person comfortable and hydrated. Follow the treatment plan prescribed by the healthcare provider, which may include antibiotics or antiviral medications."
+  },
+  "intent_248": {
+    "examples": [
+      "How to treat Stroke?",
+      "What to do for Stroke?",
+      "First aid for Stroke?",
+      "How to manage Stroke?",
+      "Stroke"
+    ],
+    "answer": "Call emergency services immediately as stroke is a medical emergency. Keep the person calm and still. Do not give anything to eat or drink. Note the time when symptoms first appeared. Follow the treatment plan prescribed by the healthcare provider, which may include clot-busting medications or surgery."
+  },
+  "intent_249": {
+    "examples": [
+      "How to treat Heart Attack?",
+      "What to do for Heart Attack?",
+      "First aid for Heart Attack?",
+      "How to manage Heart Attack?",
+      "Heart Attack"
+    ],
+    "answer": "Call emergency services immediately as heart attack is a medical emergency. Keep the person calm and still. Loosen tight clothing and help the person to a comfortable position. Administer aspirin if advised by a healthcare provider. Follow the treatment plan prescribed by the healthcare provider, which may include medications or surgery."
+  },
+  "intent_250": {
+    "examples": [
+      "How to treat Angina?",
+      "What to do for Angina?",
+      "First aid for Angina?",
+      "How to manage Angina?",
+      "Angina"
+    ],
+    "answer": "Keep the person calm and still. Help the person to a comfortable position. Administer nitroglycerin if prescribed by a healthcare provider. Call emergency services if the pain persists for more than a few minutes. Follow the treatment plan prescribed by the healthcare provider, which may include medications or lifestyle changes."
+  },
+  "intent_251": {
+    "examples": [
+      "How to treat High Blood Pressure?",
+      "What to do for High Blood Pressure?",
+      "First aid for High Blood Pressure?",
+      "How to manage High Blood Pressure?",
+      "High Blood Pressure"
+    ],
+    "answer": "Monitor blood pressure regularly. Follow a healthy diet low in sodium and high in fruits and vegetables. Engage in regular physical activity. Take medications as prescribed by a healthcare provider. Seek medical help if blood pressure remains high despite treatment."
+  },
+  "intent_252": {
+    "examples": [
+      "How to treat Low Blood Pressure?",
+      "What to do for Low Blood Pressure?",
+      "First aid for Low Blood Pressure?",
+      "How to manage Low Blood Pressure?",
+      "Low Blood Pressure"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Avoid standing up too quickly. Eat small, frequent meals. Wear compression stockings to improve circulation. Seek medical help if symptoms persist or if there is severe dizziness or fainting."
+  },
+  "intent_253": {
+    "examples": [
+      "How to treat COVID-19?",
+      "What to do for COVID-19?",
+      "First aid for COVID-19?",
+      "How to manage COVID-19?",
+      "COVID-19",
+      "How to treat Measles?",
+      "What to do for Measles?",
+      "First aid for Measles?",
+      "How to manage Measles?",
+      "Measles",
+      "How to treat Mumps?",
+      "What to do for Mumps?",
+      "First aid for Mumps?",
+      "How to manage Mumps?",
+      "Mumps",
+      "How to treat Rubella?",
+      "What to do for Rubella?",
+      "First aid for Rubella?",
+      "How to manage Rubella?",
+      "Rubella"
+    ],
+    "answer": "Stay isolated to prevent spreading the virus. Stay hydrated by drinking plenty of fluids. Use over-the-counter medications to relieve symptoms. Rest as much as possible. Seek medical help if symptoms worsen or if there are signs of a more serious infection. Follow public health guidelines and get vaccinated if eligible."
+  },
+  "intent_254": {
+    "examples": [
+      "How to treat Chickenpox?",
+      "What to do for Chickenpox?",
+      "First aid for Chickenpox?",
+      "How to manage Chickenpox?",
+      "Chickenpox"
+    ],
+    "answer": "Stay isolated to prevent spreading the virus. Use over-the-counter medications to relieve itching and fever. Apply calamine lotion to reduce itching. Avoid scratching the rash. Seek medical help if symptoms worsen or if there are signs of a more serious infection."
+  },
+  "intent_255": {
+    "examples": [
+      "How to treat Scarlet Fever?",
+      "What to do for Scarlet Fever?",
+      "First aid for Scarlet Fever?",
+      "How to manage Scarlet Fever?",
+      "Scarlet Fever"
+    ],
+    "answer": "Take antibiotics as prescribed by a healthcare provider. Use over-the-counter medications to relieve symptoms. Stay hydrated by drinking plenty of fluids. Rest as much as possible. Seek medical help if symptoms worsen or if there are signs of a more serious infection. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_256": {
+    "examples": [
+      "How to treat Hepatitis?",
+      "What to do for Hepatitis?",
+      "First aid for Hepatitis?",
+      "How to manage Hepatitis?",
+      "Hepatitis"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Avoid alcohol and medications that can harm the liver. Follow a healthy diet. Seek medical help for proper diagnosis and treatment, which may include antiviral medications. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_257": {
+    "examples": [
+      "How to treat Tuberculosis?",
+      "What to do for Tuberculosis?",
+      "First aid for Tuberculosis?",
+      "How to manage Tuberculosis?",
+      "Tuberculosis"
+    ],
+    "answer": "Take medications as prescribed by a healthcare provider. Stay isolated to prevent spreading the infection. Stay hydrated by drinking plenty of fluids. Follow a healthy diet. Seek medical help if symptoms worsen or if there are signs of a more serious infection. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_258": {
+    "examples": [
+      "How to treat Pneumonia?",
+      "What to do for Pneumonia?",
+      "First aid for Pneumonia?",
+      "How to manage Pneumonia?",
+      "Pneumonia",
+      "How to treat Bronchitis?",
+      "What to do for Bronchitis?",
+      "First aid for Bronchitis?",
+      "How to manage Bronchitis?",
+      "Bronchitis"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Take medications as prescribed by a healthcare provider. Use over-the-counter medications to relieve symptoms. Rest as much as possible. Seek medical help if symptoms worsen or if there are signs of a more serious infection."
+  },
+  "intent_259": {
+    "examples": [
+      "How to treat Asthma Attack?",
+      "What to do for Asthma Attack?",
+      "First aid for Asthma Attack?",
+      "How to manage Asthma Attack?",
+      "Asthma Attack"
+    ],
+    "answer": "Use a quick-relief inhaler as prescribed by a healthcare provider. Sit upright and stay calm. Take slow, deep breaths. Seek medical help if symptoms do not improve or if the attack is severe. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_260": {
+    "examples": [
+      "How to treat COPD?",
+      "What to do for COPD?",
+      "First aid for COPD?",
+      "How to manage COPD?",
+      "COPD",
+      "How to treat COPD Exacerbation?",
+      "What to do for COPD Exacerbation?",
+      "First aid for COPD Exacerbation?",
+      "How to manage COPD Exacerbation?",
+      "COPD Exacerbation"
+    ],
+    "answer": "Take medications as prescribed by a healthcare provider. Use a quick-relief inhaler if needed. Avoid smoking and exposure to irritants. Stay hydrated by drinking plenty of fluids. Seek medical help if symptoms worsen or if there are signs of a more serious infection."
+  },
+  "intent_261": {
+    "examples": [
+      "How to treat Hyperventilation?",
+      "What to do for Hyperventilation?",
+      "First aid for Hyperventilation?",
+      "How to manage Hyperventilation?",
+      "Hyperventilation"
+    ],
+    "answer": "Sit upright and try to stay calm. Breathe slowly and deeply through your nose. Use a paper bag to rebreathe carbon dioxide if necessary. Seek medical help if symptoms do not improve or if there is severe dizziness or chest pain. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_262": {
+    "examples": [
+      "How to treat Anxiety Attack?",
+      "What to do for Anxiety Attack?",
+      "First aid for Anxiety Attack?",
+      "How to manage Anxiety Attack?",
+      "Anxiety Attack",
+      "How to treat Panic Attack?",
+      "What to do for Panic Attack?",
+      "First aid for Panic Attack?",
+      "How to manage Panic Attack?",
+      "Panic Attack"
+    ],
+    "answer": "Sit in a quiet, comfortable place. Practice deep breathing and relaxation techniques. Use grounding techniques to focus on the present moment. Seek medical help if the attack is severe or if symptoms persist. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_263": {
+    "examples": [
+      "How to treat Depression?",
+      "What to do for Depression?",
+      "First aid for Depression?",
+      "How to manage Depression?",
+      "Depression",
+      "How to treat PTSD?",
+      "What to do for PTSD?",
+      "First aid for PTSD?",
+      "How to manage PTSD?",
+      "PTSD"
+    ],
+    "answer": "Seek professional help from a mental health provider. Follow the treatment plan prescribed by the healthcare provider, which may include therapy and medications. Practice stress-reduction techniques such as mindfulness and relaxation exercises. Stay connected with supportive friends and family. Avoid alcohol and drugs."
+  },
+  "intent_264": {
+    "examples": [
+      "How to treat Insomnia?",
+      "What to do for Insomnia?",
+      "First aid for Insomnia?",
+      "How to manage Insomnia?",
+      "Insomnia"
+    ],
+    "answer": "Maintain a regular sleep schedule. Create a comfortable sleep environment. Avoid caffeine, alcohol, and heavy meals before bedtime. Practice relaxation techniques before sleep. Seek medical help if insomnia persists or if there are signs of an underlying condition."
+  },
+  "intent_265": {
+    "examples": [
+      "How to treat Eating Disorder?",
+      "What to do for Eating Disorder?",
+      "First aid for Eating Disorder?",
+      "How to manage Eating Disorder?",
+      "Eating Disorder"
+    ],
+    "answer": "Seek professional help from a healthcare provider specializing in eating disorders. Follow the treatment plan prescribed by the healthcare provider, which may include therapy and medications. Maintain a healthy and balanced diet. Stay connected with supportive friends and family. Avoid restrictive diets and unhealthy eating habits."
+  },
+  "intent_266": {
+    "examples": [
+      "How to treat Alcoholism?",
+      "What to do for Alcoholism?",
+      "First aid for Alcoholism?",
+      "How to manage Alcoholism?",
+      "Alcoholism",
+      "How to treat Drug Addiction?",
+      "What to do for Drug Addiction?",
+      "First aid for Drug Addiction?",
+      "How to manage Drug Addiction?",
+      "Drug Addiction",
+      "How to treat Smoking Addiction?",
+      "What to do for Smoking Addiction?",
+      "First aid for Smoking Addiction?",
+      "How to manage Smoking Addiction?",
+      "Smoking Addiction"
+    ],
+    "answer": "Seek professional help from a healthcare provider specializing in addiction. Follow the treatment plan prescribed by the healthcare provider, which may include therapy and medications. Join support groups such as Smokers Anonymous. Avoid triggers and environments that encourage smoking. Stay connected with supportive friends and family."
+  },
+  "intent_267": {
+    "examples": [
+      "How to treat Obesity?",
+      "What to do for Obesity?",
+      "First aid for Obesity?",
+      "How to manage Obesity?",
+      "Obesity"
+    ],
+    "answer": "Seek professional help from a healthcare provider specializing in weight management. Follow the treatment plan prescribed by the healthcare provider, which may include diet, exercise, and medications. Maintain a healthy and balanced diet. Engage in regular physical activity. Stay connected with supportive friends and family."
+  },
+  "intent_268": {
+    "examples": [
+      "How to treat Hypothermia?",
+      "What to do for Hypothermia?",
+      "First aid for Hypothermia?",
+      "How to manage Hypothermia?",
+      "Hypothermia"
+    ],
+    "answer": "Move the person to a warm and dry place. Remove wet clothing and cover the person with warm blankets. Use warm compresses or hot water bottles to gradually warm the body. Avoid direct heat as it can cause burns. Seek medical help immediately."
+  },
+  "intent_269": {
+    "examples": [
+      "How to treat Ear Infection?",
+      "What to do for Ear Infection?",
+      "First aid for Ear Infection?",
+      "How to manage Ear Infection?",
+      "Ear Infection"
+    ],
+    "answer": "Take prescribed antibiotics if bacterial. Use over-the-counter pain relievers. Apply a warm compress to the ear. Avoid inserting anything into the ear canal. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_270": {
+    "examples": [
+      "How to treat Eye Infection?",
+      "What to do for Eye Infection?",
+      "First aid for Eye Infection?",
+      "How to manage Eye Infection?",
+      "Eye Infection"
+    ],
+    "answer": "Use prescribed antibiotic or antiviral eye drops. Avoid touching or rubbing the eyes. Wash hands frequently. Use a warm, damp cloth to clean the eyes. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_271": {
+    "examples": [
+      "How to treat Sinus Infection?",
+      "What to do for Sinus Infection?",
+      "First aid for Sinus Infection?",
+      "How to manage Sinus Infection?",
+      "Sinus Infection"
+    ],
+    "answer": "Use over-the-counter pain relievers and decongestants. Stay hydrated by drinking plenty of fluids. Use a humidifier to keep the air moist. Apply warm compresses to the face. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_272": {
+    "examples": [
+      "How to treat Stomach Flu?",
+      "What to do for Stomach Flu?",
+      "First aid for Stomach Flu?",
+      "How to manage Stomach Flu?",
+      "Stomach Flu"
+    ],
+    "answer": "Stay hydrated by drinking plenty of fluids. Rest as much as possible. Eat bland foods such as toast and rice. Use over-the-counter medications to relieve symptoms. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_273": {
+    "examples": [
+      "How to treat Migraine?",
+      "What to do for Migraine?",
+      "First aid for Migraine?",
+      "How to manage Migraine?",
+      "Migraine"
+    ],
+    "answer": "Take prescribed migraine medications. Rest in a quiet, dark room. Use a cold compress on the forehead or neck. Stay hydrated by drinking plenty of fluids. Seek medical help if migraines become frequent or severe."
+  },
+  "intent_274": {
+    "examples": [
+      "How to treat Kidney Stones?",
+      "What to do for Kidney Stones?",
+      "First aid for Kidney Stones?",
+      "How to manage Kidney Stones?",
+      "Kidney Stones"
+    ],
+    "answer": "Drink plenty of water to help pass the stones. Use over-the-counter pain relievers. Follow a prescribed diet to prevent future stones. Seek medical help if pain is severe or if there are signs of infection. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_275": {
+    "examples": [
+      "How to treat Urinary Tract Infection?",
+      "What to do for Urinary Tract Infection?",
+      "First aid for Urinary Tract Infection?",
+      "How to manage Urinary Tract Infection?",
+      "Urinary Tract Infection"
+    ],
+    "answer": "Take prescribed antibiotics. Drink plenty of water to help flush out the infection. Use over-the-counter pain relievers. Avoid caffeine, alcohol, and spicy foods. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_276": {
+    "examples": [
+      "How to treat Gallbladder Attack?",
+      "What to do for Gallbladder Attack?",
+      "First aid for Gallbladder Attack?",
+      "How to manage Gallbladder Attack?",
+      "Gallbladder Attack"
+    ],
+    "answer": "Take prescribed medications for pain and inflammation. Avoid fatty or greasy foods. Stay hydrated by drinking plenty of fluids. Rest as much as possible. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_277": {
+    "examples": [
+      "How to treat Appendicitis?",
+      "What to do for Appendicitis?",
+      "First aid for Appendicitis?",
+      "How to manage Appendicitis?",
+      "Appendicitis"
+    ],
+    "answer": "Seek immediate medical help as appendicitis is a medical emergency. Do not eat or drink anything until evaluated by a healthcare provider. Avoid using pain relievers or laxatives. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_278": {
+    "examples": [
+      "How to treat Hernia?",
+      "What to do for Hernia?",
+      "First aid for Hernia?",
+      "How to manage Hernia?",
+      "Hernia"
+    ],
+    "answer": "Avoid heavy lifting or straining. Use over-the-counter pain relievers. Seek medical help for proper diagnosis and treatment, which may include surgery. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_279": {
+    "examples": [
+      "How to treat Blood Clot?",
+      "What to do for Blood Clot?",
+      "First aid for Blood Clot?",
+      "How to manage Blood Clot?",
+      "Blood Clot"
+    ],
+    "answer": "Seek immediate medical help as blood clots can be life-threatening. Take prescribed blood thinners. Avoid prolonged sitting or inactivity. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_280": {
+    "examples": [
+      "How to treat Seizure?",
+      "What to do for Seizure?",
+      "First aid for Seizure?",
+      "How to manage Seizure?",
+      "Seizure"
+    ],
+    "answer": "Protect the person from injury by clearing the area of sharp objects. Do not restrain the person or put anything in their mouth. Place the person on their side to keep the airway clear. Seek medical help if the seizure lasts more than 5 minutes or if it is the person's first seizure."
+  },
+  "intent_281": {
+    "examples": [
+      "How to treat Stroke?",
+      "What to do for Stroke?",
+      "First aid for Stroke?",
+      "How to manage Stroke?",
+      "Stroke"
+    ],
+    "answer": "Call emergency services immediately as a stroke is a medical emergency. Note the time when symptoms first appeared. Keep the person calm and comfortable. Do not give the person food or drink. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_282": {
+    "examples": [
+      "How to treat Heart Attack?",
+      "What to do for Heart Attack?",
+      "First aid for Heart Attack?",
+      "How to manage Heart Attack?",
+      "Heart Attack"
+    ],
+    "answer": "Call emergency services immediately as a heart attack is a medical emergency. Have the person chew and swallow an aspirin if not allergic. Keep the person calm and comfortable. Monitor the person's breathing and pulse. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_283": {
+    "examples": [
+      "How to treat Cardiac Arrest?",
+      "What to do for Cardiac Arrest?",
+      "First aid for Cardiac Arrest?",
+      "How to manage Cardiac Arrest?",
+      "Cardiac Arrest"
+    ],
+    "answer": "Call emergency services immediately as cardiac arrest is a medical emergency. Start CPR if trained, focusing on chest compressions. Use an AED if available. Continue CPR until medical professionals arrive. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_284": {
+    "examples": [
+      "How to treat Anaphylaxis?",
+      "What to do for Anaphylaxis?",
+      "First aid for Anaphylaxis?",
+      "How to manage Anaphylaxis?",
+      "Anaphylaxis"
+    ],
+    "answer": "Use an epinephrine auto-injector immediately if available. Call emergency services immediately. Keep the person calm and comfortable. Monitor the person's breathing and pulse. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_285": {
+    "examples": [
+      "How to treat Hypoglycemia?",
+      "What to do for Hypoglycemia?",
+      "First aid for Hypoglycemia?",
+      "How to manage Hypoglycemia?",
+      "Hypoglycemia"
+    ],
+    "answer": "Consume fast-acting carbohydrates such as glucose tablets, fruit juice, or candy. Recheck blood sugar levels after 15 minutes. Eat a meal or snack once blood sugar levels are stable. Seek medical help if symptoms worsen or do not improve. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_286": {
+    "examples": [
+      "How to treat Hyperglycemia?",
+      "What to do for Hyperglycemia?",
+      "First aid for Hyperglycemia?",
+      "How to manage Hyperglycemia?",
+      "Hyperglycemia"
+    ],
+    "answer": "Take prescribed insulin or diabetes medications. Drink plenty of water to stay hydrated. Monitor blood sugar levels frequently. Avoid sugary foods and drinks. Seek medical help if symptoms worsen or if there are signs of diabetic ketoacidosis."
+  },
+  "intent_287": {
+    "examples": [
+      "How to treat Diabetic Ketoacidosis?",
+      "What to do for Diabetic Ketoacidosis?",
+      "First aid for Diabetic Ketoacidosis?",
+      "How to manage Diabetic Ketoacidosis?",
+      "Diabetic Ketoacidosis"
+    ],
+    "answer": "Seek immediate medical help as diabetic ketoacidosis is a medical emergency. Follow the treatment plan prescribed by the healthcare provider, which may include insulin therapy and IV fluids. Monitor blood sugar levels frequently. Stay hydrated by drinking plenty of fluids. Avoid sugary foods and drinks."
+  },
+  "intent_288": {
+    "examples": [
+      "How to treat Electrolyte Imbalance?",
+      "What to do for Electrolyte Imbalance?",
+      "First aid for Electrolyte Imbalance?",
+      "How to manage Electrolyte Imbalance?",
+      "Electrolyte Imbalance"
+    ],
+    "answer": "Seek medical help for proper diagnosis and treatment. Follow the treatment plan prescribed by the healthcare provider, which may include electrolyte supplements. Stay hydrated by drinking plenty of fluids. Avoid excessive intake of certain foods and drinks. Monitor electrolyte levels regularly."
+  },
+  "intent_289": {
+    "examples": [
+      "How to treat Muscle Strain?",
+      "What to do for Muscle Strain?",
+      "First aid for Muscle Strain?",
+      "How to manage Muscle Strain?",
+      "Muscle Strain"
+    ],
+    "answer": "Rest the affected muscle and avoid activities that cause pain. Apply ice to the affected area for 15-20 minutes every hour. Use compression bandages to reduce swelling. Elevate the affected area above heart level. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_290": {
+    "examples": [
+      "How to treat Sprain?",
+      "What to do for Sprain?",
+      "First aid for Sprain?",
+      "How to manage Sprain?",
+      "Sprain"
+    ],
+    "answer": "Rest the affected joint and avoid activities that cause pain. Apply ice to the affected area for 15-20 minutes every hour. Use compression bandages to reduce swelling. Elevate the affected area above heart level. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_291": {
+    "examples": [
+      "How to treat Fracture?",
+      "What to do for Fracture?",
+      "First aid for Fracture?",
+      "How to manage Fracture?",
+      "Fracture"
+    ],
+    "answer": "Immobilize the affected area with a splint or sling. Apply ice to the affected area to reduce swelling. Keep the person calm and comfortable. Avoid moving the affected area. Seek medical help immediately."
+  },
+  "intent_292": {
+    "examples": [
+      "How to treat Dislocation?",
+      "What to do for Dislocation?",
+      "First aid for Dislocation?",
+      "How to manage Dislocation?",
+      "Dislocation"
+    ],
+    "answer": "Immobilize the affected joint with a splint or sling. Apply ice to the affected area to reduce swelling. Keep the person calm and comfortable. Avoid moving the affected joint. Seek medical help immediately."
+  },
+  "intent_293": {
+    "examples": [
+      "How to treat Tendonitis?",
+      "What to do for Tendonitis?",
+      "First aid for Tendonitis?",
+      "How to manage Tendonitis?",
+      "Tendonitis"
+    ],
+    "answer": "Rest the affected tendon and avoid activities that cause pain. Apply ice to the affected area for 15-20 minutes every hour. Use over-the-counter pain relievers. Perform gentle stretching and strengthening exercises. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_294": {
+    "examples": [
+      "How to treat Bursitis?",
+      "What to do for Bursitis?",
+      "First aid for Bursitis?",
+      "How to manage Bursitis?",
+      "Bursitis"
+    ],
+    "answer": "Rest the affected area and avoid activities that cause pain. Apply ice to the affected area for 15-20 minutes every hour. Use over-the-counter pain relievers. Perform gentle stretching and strengthening exercises. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_295": {
+    "examples": [
+      "How to treat Plantar Fasciitis?",
+      "What to do for Plantar Fasciitis?",
+      "First aid for Plantar Fasciitis?",
+      "How to manage Plantar Fasciitis?",
+      "Plantar Fasciitis"
+    ],
+    "answer": "Rest the affected foot and avoid activities that cause pain. Apply ice to the affected area for 15-20 minutes every hour. Use over-the-counter pain relievers. Perform gentle stretching exercises for the foot and calf. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_296": {
+    "examples": [
+      "How to treat Carpal Tunnel Syndrome?",
+      "What to do for Carpal Tunnel Syndrome?",
+      "First aid for Carpal Tunnel Syndrome?",
+      "How to manage Carpal Tunnel Syndrome?",
+      "Carpal Tunnel Syndrome"
+    ],
+    "answer": "Rest the affected hand and wrist and avoid activities that cause pain. Use a wrist splint to immobilize the wrist. Apply ice to the affected area for 15-20 minutes every hour. Use over-the-counter pain relievers. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_297": {
+    "examples": [
+      "How to treat Sciatica?",
+      "What to do for Sciatica?",
+      "First aid for Sciatica?",
+      "How to manage Sciatica?",
+      "Sciatica"
+    ],
+    "answer": "Rest and avoid activities that cause pain. Apply ice or heat to the affected area. Use over-the-counter pain relievers. Perform gentle stretching and strengthening exercises for the lower back. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_298": {
+    "examples": [
+      "How to treat Gout?",
+      "What to do for Gout?",
+      "First aid for Gout?",
+      "How to manage Gout?",
+      "Gout"
+    ],
+    "answer": "Take prescribed medications for gout. Rest and elevate the affected joint. Apply ice to the affected area to reduce swelling. Avoid foods and drinks high in purines. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_299": {
+    "examples": [
+      "How to treat Osteoporosis?",
+      "What to do for Osteoporosis?",
+      "First aid for Osteoporosis?",
+      "How to manage Osteoporosis?",
+      "Osteoporosis"
+    ],
+    "answer": "Take prescribed medications for osteoporosis. Follow a diet rich in calcium and vitamin D. Engage in weight-bearing exercises. Avoid smoking and excessive alcohol consumption. Seek medical help if symptoms worsen or do not improve."
+  },
+  "intent_300": {
+    "examples": [
+      "How to treat Multiple Sclerosis?",
+      "What to do for Multiple Sclerosis?",
+      "First aid for Multiple Sclerosis?",
+      "How to manage Multiple Sclerosis?",
+      "Multiple Sclerosis"
+    ],
+    "answer": "Take prescribed medications for multiple sclerosis. Follow a healthy diet and stay physically active. Manage stress and get plenty of rest. Seek medical help if symptoms worsen or do not improve. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_301": {
+    "examples": [
+      "How to treat Parkinson's Disease?",
+      "What to do for Parkinson's Disease?",
+      "First aid for Parkinson's Disease?",
+      "How to manage Parkinson's Disease?",
+      "Parkinson's Disease"
+    ],
+    "answer": "Take prescribed medications for Parkinson's disease. Engage in regular physical activity to maintain mobility. Follow a healthy diet and get plenty of rest. Seek medical help if symptoms worsen or do not improve. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_302": {
+    "examples": [
+      "How to treat Alzheimer's Disease?",
+      "What to do for Alzheimer's Disease?",
+      "First aid for Alzheimer's Disease?",
+      "How to manage Alzheimer's Disease?",
+      "Alzheimer's Disease"
+    ],
+    "answer": "Take prescribed medications for Alzheimer's disease. Create a safe and supportive living environment. Follow a structured routine to reduce confusion. Seek medical help if symptoms worsen or do not improve. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_303": {
+    "examples": [
+      "How to treat Dementia?",
+      "What to do for Dementia?",
+      "First aid for Dementia?",
+      "How to manage Dementia?",
+      "Dementia"
+    ],
+    "answer": "Take prescribed medications for dementia. Create a safe and supportive living environment. Follow a structured routine to reduce confusion. Seek medical help if symptoms worsen or do not improve. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_304": {
+    "examples": [
+      "How to treat Glaucoma?",
+      "What to do for Glaucoma?",
+      "First aid for Glaucoma?",
+      "How to manage Glaucoma?",
+      "Glaucoma"
+    ],
+    "answer": "Take prescribed medications for glaucoma. Follow the treatment plan prescribed by the healthcare provider. Avoid activities that increase eye pressure. Seek medical help if symptoms worsen or do not improve. Follow regular eye check-up appointments."
+  },
+  "intent_305": {
+    "examples": [
+      "How to treat Cataracts?",
+      "What to do for Cataracts?",
+      "First aid for Cataracts?",
+      "How to manage Cataracts?",
+      "Cataracts"
+    ],
+    "answer": "Follow the treatment plan prescribed by the healthcare provider, which may include surgery. Avoid activities that strain the eyes. Seek medical help if symptoms worsen or do not improve. Follow regular eye check-up appointments."
+  },
+  "intent_306": {
+    "examples": [
+      "How to treat Macular Degeneration?",
+      "What to do for Macular Degeneration?",
+      "First aid for Macular Degeneration?",
+      "How to manage Macular Degeneration?",
+      "Macular Degeneration"
+    ],
+    "answer": "Take prescribed medications or supplements for macular degeneration. Follow a diet rich in antioxidants and omega-3 fatty acids. Avoid smoking and excessive alcohol consumption. Seek medical help if symptoms worsen or do not improve. Follow regular eye check-up appointments."
+  },
+  "intent_307": {
+    "examples": [
+      "How to treat Retinal Detachment?",
+      "What to do for Retinal Detachment?",
+      "First aid for Retinal Detachment?",
+      "How to manage Retinal Detachment?",
+      "Retinal Detachment"
+    ],
+    "answer": "Seek immediate medical help as retinal detachment is a medical emergency. Follow the treatment plan prescribed by the healthcare provider, which may include surgery. Avoid activities that strain the eyes. Follow regular eye check-up appointments."
+  },
+  "intent_308": {
+    "examples": [
+      "How to treat Glomerulonephritis?",
+      "What to do for Glomerulonephritis?",
+      "First aid for Glomerulonephritis?",
+      "How to manage Glomerulonephritis?",
+      "Glomerulonephritis"
+    ],
+    "answer": "Take prescribed medications for glomerulonephritis. Follow a low-salt, low-protein diet. Stay hydrated by drinking plenty of fluids. Seek medical help if symptoms worsen or do not improve. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_309": {
+    "examples": [
+      "How to treat Nephrotic Syndrome?",
+      "What to do for Nephrotic Syndrome?",
+      "First aid for Nephrotic Syndrome?",
+      "How to manage Nephrotic Syndrome?",
+      "Nephrotic Syndrome"
+    ],
+    "answer": "Take prescribed medications for nephrotic syndrome. Follow a low-salt, low-protein diet. Stay hydrated by drinking plenty of fluids. Seek medical help if symptoms worsen or do not improve. Follow the treatment plan prescribed by the healthcare provider."
+  },
+  "intent_310": {
+    "examples": [
+      "How to treat Hemodialysis?",
+      "What to do for Hemodialysis?",
+      "First aid for Hemodialysis?",
+      "How to manage Hemodialysis?",
+      "Hemodialysis"
+    ],
+    "answer": "Follow the treatment plan prescribed by the healthcare provider. Monitor fluid intake and follow dietary restrictions. Attend all scheduled dialysis sessions. Seek medical help if symptoms worsen or do not improve. Follow regular check-up appointments."
+  }
+}
