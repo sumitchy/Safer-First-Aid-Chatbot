@@ -1811,6 +1811,89 @@ given n=8 throughout:
   and guideline-safety are different axes, and a system should never be
   ranked on one instead of the other.
 
+### 14.4.1 The RAG-vs-VanillaLLM finding this data actually supports (and complicates)
+
+The reason this matters beyond a docstring caveat: BERTScore and congruence
+**disagree about which system wins**, backend by backend, and the direction
+of disagreement is consistent enough to be a finding, not noise.
+
+Congruence (Sections 6.2, 10.5, 11.3, 13.9) found RAG beating VanillaLLM on
+only 1 of 5 comparable backends:
+
+| Backend | RAG congruence | VanillaLLM congruence | Congruence winner |
+|---|---|---|---|
+| Qwen2.5-0.5B | 0.5625 | 0.5104 | **RAG** |
+| gemma-4-e4b | 0.7292 | 1.0 | VanillaLLM |
+| gpt-oss-120b | 0.8021 | 0.9583 | VanillaLLM |
+| qwen3.6-27b | 0.8333 | 0.9583 | VanillaLLM |
+| gemini-2.5-flash-lite | 0.75 | 0.9583 | VanillaLLM |
+
+BERTScore-F1 (Section 14.3), on the same five backends, inverts that
+scoreboard almost exactly — RAG beats VanillaLLM on 4 of 5:
+
+| Backend | RAG bertscore_f1 | VanillaLLM bertscore_f1 | BERTScore winner |
+|---|---|---|---|
+| Qwen2.5-0.5B | 0.7573 | 0.7348 | **RAG** |
+| gemma-4-e4b | — (Section 14.1: VanillaLLM record lost) | — | n/a |
+| gpt-oss-120b | 0.7509 | 0.7328 | **RAG** |
+| qwen3.6-27b | 0.6987 | 0.7157 | VanillaLLM |
+| gemini-2.5-flash-lite | 0.7619 | 0.7436 | **RAG** |
+
+Read together, this is not "one metric is right and the other is wrong" — it
+is evidence that **congruence and BERTScore are measuring different things
+that happen to move in opposite directions for these two systems**. The
+mechanism was checked rather than assumed: mean word count of `raw_answer`
+was computed per system per backend from `responses_with_nlp.jsonl` and
+compared against `bertscore_f1`.
+
+| Backend | RAG words | RAG bertscore | VanillaLLM words | VanillaLLM bertscore | Longer system |
+|---|---|---|---|---|---|
+| Qwen2.5-0.5B | 209.8 | 0.7573 | 251.2 | 0.7348 | VanillaLLM (lower bertscore) |
+| gpt-oss-120b | 292.5 | 0.7509 | 580.1 | 0.7328 | VanillaLLM (lower bertscore) |
+| qwen3.6-27b | 1280.9 | 0.6987 | 965.2 | 0.7157 | **RAG** (lower bertscore) |
+| gemini-2.5-flash-lite | 146.8 | 0.7619 | 387.6 | 0.7436 | VanillaLLM (lower bertscore) |
+
+In all 4 backends with both systems on disk, whichever system wrote the
+**longer** answer has the **lower** BERTScore — regardless of whether that
+longer system is RAG or VanillaLLM. `qwen3.6-27b` is the clean disconfirming
+case for a simpler "VanillaLLM is just verbose" story: there RAG is the
+long one (1280.9 words, likely echoing large retrieved guideline chunks
+into the answer) and RAG is also the one with the lower BERTScore. So the
+mechanism is not "which system" but **length itself**: longer generations
+drift further, on a holistic semantic-similarity measure, from a single
+short `reference_answer` in `scenarios.json`, while the keyword-based
+congruence scorer keeps rewarding more discrete checklist items regardless
+of how much surrounding text they're embedded in. VanillaLLM happens to be
+the longer system in 4 of 5 backends (no retrieval budget constraining it,
+per Section 10.3's `max_tokens` discussion), which is why the congruence/
+BERTScore inversion in the table above tracks the RAG/VanillaLLM split most
+of the time — but the underlying cause is answer length, not architecture.
+
+**Why this matters for the thesis's RQ1** ("does RAG reduce
+guideline-discordant advice relative to a vanilla LLM?"): Section 11.4/13.9
+already reported that the congruence-based answer to RQ1 is unstable across
+backends and, taken at face value, mostly favours VanillaLLM — a
+counter-intuitive result for a RAG-grounding hypothesis. This session's
+BERTScore data is the first independent metric that points the other way,
+toward RAG, on the majority of backends. That does not resolve RQ1 in RAG's
+favour — BERTScore measures semantic similarity to a reference answer, not
+guideline safety, and n=8 throughout means neither pattern is statistically
+solid — but it changes how the congruence-favours-VanillaLLM result should be
+written up: it is not simply "RAG underperforms," it is "the two metrics
+disagree about what 'better' means here," and a thesis chapter presenting
+Section 11.4's congruence table without this NLP-metrics counter-signal would
+be presenting a narrower and more one-sided picture than the data actually
+supports. The methodologically honest framing is that congruence rewards
+explicit per-item coverage regardless of length, while BERTScore rewards
+holistic fidelity to a single terse reference and penalises length as a
+side effect — and this project's automatic scoring, as currently designed,
+cannot adjudicate between those two notions of "correct," nor separate
+"longer" from "more guideline-discordant."
+This is a second, independent illustration of the Act Four measurement
+problem (Section 12.8): not just that keyword matching is negation-blind
+(Section 10.8), but that even after fixing negation, congruence and semantic
+similarity can rank the same two systems in opposite order.
+
 ### 14.5 What is still missing (checklist-authoring tooling)
 
 The other item flagged at the start of this session — checklist-authoring
@@ -1849,7 +1932,14 @@ documentation_of_code.md              (modified: Section 10.5/10.6 corrected,
    (Section 14.1) — not re-generated this session since the aggregate
    summary already matches Section 10.5 and re-running would cost a fresh
    LM Studio call per record; flagged rather than fixed.
-3. Sections 8, 10.7, 11.6, and 13.8's remaining items (seizure corpus gap,
+3. **Length-vs-congruence correlation not yet computed at the per-record
+   level** — Section 14.4.1's word-count table is per-system, per-backend
+   means (n=8 each). A per-record scatter of word count against congruence
+   and against bertscore_f1 (n≈100 across all backends/systems) would confirm
+   whether the aggregate pattern holds at the individual-response level or is
+   an artefact of averaging, before citing it as a general property of the
+   scoring pipeline rather than of these six runs.
+4. Sections 8, 10.7, 11.6, and 13.8's remaining items (seizure corpus gap,
    checklist scale-up, FirstAidQA wiring, human evaluation / Cohen's Kappa,
    ablations, RCUK version note, negation-heuristic validation) remain
    outstanding and unaffected by this session.
