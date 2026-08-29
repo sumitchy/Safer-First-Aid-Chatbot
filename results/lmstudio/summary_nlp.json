@@ -1,0 +1,10 @@
+{
+  "RAG": {
+    "bleu": 0.0202,
+    "rouge1": 0.2301,
+    "rouge2": 0.0564,
+    "rougeL": 0.1493,
+    "bertscore_f1": 0.7602,
+    "flesch_reading_ease": 55.5475
+  }
+}

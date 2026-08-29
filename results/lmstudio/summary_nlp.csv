@@ -1,0 +1,2 @@
+system,bleu,rouge1,rouge2,rougeL,bertscore_f1,flesch_reading_ease
+RAG,0.0202,0.2301,0.0564,0.1493,0.7602,55.5475

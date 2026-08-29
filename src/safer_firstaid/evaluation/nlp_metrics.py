@@ -55,6 +55,8 @@ def compute_nlp_metrics(prediction: str, reference: str) -> NLPMetrics:
     import sacrebleu
     from rouge_score import rouge_scorer
 
+    from .bertscore_subprocess import compute_bertscore_f1
+
     # BLEU (sentence-level via sacrebleu, scaled 0-1)
     bleu = sacrebleu.sentence_bleu(prediction, [reference]).score / 100.0
 
@@ -62,14 +64,9 @@ def compute_nlp_metrics(prediction: str, reference: str) -> NLPMetrics:
     scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
     rouge = scorer.score(reference, prediction)
 
-    # BERTScore (import lazily; heavy)
-    try:
-        from bert_score import score as bertscore
-
-        _, _, f1 = bertscore([prediction], [reference], lang="en", verbose=False)
-        bert_f1 = float(f1.mean())
-    except Exception:
-        bert_f1 = float("nan")  # allow running without bert-score installed
+    # BERTScore runs in an isolated subprocess so a model crash becomes NaN
+    # rather than killing the whole evaluation run.
+    bert_f1 = compute_bertscore_f1(prediction, reference)
 
     return NLPMetrics(
         bleu=round(bleu, 4),
