@@ -14,8 +14,11 @@ import json
 from pathlib import Path
 
 import typer
+from dotenv import load_dotenv
 from rich import print as rprint
 from rich.panel import Panel
+
+load_dotenv()
 
 from .baselines import IntentClassifierBaseline, VanillaLLMBaseline
 from .config import load_config

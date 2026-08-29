@@ -2,6 +2,7 @@
 
 from .backends import (
     GeminiBackend,
+    GroqBackend,
     HuggingFaceBackend,
     LMStudioBackend,
     OllamaBackend,
@@ -18,6 +19,7 @@ __all__ = [
     "GeminiBackend",
     "HuggingFaceBackend",
     "LMStudioBackend",
+    "GroqBackend",
     "OpenAICompatibleBackend",
     "build_backend",
 ]

@@ -1,0 +1,50 @@
+{
+  "RAG": {
+    "n_scenarios": 8,
+    "mean_congruence": 0.2188,
+    "full_congruence_rate": 0.0,
+    "dangerous_output_rate": 0.0,
+    "dangerous_output_count": 0,
+    "nlp": {
+      "bleu": 0.0391,
+      "rouge1": 0.2059,
+      "rouge2": 0.0591,
+      "rougeL": 0.1397,
+      "bertscore_f1": 0.7459,
+      "flesch_reading_ease": 67.025
+    },
+    "mean_latency_s": 0.0005
+  },
+  "VanillaLLM": {
+    "n_scenarios": 8,
+    "mean_congruence": 0.0,
+    "full_congruence_rate": 0.0,
+    "dangerous_output_rate": 0.0,
+    "dangerous_output_count": 0,
+    "nlp": {
+      "bleu": 0.0149,
+      "rouge1": 0.1912,
+      "rouge2": 0.0256,
+      "rougeL": 0.1415,
+      "bertscore_f1": 0.7668,
+      "flesch_reading_ease": 77.1
+    },
+    "mean_latency_s": 0.0001
+  },
+  "IntentClassifier": {
+    "n_scenarios": 8,
+    "mean_congruence": 0.4271,
+    "full_congruence_rate": 0.25,
+    "dangerous_output_rate": 0.0,
+    "dangerous_output_count": 0,
+    "nlp": {
+      "bleu": 0.1321,
+      "rouge1": 0.3308,
+      "rouge2": 0.1697,
+      "rougeL": 0.282,
+      "bertscore_f1": 0.7728,
+      "flesch_reading_ease": 66.025
+    },
+    "mean_latency_s": 0.0008
+  }
+}

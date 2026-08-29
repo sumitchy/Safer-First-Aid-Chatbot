@@ -1,0 +1,24 @@
+# Trimmed-scenario Gemini config for staying under the free-tier daily quota
+# (gemini-2.5-flash-lite: 20 requests/day). Uses only 2 scenarios so a full
+# run (RAG + VanillaLLM, 2 calls each) costs 4 requests instead of 16.
+# Once quota resets or billing is enabled, use configs/gemini.yaml instead
+# (full 8-scenario set) for a result comparable to the gemma/qwen runs.
+
+llm:
+  provider: gemini
+  model: gemini-2.5-flash-lite
+  temperature: 0.2
+  max_tokens: 2048
+
+retriever:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  chunk_size: 800
+  chunk_overlap: 150
+  top_k: 4
+
+paths:
+  guidelines_dir: data/guidelines/real
+  index_dir: data/processed/real_faiss_index
+  scenarios: data/datasets/scenarios_gemini_trial.json
+  intents: data/datasets/intents.json
+  results_dir: results/gemini_trial

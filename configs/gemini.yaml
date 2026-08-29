@@ -1,0 +1,24 @@
+# Configuration for using the Google Gemini API as the LLM backend.
+#
+# Setup:
+#   1. Put your key in .env at repo root:  GOOGLE_API_KEY=your-key
+#   2. The CLI loads .env automatically (python-dotenv), no export needed.
+
+llm:
+  provider: gemini
+  model: gemini-2.5-flash-lite
+  temperature: 0.2
+  max_tokens: 2048
+
+retriever:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  chunk_size: 800
+  chunk_overlap: 150
+  top_k: 4
+
+paths:
+  guidelines_dir: data/guidelines/real
+  index_dir: data/processed/real_faiss_index
+  scenarios: data/datasets/scenarios.json
+  intents: data/datasets/intents.json
+  results_dir: results/gemini

@@ -72,22 +72,39 @@ class GeminiBackend(LLMBackend):
         config = config or GenerationConfig()
         if not self.api_key:
             raise LLMBackendError("GOOGLE_API_KEY not set for Gemini backend.")
-        try:
-            import google.generativeai as genai
+        import time
 
-            genai.configure(api_key=self.api_key)
-            model = genai.GenerativeModel(self.model)
-            response = model.generate_content(
-                prompt,
-                generation_config={
-                    "temperature": config.temperature,
-                    "max_output_tokens": config.max_tokens,
-                    "top_p": config.top_p,
-                },
-            )
-            return (response.text or "").strip()
-        except Exception as exc:  # noqa: BLE001
-            raise LLMBackendError(f"Gemini generation failed: {exc}") from exc
+        import google.generativeai as genai
+        from google.api_core.exceptions import ResourceExhausted
+
+        genai.configure(api_key=self.api_key)
+        model = genai.GenerativeModel(self.model)
+
+        max_retries = 5
+        for attempt in range(max_retries):
+            try:
+                response = model.generate_content(
+                    prompt,
+                    generation_config={
+                        "temperature": config.temperature,
+                        "max_output_tokens": config.max_tokens,
+                        "top_p": config.top_p,
+                    },
+                )
+                return (response.text or "").strip()
+            except ResourceExhausted as exc:
+                if "PerDay" in str(exc):
+                    raise LLMBackendError(
+                        f"Gemini daily quota exhausted (retrying will not help "
+                        f"until reset): {exc}"
+                    ) from exc
+                if attempt == max_retries - 1:
+                    raise LLMBackendError(f"Gemini generation failed: {exc}") from exc
+                retry_delay = getattr(exc, "retry_delay", None)
+                wait_s = retry_delay.seconds if retry_delay else 30
+                time.sleep(wait_s + 1)
+            except Exception as exc:  # noqa: BLE001
+                raise LLMBackendError(f"Gemini generation failed: {exc}") from exc
 
 
 # --------------------------------------------------------------------------- #
@@ -194,6 +211,8 @@ class OpenAICompatibleBackend(LLMBackend):
 
     def generate(self, prompt: str, config: GenerationConfig | None = None) -> str:
         import json
+        import re
+        import time
         import urllib.error
         import urllib.request
 
@@ -216,24 +235,33 @@ class OpenAICompatibleBackend(LLMBackend):
             headers={
                 "Content-Type": "application/json",
                 "Authorization": f"Bearer {self.api_key}",
+                "User-Agent": "safer-firstaid-chatbot/0.1",
             },
             method="POST",
         )
-        try:
-            with urllib.request.urlopen(req, timeout=180) as resp:  # noqa: S310
-                body = json.loads(resp.read().decode())
-            return body["choices"][0]["message"]["content"].strip()
-        except urllib.error.HTTPError as exc:
-            detail = exc.read().decode(errors="ignore")
-            raise LLMBackendError(
-                f"OpenAI-compatible server returned HTTP {exc.code}: {detail}. "
-                f"If using LM Studio, check the model id matches GET {self.base_url}/models."
-            ) from exc
-        except Exception as exc:  # noqa: BLE001
-            raise LLMBackendError(
-                f"OpenAI-compatible generation failed ({self.base_url}): {exc}. "
-                f"Is the server running?"
-            ) from exc
+
+        max_retries = 5
+        for attempt in range(max_retries):
+            try:
+                with urllib.request.urlopen(req, timeout=180) as resp:  # noqa: S310
+                    body = json.loads(resp.read().decode())
+                return body["choices"][0]["message"]["content"].strip()
+            except urllib.error.HTTPError as exc:
+                detail = exc.read().decode(errors="ignore")
+                if exc.code == 429 and attempt < max_retries - 1:
+                    match = re.search(r"try again in ([\d.]+)s", detail)
+                    wait_s = float(match.group(1)) if match else 15.0
+                    time.sleep(wait_s + 1)
+                    continue
+                raise LLMBackendError(
+                    f"OpenAI-compatible server returned HTTP {exc.code}: {detail}. "
+                    f"If using LM Studio, check the model id matches GET {self.base_url}/models."
+                ) from exc
+            except Exception as exc:  # noqa: BLE001
+                raise LLMBackendError(
+                    f"OpenAI-compatible generation failed ({self.base_url}): {exc}. "
+                    f"Is the server running?"
+                ) from exc
 
 
 class LMStudioBackend(OpenAICompatibleBackend):
@@ -256,6 +284,23 @@ class LMStudioBackend(OpenAICompatibleBackend):
         self.name = f"lmstudio:{model}"
 
 
+class GroqBackend(OpenAICompatibleBackend):
+    """Convenience wrapper for the Groq API (OpenAI-compatible, cloud-hosted).
+
+    Prerequisite: set the API key in the environment:
+        export GROQ_API_KEY="your-key"
+    """
+
+    def __init__(self, model: str = "llama-3.1-8b-instant", base_url: str | None = None,
+                 api_key: str | None = None) -> None:
+        super().__init__(
+            model=model,
+            base_url=base_url or os.environ.get("GROQ_BASE_URL", "https://api.groq.com/openai/v1"),
+            api_key=api_key or os.environ.get("GROQ_API_KEY", "not-needed"),
+        )
+        self.name = f"groq:{model}"
+
+
 # --------------------------------------------------------------------------- #
 # Factory                                                                     #
 # --------------------------------------------------------------------------- #
@@ -273,6 +318,7 @@ _BACKENDS = {
     "hf": HuggingFaceBackend,
     "lmstudio": LMStudioBackend,
     "lm-studio": LMStudioBackend,
+    "groq": GroqBackend,
     "openai": OpenAICompatibleBackend,
     "openai-compatible": OpenAICompatibleBackend,
     "vllm": OpenAICompatibleBackend,

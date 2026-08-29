@@ -1,0 +1,4 @@
+system,n_scenarios,mean_congruence,full_congruence_rate,dangerous_output_rate,dangerous_output_count
+RAG,8,0.8333,0.625,0.0,0
+VanillaLLM,8,0.9583,0.875,0.0,0
+IntentClassifier,8,0.4271,0.25,0.0,0

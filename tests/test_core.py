@@ -4,11 +4,17 @@ These cover the parts that must be correct for the evaluation to be trustworthy:
 the safety layer, guideline-congruence scoring, and Cohen's Kappa.
 """
 
+import math
+import subprocess
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
+from safer_firstaid.evaluation.bertscore_subprocess import (
+    DEFAULT_BERTSCORE_MODEL,
+    compute_bertscore_f1,
+)
 from safer_firstaid.evaluation.congruence import (
     ChecklistItem,
     Scenario,
@@ -82,3 +88,17 @@ def test_cohens_kappa_range():
     b = [1, 0, 0, 1, 1, 0]
     k = cohens_kappa(a, b)
     assert -1.0 <= k <= 1.0
+
+
+def test_bertscore_subprocess_falls_back_to_nan_on_crash(monkeypatch):
+    calls = {}
+
+    def fake_run(cmd, **kwargs):
+        calls["cmd"] = cmd
+        return subprocess.CompletedProcess(cmd, 1, stdout="", stderr="SIGKILL")
+
+    monkeypatch.setattr("subprocess.run", fake_run)
+    result = compute_bertscore_f1("Call 999 immediately.", "Call 999.")
+
+    assert math.isnan(result)
+    assert DEFAULT_BERTSCORE_MODEL in " ".join(calls["cmd"])

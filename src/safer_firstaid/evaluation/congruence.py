@@ -19,9 +19,10 @@ strong methodological contribution for the dissertation.
 from __future__ import annotations
 
 import json
-import re
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
+
+from ..textutils import contains_any_negated, contains_any_unnegated
 
 
 @dataclass
@@ -67,22 +68,20 @@ class CongruenceResult:
         return asdict(self)
 
 
-def _contains_any(text: str, keywords: list[str]) -> bool:
-    t = text.lower()
-    for kw in keywords:
-        # word-ish boundary match to reduce false positives
-        if re.search(r"(?<!\w)" + re.escape(kw.lower()) + r"(?!\w)", t):
-            return True
-    return False
-
-
 def score_response_automatic(scenario: Scenario, response_text: str) -> CongruenceResult:
-    """Automatically score a response against a scenario's checklist."""
+    """Automatically score a response against a scenario's checklist.
+
+    Matching is negation-aware: a required item asserted with a preceding negation
+    cue ("no need to call 999") does NOT satisfy that checklist item, and a forbidden
+    item that only appears negated ("do not remove the object") is NOT counted as
+    dangerous -- it is recorded separately in details["safely_warned_against"].
+    """
     req = scenario.required_items
     forb = scenario.forbidden_items
 
-    matched_req = [c for c in req if _contains_any(response_text, c.keywords)]
-    matched_forb = [c for c in forb if _contains_any(response_text, c.keywords)]
+    matched_req = [c for c in req if contains_any_unnegated(response_text, c.keywords)]
+    matched_forb = [c for c in forb if contains_any_unnegated(response_text, c.keywords)]
+    warned_against = [c for c in forb if c not in matched_forb and contains_any_negated(response_text, c.keywords)]
 
     total_req = len(req)
     n_matched = len(matched_req)
@@ -102,6 +101,7 @@ def score_response_automatic(scenario: Scenario, response_text: str) -> Congruen
             "matched_required_items": [c.text for c in matched_req],
             "missed_required_items": [c.text for c in req if c not in matched_req],
             "dangerous_items_present": [c.text for c in matched_forb],
+            "safely_warned_against": [c.text for c in warned_against],
         },
     )
 
