@@ -1,0 +1,22 @@
+# Ablation: retriever.top_k = 2 (vs default 4). No index rebuild needed --
+# points at the same chunk_size=800 index as configs/ablation_chunk800.yaml.
+
+llm:
+  provider: lmstudio
+  model: qwen/qwen3-vl-8b
+  base_url: http://localhost:1234/v1
+  temperature: 0.2
+  max_tokens: 2048
+
+retriever:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  chunk_size: 800
+  chunk_overlap: 150
+  top_k: 2
+
+paths:
+  guidelines_dir: data/guidelines/real
+  index_dir: data/processed/real_faiss_index
+  scenarios: data/datasets/scenarios.json
+  intents: data/datasets/intents.json
+  results_dir: results/ablation_topk2

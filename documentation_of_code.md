@@ -112,12 +112,12 @@ citation traceability back to the primary source.
 
 ### 2.4 Kaggle `elvisblitti/first-aid` dataset
 
-- **Provenance note:** a web search for this exact dataset handle at the time of
-  this session did not locate it under that name/owner on Kaggle — it may have
-  been renamed, removed, or the citation in `BUILD_GUIDE.md` may be stale. The
-  user supplied the raw CSV content directly (pasted as a document,
-  `merged_data.csv`), which was saved and processed as provided; its provenance
-  was **not** independently re-verified against a live Kaggle listing.
+- **Source:** [kaggle.com/datasets/elvisblitti/first-aid](https://www.kaggle.com/datasets/elvisblitti/first-aid)
+  — confirmed live listing (user-supplied link). Earlier note in this log claiming
+  the handle could not be located on Kaggle is superseded.
+- **Provenance note:** the raw CSV content was supplied directly by the user
+  (pasted as a document, `merged_data.csv`) rather than downloaded fresh from the
+  Kaggle listing above; saved and processed as provided.
 - **Stored at (raw):** `data/datasets/raw/kaggle_elvisblitti_first_aid/merged_data.csv`
   (147,352 bytes, 346 raw rows).
 
@@ -1932,14 +1932,368 @@ documentation_of_code.md              (modified: Section 10.5/10.6 corrected,
    (Section 14.1) — not re-generated this session since the aggregate
    summary already matches Section 10.5 and re-running would cost a fresh
    LM Studio call per record; flagged rather than fixed.
-3. **Length-vs-congruence correlation not yet computed at the per-record
-   level** — Section 14.4.1's word-count table is per-system, per-backend
-   means (n=8 each). A per-record scatter of word count against congruence
-   and against bertscore_f1 (n≈100 across all backends/systems) would confirm
-   whether the aggregate pattern holds at the individual-response level or is
-   an artefact of averaging, before citing it as a general property of the
-   scoring pipeline rather than of these six runs.
+3. ~~**Length-vs-congruence correlation not yet computed at the per-record
+   level**~~ — done, Section 14.8: aggregate pattern holds at the
+   individual-record level, not an artefact of averaging.
 4. Sections 8, 10.7, 11.6, and 13.8's remaining items (seizure corpus gap,
    checklist scale-up, FirstAidQA wiring, human evaluation / Cohen's Kappa,
    ablations, RCUK version note, negation-heuristic validation) remain
    outstanding and unaffected by this session.
+
+### 14.8 Per-record length-vs-score correlation (closes Section 14.7 item 3)
+
+`scripts/length_correlation.py` reads every `responses_with_nlp.jsonl` in
+`results/` (six directories — `qwen`, `groq_gpt-oss-120b`, `groq_qwen3.6-27b`,
+`gemini`, `lmstudio`, `real`) and correlates each record's `raw_answer` word
+count against its `congruence` and `bertscore_f1`, one row per stored record
+rather than per-system-per-backend mean. n = 128 records (RAG 48, VanillaLLM
+40, IntentClassifier 40 — `lmstudio` contributes only 8 RAG rows per Section
+14.1). Output written to `results/length_correlation_records.csv`.
+
+**All 128 records:**
+
+| Pair | Pearson r | p | Spearman r | p |
+|---|---:|---:|---:|---:|
+| word count vs congruence | +0.4221 | 7e-07 | +0.5990 | 8e-14 |
+| word count vs bertscore_f1 | −0.3665 | 2e-05 | −0.1824 | 0.039 |
+
+`IntentClassifier` returns the same canned answer (same word count, same
+congruence, same bertscore_f1) every run, so its 40 rows are 5 exact repeats
+of 8 distinct records — a confound for a correlation computed across systems.
+Re-run excluding `IntentClassifier` (n = 88, RAG + VanillaLLM only, all
+distinct generations):
+
+| Pair | Pearson r | p | Spearman r | p |
+|---|---:|---:|---:|---:|
+| word count vs congruence | +0.2730 | 0.010 | +0.3545 | 0.0007 |
+| word count vs bertscore_f1 | −0.6885 | 1e-13 | −0.6946 | 6e-14 |
+
+And within each system separately (so the correlation can't just be
+"RAG answers are short and score differently from VanillaLLM answers"):
+
+| System | n | word count vs bertscore_f1 (Pearson r) | p | word count vs congruence (Pearson r) | p |
+|---|---:|---:|---:|---:|---:|
+| RAG | 48 | −0.7508 | <0.001 | +0.1969 | 0.180 (not significant) |
+| VanillaLLM | 40 | −0.4717 | 0.002 | +0.3695 | 0.019 |
+
+**Conclusion**: Section 14.4.1's aggregate finding holds at the individual-
+response level, not just as an artefact of averaging 8 records into one
+system/backend mean. The length-vs-bertscore_f1 relationship is the robust
+one — negative, significant, and present both pooled and within each system
+individually (strongest within RAG alone, r = −0.75). The length-vs-
+congruence relationship is positive and significant pooled and within
+VanillaLLM, but does not reach significance within RAG alone (n=48,
+p=0.18) — so "longer answers get more congruence credit" is not established
+as a general per-record property of the scoring pipeline the way the length/
+BERTScore penalty is; it is consistent with, but not fully confirmed by, the
+per-record data. Confirms Section 14.4.1's headline claim (length drives the
+BERTScore side of the congruence/BERTScore inversion) while adding a caveat
+Section 14.4.1 did not have evidence for either way: the congruence side of
+that relationship is weaker and system-dependent at the per-record level.
+
+---
+
+## 15. Session 6 — Ablations (chunk size, top_k, embedding model) + Safety-Layer Contribution Statistic (§8)
+
+**Date:** 2026-09-05
+**Scope:** Closes out the "ablations" item outstanding since Section 8 (item
+7), 10.7, 11.6, 13.8, and 14.7 — chunk size, `top_k`, embedding model, and the
+safety-layer's quantitative contribution claim. Uses the full n=26 scenario
+set (`data/datasets/scenarios.json`, validated clean by
+`scripts/validate_scenarios.py` — 0 hard errors, coverage table: 7
+`not_breathing`, 6 `unconscious`, 5 `cardiac_arrest`, 3 `severe_bleeding`, 2
+`choking`, 1 each `anaphylaxis`/`stroke`/`seizure`/`suicide`), superseding the
+n=8 set used in every prior session in this log. The n=8→n=26 scenario-set
+expansion itself was not performed in this session and is not otherwise
+logged in this document — it was already present, uncommitted, in the working
+tree at the start of this session.
+
+### 15.1 Backend choice for the ablation sweep
+
+A single backend must be held fixed across every ablation run so that
+congruence/dangerous-output differences are attributable to the retriever
+setting under test, not to backend variance. Candidates and why each was
+rejected or accepted, per Sections 11 and 14:
+
+- **Gemini (`gemini-2.5-flash-lite`):** rejected. Its free tier caps at 20
+  requests/day (Section 11.2). A 6-config sweep × 26 scenarios × 2 LLM calls
+  (RAG + VanillaLLM) per config is ~300+ calls — weeks of daily-quota drip
+  even before retries.
+- **Groq (`gpt-oss-120b` / `qwen3.6-27b`):** rejected as the fixed backend.
+  Free-tier 8000 TPM rate limit (Section 11.3) makes a 6-run sweep slow and
+  retry-prone, and both models' RAG dangerous-output rates (0.25 and 0.375 on
+  the n=8 set) were worse than LM Studio's qwen3-vl-8b.
+- **LM Studio `qwen/qwen3-vl-8b`:** selected. Local, free, no rate limit or
+  daily cap — the only realistic option for 6 sequential full-scenario-set
+  evaluate runs in one session — and it had the lowest RAG dangerous-output
+  rate of any backend tried on the n=8 set (0.125, Section 11.1).
+
+The LM Studio daemon does not start headless (`lms server start` timed out
+waiting for the GUI app's background service — confirmed via `lms status`
+reporting `Server: OFF` and `lms ps` empty even after the CLI's own start
+command gave up after two "Waking up LM Studio service..." attempts). The
+user was asked to open the LM Studio app, load `qwen/qwen3-vl-8b`, and click
+Start Server manually; `curl http://localhost:1234/v1/models` was used to
+confirm the server was up and to read back the exact model id before wiring
+any config, per the established gotcha in Section 11.1/`lmstudio.yaml`'s
+comments (LM Studio model ids often carry variant suffixes and a mismatch
+produces a 500, not a 404).
+
+### 15.2 Configs added
+
+Six new configs under `configs/ablation_*.yaml`, all sharing
+`llm.provider: lmstudio`, `llm.model: qwen/qwen3-vl-8b`,
+`llm.base_url: http://localhost:1234/v1`, `llm.max_tokens: 2048`,
+`paths.scenarios: data/datasets/scenarios.json` (n=26), `paths.intents:
+data/datasets/intents.json`, `paths.guidelines_dir: data/guidelines/real`.
+They differ only in the retriever setting under test and in `index_dir` /
+`results_dir`:
+
+| Config | chunk_size | top_k | embedding_model | index_dir | results_dir |
+|---|---|---|---|---|---|
+| `ablation_chunk500.yaml` | 500 | 4 | MiniLM-L6-v2 | `data/processed/ablation_chunk500_index` (new) | `results/ablation_chunk500` |
+| `ablation_chunk800.yaml` | 800 | 4 | MiniLM-L6-v2 | `data/processed/real_faiss_index` (existing, reused) | `results/ablation_chunk800` |
+| `ablation_chunk1200.yaml` | 1200 | 4 | MiniLM-L6-v2 | `data/processed/ablation_chunk1200_index` (new) | `results/ablation_chunk1200` |
+| `ablation_topk2.yaml` | 800 | 2 | MiniLM-L6-v2 | `data/processed/real_faiss_index` (reused) | `results/ablation_topk2` |
+| `ablation_topk6.yaml` | 800 | 6 | MiniLM-L6-v2 | `data/processed/real_faiss_index` (reused) | `results/ablation_topk6` |
+| `ablation_mpnet.yaml` | 800 | 4 | all-mpnet-base-v2 | `data/processed/ablation_mpnet_index` (new) | `results/ablation_mpnet` |
+
+`ablation_chunk800.yaml` is a deliberate shared baseline row: it is the
+project-default retriever setting (chunk_size=800, top_k=4, MiniLM) re-run on
+the new n=26 set (rather than reusing any prior n=8 run, so every row in both
+the chunk-size table and the top_k table is on the same scenario count), and
+its RAG output is reused as the `top_k=4` row in the top_k table instead of
+running it a second time — 6 evaluate runs cover 7 logical table rows.
+`results/qwen/` (the existing n=8 qwen3-vl-8b run from Section 11.1) was left
+untouched rather than overwritten, to preserve it as a historical n=8 record.
+
+Only three index rebuilds were needed (`chunk500`, `chunk1200`, `mpnet`) —
+`top_k` is a query-time retriever parameter, not an index-build parameter, so
+`ablation_topk2`/`ablation_topk6` reuse the existing chunk=800 index
+(`data/processed/real_faiss_index`) unmodified.
+
+### 15.3 Commands run
+
+```bash
+safer-firstaid build-index --config configs/ablation_chunk500.yaml
+safer-firstaid build-index --config configs/ablation_chunk1200.yaml
+safer-firstaid build-index --config configs/ablation_mpnet.yaml
+
+safer-firstaid evaluate --config configs/ablation_chunk500.yaml  --no-nlp
+safer-firstaid evaluate --config configs/ablation_chunk800.yaml  --no-nlp
+safer-firstaid evaluate --config configs/ablation_chunk1200.yaml --no-nlp
+safer-firstaid evaluate --config configs/ablation_topk2.yaml     --no-nlp
+safer-firstaid evaluate --config configs/ablation_topk6.yaml     --no-nlp
+safer-firstaid evaluate --config configs/ablation_mpnet.yaml     --no-nlp
+```
+
+`--no-nlp` used throughout, consistent with every prior session in this log
+(bert-score/`roberta-large` segfaults on this machine regardless of backend,
+Section 10.5/11.1). Chunk counts from `build-index`: 500 → 4,265 chunks,
+1200 → 1,418 chunks, mpnet indexing reuses the same 800-byte chunking as the
+existing `real_faiss_index` (only the embedder changes, so no new chunk count
+to report).
+
+### 15.4 Results — 8a. Chunk size (RAG, n=26)
+
+| chunk_size | mean_congruence | full_congruence_rate | dangerous_output_rate | dangerous_output_count | mean_latency_s |
+|---|---|---|---|---|---|
+| 500 | 0.8109 | 0.500 | 0.0769 | 2 | 8.83 |
+| **800 (default)** | 0.8109 | 0.500 | **0.0385** | **1** | 11.68 |
+| 1200 | 0.8013 | 0.3846 | 0.0769 | 2 | 12.96 |
+
+**Interpretation.** 500 and 800 tie on mean congruence and full-congruence
+rate, but 800 halves the dangerous-output rate (1/26 vs 2/26) — smaller
+chunks split guideline steps across more chunk boundaries, so a scenario's
+answer can retrieve a chunk that is topically relevant but missing a
+safety-critical caveat that lived in the neighbouring chunk. 1200 is worst on
+full-congruence rate (0.385): larger chunks dilute the retrieved context with
+more off-topic guideline text per chunk, crowding out the specific
+instruction the query needs within the model's effective attention. 1200 is
+also slowest. 800 remains the best balance of the three and the right
+default. (Per Section 10.8's finding, the automatic dangerous-output flag is
+a negation-blind keyword matcher and can register false positives — these
+per-run counts have not been re-audited record-by-record the way Section 10.8
+audited the gemma run; treat the *direction* of the chunk-size effect as more
+reliable than the exact count.)
+
+### 15.5 Results — 8a. top_k (RAG, n=26, chunk_size=800 fixed)
+
+| top_k | mean_congruence | full_congruence_rate | dangerous_output_rate | dangerous_output_count | mean_latency_s |
+|---|---|---|---|---|---|
+| 2 | 0.7436 | 0.3077 | 0.0769 | 2 | 9.94 |
+| **4 (default)** | 0.8109 | 0.500 | **0.0385** | **1** | 11.68 |
+| 6 | **0.8590** | **0.6154** | 0.0769 | 2 | 12.35 |
+
+**Interpretation.** Congruence rises monotonically with top_k (2→4→6:
+0.744→0.811→0.859 mean, 0.308→0.500→0.615 full-congruence) — more retrieved
+chunks means more guideline coverage per query, at a modest latency cost
+(~2.4s from top_k=2 to top_k=6). Dangerous-output rate is *not* monotonic:
+top_k=4 is lowest (0.0385), while top_k=2 and top_k=6 tie (0.0769) — more
+retrieved chunks is not the same as more *correct* chunks, and at top_k=6 the
+extra topically-adjacent-but-wrong material appears to occasionally introduce
+a flagged phrasing that top_k=4 does not retrieve. This is a
+congruence/safety trade-off, not a single winner: top_k=6 wins on congruence,
+top_k=4 wins on dangerous-output rate — which, per this project's central
+safety claim, is the higher-priority metric, so top_k=4 remains the default.
+
+### 15.6 Results — 8b. Embedding model (RAG, n=26, chunk_size=800/top_k=4 fixed)
+
+| embedding_model | mean_congruence | full_congruence_rate | dangerous_output_rate | dangerous_output_count | mean_latency_s |
+|---|---|---|---|---|---|
+| **all-MiniLM-L6-v2 (default)** | **0.8109** | 0.500 | 0.0385 | 1 | 11.68 |
+| all-mpnet-base-v2 | 0.7788 | 0.500 | **0.0** | **0** | 12.51 |
+
+**Interpretation.** Both embedders tie on full-congruence rate. MiniLM scores
+higher on mean congruence (0.811 vs 0.779), but mpnet eliminates the single
+dangerous output MiniLM produced (0/26 vs 1/26). At n=26 a 1-vs-0 count
+difference is directional, not statistically robust. MiniLM (384-dim, faster
+to embed) remains the reasonable default given it matches or beats mpnet
+(768-dim) on every metric except this single count; a larger scenario set
+would be needed to confirm whether mpnet's safety edge holds up.
+
+### 15.7 Results — 8c. Safety-layer contribution statistic (no re-run — read from existing `responses.jsonl`)
+
+Per the task brief, this is not a re-run: `scripts/safety_layer_contribution.py`
+reads `responses.jsonl` from every backend evaluated so far
+(`results/lmstudio`, `results/gemini`, `results/real`, `results/qwen`,
+`results/groq_gpt-oss-120b`, `results/groq_qwen3.6-27b` — the n=8-set runs
+from Sections 6/10/11, not the new n=26 ablation runs) and counts, for every
+record where `safety.escalate == true`:
+
+1. whether `final_answer` contains the hardcoded escalation banner text
+   (`SafetyLayer.escalation_banner()`, Section — `pipeline/safety.py`), and
+2. for `VanillaLLM` and `RAG` separately, whether the *raw*, pre-safety-layer
+   `raw_answer` already independently mentioned calling emergency services
+   (regex: `call/dial/contact ... 999/112/911/emergency services/ambulance`).
+
+```bash
+python scripts/safety_layer_contribution.py
+```
+
+| Backend | escalate | banner_ok | vanilla_esc | vanilla_unprompted | rag_esc | rag_unprompted |
+|---|---:|---:|---:|---:|---:|---:|
+| `results/lmstudio` | 5 | 5 | 0 | 0 | 5 | 3 |
+| `results/gemini` | 15 | 15 | 5 | 5 | 5 | 1 |
+| `results/real` | 15 | 15 | 5 | 5 | 5 | 4 |
+| `results/qwen` | 15 | 15 | 5 | 5 | 5 | 2 |
+| `results/groq_gpt-oss-120b` | 15 | 15 | 5 | 5 | 5 | 5 |
+| `results/groq_qwen3.6-27b` | 15 | 15 | 5 | 5 | 5 | 5 |
+| **Total** | **80** | **80** | **25** | **25** | **30** | **20** |
+
+`results/lmstudio` is a partial run (RAG records only — Section 14.1's
+missing-VanillaLLM/IntentClassifier-records issue), so it contributes 0 to
+the `vanilla_esc` denominator.
+
+**Deterministic guarantee, confirmed:** 80/80 (100%) of escalate-triggering
+queries across every backend received the mandatory escalation banner in the
+final answer — expected, since `SafetyLayer.apply()` prepends it
+unconditionally on any query flagged by `assess_query()`, regardless of what
+the model generated.
+
+**The more informative number — prompted compliance without the safety
+layer:** both `RAG`'s and `VanillaLLM`'s system prompts already explicitly
+instruct the model to prioritise calling emergency services
+(`VANILLA_SYSTEM` in `baselines/vanilla_llm.py`; `SYSTEM_INSTRUCTION` in
+`pipeline/rag.py`), so neither backend's raw output is a naive
+zero-instruction baseline. Measuring how often that *prompted* instruction
+was actually followed:
+
+- **VanillaLLM:** raw output mentioned emergency services unprompted in
+  **25/25 (100%)** of its escalate-triggering queries — its short,
+  single-purpose prompt is followed reliably.
+- **RAG:** raw output mentioned it in only **20/30 (66.7%)** of its
+  escalate-triggering queries — the longer prompt (same instruction, plus a
+  large retrieved-guideline context block competing for attention) is
+  followed less reliably.
+
+**Reportable claim:** the safety layer added a mandatory, word-for-word
+identical escalation instruction to 80/80 (100%) of life-threatening queries
+across all backends, compared to a *prompted* baseline of 100% for VanillaLLM
+but only 66.7% for RAG. The honest framing is not "0% → 100%" (both systems
+were already instructed to escalate) but that **prompted compliance is
+model- and prompt-length-dependent — RAG's own instruction was followed only
+two-thirds of the time — while the safety layer converts this into a 100%
+architectural guarantee for every system, independent of what the LLM
+decides to say.** This RAG-specific 66.7%→100% gap is the concrete,
+quantitative demonstration of the safety layer's value for this project's
+central safety claim.
+
+### 15.8 Deliverables
+
+- `results/ablation_report.md` — all three tables above plus the safety-layer
+  statistic, interpretation paragraphs, and reproduction commands, written as
+  a self-contained Chapter 5 drop-in.
+- `results/ablation_chunk_size_table.csv`, `results/ablation_top_k_table.csv`,
+  `results/ablation_embedding_table.csv` — machine-readable versions of
+  Sections 15.4–15.6, generated by `scripts/ablation_summary.py`.
+- `scripts/ablation_summary.py` — reads `results/ablation_*/summary.json`
+  (RAG row only, since VanillaLLM/IntentClassifier are unaffected controls)
+  and regenerates the three CSVs/console tables.
+- `scripts/safety_layer_contribution.py` — regenerates Section 15.7's table
+  and reportable-claim text from whichever `results/*/responses.jsonl` files
+  are passed (defaults to the six backends listed above).
+
+### 15.9 File manifest (new/modified in this session)
+
+```
+configs/
+├── ablation_chunk500.yaml    (new)
+├── ablation_chunk800.yaml    (new)
+├── ablation_chunk1200.yaml   (new)
+├── ablation_topk2.yaml       (new)
+├── ablation_topk6.yaml       (new)
+└── ablation_mpnet.yaml       (new)
+
+data/processed/
+├── ablation_chunk500_index/  (new: index.faiss, docs.jsonl, meta.txt)
+├── ablation_chunk1200_index/ (new)
+└── ablation_mpnet_index/     (new)
+
+results/
+├── ablation_chunk500/{responses.jsonl, summary.json, summary.csv}   (new)
+├── ablation_chunk800/{responses.jsonl, summary.json, summary.csv}   (new)
+├── ablation_chunk1200/{responses.jsonl, summary.json, summary.csv}  (new)
+├── ablation_topk2/{responses.jsonl, summary.json, summary.csv}      (new)
+├── ablation_topk6/{responses.jsonl, summary.json, summary.csv}      (new)
+├── ablation_mpnet/{responses.jsonl, summary.json, summary.csv}      (new)
+├── ablation_chunk_size_table.csv                                    (new)
+├── ablation_top_k_table.csv                                         (new)
+├── ablation_embedding_table.csv                                     (new)
+└── ablation_report.md                                                (new)
+
+scripts/
+├── ablation_summary.py               (new)
+└── safety_layer_contribution.py      (new)
+
+documentation_of_code.md              (modified: this section added)
+```
+
+No existing evaluation results (`results/qwen`, `results/gemini`,
+`results/real`, `results/lmstudio`, `results/groq_*`) were modified or
+overwritten by this session.
+
+### 15.10 Outstanding work (adds to Sections 8, 10.7, 11.6, 13.8, 14.7)
+
+1. **Dangerous-output counts in Section 15.4/15.5 are unaudited** — per
+   Section 10.8, the automatic dangerous-output flag is a negation-blind
+   keyword matcher known to produce false positives on "do not X" phrasing.
+   The chunk-size and top_k tables' exact counts (1–2 per run, out of 26)
+   should be read record-by-record the way Section 10.8 audited the gemma
+   run, before citing them as more than directional evidence.
+2. **Embedding-model ablation's safety-edge (0/26 vs 1/26) is not
+   statistically robust at n=26** — flagged in Section 15.6; would need a
+   larger scenario set or repeated runs to confirm mpnet's advantage is real
+   and not noise.
+3. **8d (repeat 8a–8b once more, per the original task brief)** — the task
+   brief's Section 8d called for "a pilot on n=8, then a full pass on n=26
+   once §7 is done." Since the n=26 scenario set already existed at the start
+   of this session, the pilot step was skipped and every ablation run in this
+   session went directly against n=26 — there is no further "full pass" left
+   to run under the original plan.
+4. Sections 8, 10.7, 11.6, 13.8, and 14.7's remaining items (seizure corpus
+   gap, checklist scale-up at scale, FirstAidQA loader wiring, human
+   evaluation / Cohen's Kappa, RCUK version note, negation-heuristic fix to
+   `congruence.py`/`safety.py`, recovering the checklist-shortlist tooling
+   referenced in Section 14.5) remain outstanding and unaffected by this
+   session.

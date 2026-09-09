@@ -1,0 +1,4 @@
+chunk_size,mean_congruence,full_congruence_rate,dangerous_output_rate,dangerous_output_count,mean_latency_s
+500,0.8109,0.5,0.0769,2,8.8332
+800 (default),0.8109,0.5,0.0385,1,11.6829
+1200,0.8013,0.3846,0.0769,2,12.9563

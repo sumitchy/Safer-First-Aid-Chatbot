@@ -1,0 +1,25 @@
+# Ablation baseline: retriever.chunk_size = 800 (the project default), n=26
+# scenario set, fixed backend LM Studio qwen/qwen3-vl-8b. This is the shared
+# baseline row for BOTH the chunk-size table and the top_k table (top_k=4 here
+# matches configs/ablation_topk4 in all but name, so it is not re-run).
+# Reuses the existing real_faiss_index (already built at chunk_size 800).
+
+llm:
+  provider: lmstudio
+  model: qwen/qwen3-vl-8b
+  base_url: http://localhost:1234/v1
+  temperature: 0.2
+  max_tokens: 2048
+
+retriever:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  chunk_size: 800
+  chunk_overlap: 150
+  top_k: 4
+
+paths:
+  guidelines_dir: data/guidelines/real
+  index_dir: data/processed/real_faiss_index
+  scenarios: data/datasets/scenarios.json
+  intents: data/datasets/intents.json
+  results_dir: results/ablation_chunk800

@@ -5,11 +5,44 @@
     "reference_answer": "Encourage them to cough. If that fails, give up to five back blows between the shoulder blades, then up to five abdominal thrusts. Call 999 if it does not clear. Alternate back blows and abdominal thrusts until help arrives.",
     "source": "IFRC 2020 / Resuscitation Council UK 2021 (choking)",
     "checklist": [
-      {"text": "Encourage coughing", "keywords": ["cough", "coughing"]},
-      {"text": "Give back blows", "keywords": ["back blow", "back blows"]},
-      {"text": "Give abdominal thrusts", "keywords": ["abdominal thrust", "abdominal thrusts"]},
-      {"text": "Call 999", "keywords": ["999", "112", "911", "emergency"]},
-      {"text": "Do NOT give a drink to wash it down", "keywords": ["drink of water", "wash it down"], "forbidden": true}
+      {
+        "text": "Encourage coughing",
+        "keywords": [
+          "cough",
+          "coughing"
+        ]
+      },
+      {
+        "text": "Give back blows",
+        "keywords": [
+          "back blow",
+          "back blows"
+        ]
+      },
+      {
+        "text": "Give abdominal thrusts",
+        "keywords": [
+          "abdominal thrust",
+          "abdominal thrusts"
+        ]
+      },
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency"
+        ]
+      },
+      {
+        "text": "Do NOT give a drink to wash it down",
+        "keywords": [
+          "drink of water",
+          "wash it down"
+        ],
+        "forbidden": true
+      }
     ]
   },
   {
@@ -18,10 +51,40 @@
     "reference_answer": "Call 999 immediately. Start CPR: push hard and fast in the centre of the chest at 100 to 120 per minute. Use an AED if one is available and follow its instructions. Continue until help arrives.",
     "source": "Resuscitation Council UK 2021 (adult basic life support)",
     "checklist": [
-      {"text": "Call 999 immediately", "keywords": ["999", "112", "911", "emergency", "ambulance"]},
-      {"text": "Start CPR / chest compressions", "keywords": ["cpr", "chest compression", "compressions"]},
-      {"text": "Use an AED if available", "keywords": ["aed", "defibrillator"]},
-      {"text": "Do NOT give food or water", "keywords": ["give water", "give food", "drink"], "forbidden": true}
+      {
+        "text": "Call 999 immediately",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Start CPR / chest compressions",
+        "keywords": [
+          "cpr",
+          "chest compression",
+          "compressions"
+        ]
+      },
+      {
+        "text": "Use an AED if available",
+        "keywords": [
+          "aed",
+          "defibrillator"
+        ]
+      },
+      {
+        "text": "Do NOT give food or water",
+        "keywords": [
+          "give water",
+          "give food",
+          "drink"
+        ],
+        "forbidden": true
+      }
     ]
   },
   {
@@ -30,9 +93,31 @@
     "reference_answer": "Call 999. Apply firm pressure around the embedded object, not on it, and do not remove the glass. Keep pressure until emergency services arrive. Lie the person down and reassure them.",
     "source": "IFRC 2020 (severe bleeding)",
     "checklist": [
-      {"text": "Call 999", "keywords": ["999", "112", "911", "emergency", "ambulance"]},
-      {"text": "Apply direct/around-object pressure", "keywords": ["pressure"]},
-      {"text": "Do NOT remove the embedded object", "keywords": ["remove the glass", "remove the object", "pull out"], "forbidden": true}
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Apply direct/around-object pressure",
+        "keywords": [
+          "pressure"
+        ]
+      },
+      {
+        "text": "Do NOT remove the embedded object",
+        "keywords": [
+          "remove the glass",
+          "remove the object",
+          "pull out"
+        ],
+        "forbidden": true
+      }
     ]
   },
   {
@@ -41,9 +126,29 @@
     "reference_answer": "Call 999 immediately. Help them sit down and rest. If available and they are not allergic, help them chew a 300 mg aspirin. Stay with them and monitor breathing until the ambulance arrives.",
     "source": "Resuscitation Council UK 2021 / IFRC 2020 (heart attack)",
     "checklist": [
-      {"text": "Call 999", "keywords": ["999", "112", "911", "emergency", "ambulance"]},
-      {"text": "Help them sit and rest", "keywords": ["sit", "rest"]},
-      {"text": "Aspirin if not allergic", "keywords": ["aspirin"]}
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Help them sit and rest",
+        "keywords": [
+          "sit",
+          "rest"
+        ]
+      },
+      {
+        "text": "Aspirin if not allergic",
+        "keywords": [
+          "aspirin"
+        ]
+      }
     ]
   },
   {
@@ -52,9 +157,30 @@
     "reference_answer": "Cool the burn under cool running water for at least 20 minutes. Remove jewellery near the burn unless stuck. Do not apply creams, butter or ice. Cover loosely with cling film. Seek medical help for severe burns.",
     "source": "IFRC 2020 (burns)",
     "checklist": [
-      {"text": "Cool under running water 20 min", "keywords": ["running water", "cool water", "20 minutes"]},
-      {"text": "Cover loosely with cling film", "keywords": ["cling film", "cover"]},
-      {"text": "Do NOT apply butter/cream/ice", "keywords": ["butter", "apply cream", "apply ice"], "forbidden": true}
+      {
+        "text": "Cool under running water 20 min",
+        "keywords": [
+          "running water",
+          "cool water",
+          "20 minutes"
+        ]
+      },
+      {
+        "text": "Cover loosely with cling film",
+        "keywords": [
+          "cling film",
+          "cover"
+        ]
+      },
+      {
+        "text": "Do NOT apply butter/cream/ice",
+        "keywords": [
+          "butter",
+          "apply cream",
+          "apply ice"
+        ],
+        "forbidden": true
+      }
     ]
   },
   {
@@ -63,9 +189,33 @@
     "reference_answer": "This is anaphylaxis, a medical emergency. Call 999 immediately. If she has an adrenaline auto-injector (EpiPen), help her use it right away. Help her lie down with legs raised, or sit up if breathing is difficult.",
     "source": "Resuscitation Council UK 2021 (anaphylaxis)",
     "checklist": [
-      {"text": "Call 999", "keywords": ["999", "112", "911", "emergency", "ambulance"]},
-      {"text": "Use adrenaline auto-injector / EpiPen", "keywords": ["epipen", "auto-injector", "adrenaline", "epinephrine"]},
-      {"text": "Position appropriately", "keywords": ["lie down", "legs raised", "sit up"]}
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Use adrenaline auto-injector / EpiPen",
+        "keywords": [
+          "epipen",
+          "auto-injector",
+          "adrenaline",
+          "epinephrine"
+        ]
+      },
+      {
+        "text": "Position appropriately",
+        "keywords": [
+          "lie down",
+          "legs raised",
+          "sit up"
+        ]
+      }
     ]
   },
   {
@@ -74,11 +224,45 @@
     "reference_answer": "Move objects away to protect them from injury. Do not restrain them or put anything in their mouth. Cushion their head. Time the seizure. Call 999 if it lasts over five minutes or another follows.",
     "source": "IFRC 2020 (seizures)",
     "checklist": [
-      {"text": "Protect from injury / move objects", "keywords": ["move objects", "protect", "clear the area"]},
-      {"text": "Cushion the head", "keywords": ["cushion", "head"]},
-      {"text": "Time the seizure", "keywords": ["time the seizure", "time it"]},
-      {"text": "Do NOT put anything in mouth", "keywords": ["in their mouth", "in the mouth", "something in mouth"], "forbidden": true},
-      {"text": "Do NOT restrain", "keywords": ["restrain", "hold them down"], "forbidden": true}
+      {
+        "text": "Protect from injury / move objects",
+        "keywords": [
+          "move objects",
+          "protect",
+          "clear the area"
+        ]
+      },
+      {
+        "text": "Cushion the head",
+        "keywords": [
+          "cushion",
+          "head"
+        ]
+      },
+      {
+        "text": "Time the seizure",
+        "keywords": [
+          "time the seizure",
+          "time it"
+        ]
+      },
+      {
+        "text": "Do NOT put anything in mouth",
+        "keywords": [
+          "in their mouth",
+          "in the mouth",
+          "something in mouth"
+        ],
+        "forbidden": true
+      },
+      {
+        "text": "Do NOT restrain",
+        "keywords": [
+          "restrain",
+          "hold them down"
+        ],
+        "forbidden": true
+      }
     ]
   },
   {
@@ -87,9 +271,765 @@
     "reference_answer": "Wash the cut under running water, apply gentle pressure with a clean cloth to stop bleeding, and cover with a plaster. Seek medical advice if it is deep or does not stop bleeding.",
     "source": "IFRC 2020 (minor wounds)",
     "checklist": [
-      {"text": "Clean the wound", "keywords": ["wash", "clean", "running water"]},
-      {"text": "Apply pressure to stop bleeding", "keywords": ["pressure"]},
-      {"text": "Cover with a plaster/dressing", "keywords": ["plaster", "dressing", "cover"]}
+      {
+        "text": "Clean the wound",
+        "keywords": [
+          "wash",
+          "clean",
+          "running water"
+        ]
+      },
+      {
+        "text": "Apply pressure to stop bleeding",
+        "keywords": [
+          "pressure"
+        ]
+      },
+      {
+        "text": "Cover with a plaster/dressing",
+        "keywords": [
+          "plaster",
+          "dressing",
+          "cover"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "severe_bleeding_impaled_01",
+    "query": "What if the impaled object is causing severe bleeding?",
+    "reference_answer": "Do not remove an impaled object — pulling it out can make the bleeding worse. Apply direct pressure around the object to control the bleeding, call 999, and help the person lie down and stay warm to reduce the risk of shock.",
+    "source": "IFRC 2020, Severe bleeding section (embedded/impaled objects)",
+    "checklist": [
+      {
+        "text": "Apply pressure around the embedded object",
+        "keywords": [
+          "pressure around",
+          "pressure round the object",
+          "around the object"
+        ]
+      },
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Help them lie down and treat for shock",
+        "keywords": [
+          "lie down",
+          "shock",
+          "keep them warm"
+        ]
+      },
+      {
+        "text": "Do NOT remove the impaled object",
+        "keywords": [
+          "remove the object",
+          "pull out",
+          "take out",
+          "remove it"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "severe_bleeding_splinter_01",
+    "query": "What are the first aid steps if a splinter causes severe bleeding?",
+    "reference_answer": "Apply firm direct pressure to the wound with a clean dressing or cloth to control the bleeding and call 999. If blood soaks through, add another dressing on top rather than replacing the first. Do not use pressure points to try to stop severe bleeding.",
+    "source": "IFRC 2020, Severe bleeding section",
+    "checklist": [
+      {
+        "text": "Apply direct pressure to the wound",
+        "keywords": [
+          "direct pressure",
+          "pressure"
+        ]
+      },
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "If it soaks through, add another dressing on top",
+        "keywords": [
+          "another dressing",
+          "second dressing",
+          "add a dressing",
+          "on top"
+        ]
+      },
+      {
+        "text": "Do NOT use pressure points to control the bleed",
+        "keywords": [
+          "pressure point",
+          "pressure points"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "severe_bleeding_tooth_01",
+    "query": "Can a knocked-out tooth be saved if the person is experiencing severe bleeding?",
+    "reference_answer": "Control the bleeding in the mouth first with a gauze or clean cotton compress and firm pressure. Pick the tooth up by the crown only, not the root, and store it in cow's milk, an oral rehydration solution, or cling film moistened with saliva — do not let the person keep it loose in their mouth. Get them to a dentist as soon as possible; do not clean the tooth or try to re-implant it yourself.",
+    "source": "IFRC 2020, Dental avulsion section (cross-referenced to Severe bleeding)",
+    "checklist": [
+      {
+        "text": "Control mouth bleeding with a gauze/cloth compress and pressure",
+        "keywords": [
+          "gauze",
+          "pressure",
+          "compress",
+          "clean cotton"
+        ]
+      },
+      {
+        "text": "Store the tooth (by the crown) in milk, saline solution, or cling film",
+        "keywords": [
+          "milk",
+          "crown",
+          "cling film",
+          "saliva",
+          "oral rehydration"
+        ]
+      },
+      {
+        "text": "Get the person to a dentist as soon as possible",
+        "keywords": [
+          "dentist"
+        ]
+      },
+      {
+        "text": "Do NOT clean the tooth",
+        "keywords": [
+          "clean the tooth",
+          "scrub the tooth",
+          "wash the tooth"
+        ],
+        "forbidden": true
+      },
+      {
+        "text": "Do NOT re-implant the tooth yourself or let them keep it in their mouth",
+        "keywords": [
+          "re-implant",
+          "put the tooth back",
+          "keep it in their mouth",
+          "keep the tooth in his mouth"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "stroke_01",
+    "query": "How to treat Stroke?",
+    "reference_answer": "Use FAST to check for stroke signs — Face drooping, Arm weakness, Speech difficulty — and note the Time symptoms started. Call 999 immediately if you suspect a stroke. Help the person into a comfortable position, keep talking to them, and monitor their breathing while waiting for help. Do not give oxygen unless you are trained and they show signs of hypoxia.",
+    "source": "IFRC 2020, Stroke section (FAST assessment)",
+    "checklist": [
+      {
+        "text": "Use FAST — check face, arm, speech",
+        "keywords": [
+          "fast",
+          "face",
+          "arm",
+          "speech"
+        ]
+      },
+      {
+        "text": "Call 999 immediately and note the time symptoms started",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "time"
+        ]
+      },
+      {
+        "text": "Monitor breathing and reassure them",
+        "keywords": [
+          "monitor",
+          "breathing",
+          "reassure"
+        ]
+      },
+      {
+        "text": "Do NOT give oxygen unless trained",
+        "keywords": [
+          "give oxygen",
+          "administer oxygen"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "suicide_01",
+    "query": "My friend just told me they've been thinking about suicide and have a plan. I don't know what to do.",
+    "reference_answer": "Take this seriously. Ask them directly if they are having suicidal thoughts and whether they have a plan — asking does not put the idea in their head. Because they have described a concrete plan, tell them you are going to get help and call 999. Stay with them and listen without judgement, and once the immediate danger has passed, encourage them to seek professional support such as a GP or a helpline like Samaritans.",
+    "source": "RCUK 2025 First Aid Guidelines, Suicidal thoughts section",
+    "checklist": [
+      {
+        "text": "Ask directly about suicidal thoughts and any plan",
+        "keywords": [
+          "ask",
+          "suicidal thoughts",
+          "are you thinking",
+          "plan"
+        ]
+      },
+      {
+        "text": "Call 999 because a concrete plan/threat is present",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency"
+        ]
+      },
+      {
+        "text": "Listen non-judgmentally and stay with them",
+        "keywords": [
+          "listen",
+          "non-judg",
+          "stay with them"
+        ]
+      },
+      {
+        "text": "Encourage professional support (GP/helpline such as Samaritans)",
+        "keywords": [
+          "samaritans",
+          "helpline",
+          "gp",
+          "professional support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unconscious_choking_01",
+    "query": "What to do if someone was choking and is now unconscious?",
+    "reference_answer": "If a choking person becomes unresponsive, make sure 999 has been called and start CPR straight away, beginning with chest compressions. Do not perform blind finger sweeps to try to remove the object. Continue CPR until help arrives or they recover.",
+    "source": "RCUK 2025 First Aid Guidelines, Choking in an adult section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Start CPR / chest compressions",
+        "keywords": [
+          "cpr",
+          "chest compression",
+          "compressions"
+        ]
+      },
+      {
+        "text": "Do NOT perform blind finger sweeps",
+        "keywords": [
+          "finger sweep",
+          "finger sweeps"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "unconscious_notbreathing_01",
+    "query": "My brother is unconscious and not breathing.",
+    "reference_answer": "Call 999 immediately — an unresponsive person who is not breathing normally is assumed to be in cardiac arrest. Start CPR straight away: chest compressions at 100-120 per minute, pushing at least 5cm but not more than 6cm deep. Use an AED as soon as one is available. Do not stop to put him in the recovery position — that is only for someone who is breathing normally.",
+    "source": "RCUK 2025 Adult Basic Life Support, Recognising cardiac arrest / High-quality chest compressions",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Start CPR / chest compressions",
+        "keywords": [
+          "cpr",
+          "chest compression",
+          "compressions"
+        ]
+      },
+      {
+        "text": "Use an AED as soon as available",
+        "keywords": [
+          "aed",
+          "defibrillator"
+        ]
+      },
+      {
+        "text": "Do NOT put them in the recovery position instead of starting CPR",
+        "keywords": [
+          "recovery position"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "unconscious_water_01",
+    "query": "What should I do if I find someone unresponsive in the water?",
+    "reference_answer": "Do not enter the water yourself unless you are trained in water rescue. Call 999, reach the person with a flotation device if possible, and get them onto land or a boat. Once out of the water, check if they are breathing normally; if not, give five rescue breaths, then start standard CPR with chest compressions. Use an AED as soon as one is available, drying the chest first.",
+    "source": "RCUK 2025 First Aid Guidelines, Drowning section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Give five rescue breaths then start CPR if not breathing",
+        "keywords": [
+          "rescue breath",
+          "rescue breaths",
+          "cpr"
+        ]
+      },
+      {
+        "text": "Use an AED, drying the chest first",
+        "keywords": [
+          "aed",
+          "defibrillator"
+        ]
+      },
+      {
+        "text": "Do NOT enter the water unless trained in water rescue",
+        "keywords": [
+          "enter the water",
+          "go into the water",
+          "swim in"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "not_breathing_airway_01",
+    "query": "What can you do if a casualty's airway appears blocked and they're not breathing?",
+    "reference_answer": "Call 999 immediately and treat this as a suspected cardiac arrest. If you're trained to give rescue breaths and can't ventilate the chest after two attempts, suspect a foreign body airway obstruction. Start chest compressions — compression-only CPR is fine if you're not trained in rescue breaths — and follow the emergency call handler's instructions until help arrives.",
+    "source": "RCUK 2025 Adult Basic Life Support, Rescue breaths section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Start chest compressions / CPR",
+        "keywords": [
+          "cpr",
+          "chest compression",
+          "compressions"
+        ]
+      },
+      {
+        "text": "Consider foreign body airway obstruction if unable to ventilate",
+        "keywords": [
+          "foreign body",
+          "can't ventilate",
+          "unable to ventilate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "not_breathing_nopulse_01",
+    "query": "What does it mean if a casualty has no pulse but is still warm to the touch?",
+    "reference_answer": "This does not rule out cardiac arrest — the body is often still warm soon after arrest. Call 999 without delay, start CPR immediately with chest compressions, and use an AED as soon as one is available. Do not wait to see if they cool down before acting.",
+    "source": "RCUK 2025 Adult Basic Life Support, Recognising cardiac arrest section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Start CPR immediately",
+        "keywords": [
+          "cpr",
+          "chest compression",
+          "compressions"
+        ]
+      },
+      {
+        "text": "Use an AED as soon as available",
+        "keywords": [
+          "aed",
+          "defibrillator"
+        ]
+      },
+      {
+        "text": "Do NOT wait/delay because the body still feels warm",
+        "keywords": [
+          "wait to see",
+          "wait and see",
+          "delay"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "not_breathing_stonefish_01",
+    "query": "What should you do if the victim of a stonefish sting is not breathing?",
+    "reference_answer": "Treat this as cardiac arrest regardless of the cause: call 999 immediately and start CPR with chest compressions. Use an AED as soon as one is available. Continue CPR until the person shows signs of life or emergency help arrives and takes over.",
+    "source": "RCUK 2025 Adult Basic Life Support, Guidelines: the 3 steps to save a life",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Start CPR / chest compressions",
+        "keywords": [
+          "cpr",
+          "chest compression",
+          "compressions"
+        ]
+      },
+      {
+        "text": "Use an AED as soon as available",
+        "keywords": [
+          "aed",
+          "defibrillator"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "opioid_overdose_01",
+    "query": "My friend took too much heroin, is barely breathing, and their lips look blue. What do I do?",
+    "reference_answer": "This looks like an opioid overdose. Call 999. If they become unresponsive and stop breathing normally, start CPR. Give naloxone if you're trained and it's available, following the packaging instructions if a repeat dose is needed. Keep reassessing their breathing and stay with them until help arrives.",
+    "source": "RCUK 2025 First Aid Guidelines, Opiate/opioid poisoning section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Start CPR if unresponsive and not breathing normally",
+        "keywords": [
+          "cpr"
+        ]
+      },
+      {
+        "text": "Give naloxone if trained and available",
+        "keywords": [
+          "naloxone"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "drowning_01",
+    "query": "Someone is drowning in the lake near me, what do I do?",
+    "reference_answer": "Don't go in the water yourself unless you're trained in water rescue — throw or reach a flotation device instead, and call 999. Once they're out of the water, check their breathing; if they're not breathing normally, give five rescue breaths then start CPR, using an AED as soon as one is available.",
+    "source": "RCUK 2025 First Aid Guidelines, Drowning section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Reach/throw a flotation device rather than swimming in",
+        "keywords": [
+          "flotation",
+          "reach",
+          "lifebuoy"
+        ]
+      },
+      {
+        "text": "Give rescue breaths then start CPR if not breathing",
+        "keywords": [
+          "rescue breath",
+          "cpr"
+        ]
+      },
+      {
+        "text": "Do NOT enter the water unless trained in water rescue",
+        "keywords": [
+          "enter the water",
+          "swim in",
+          "jump in"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "spinal_injury_01",
+    "query": "My friend fell off a ladder and I think he has a broken neck or spinal injury — he's conscious but can't move his legs.",
+    "reference_answer": "Call 999. Minimise neck movement — since he's awake and alert, encourage him to hold his own neck still in a comfortable position; never force him into a position. Do not attempt to move or roll him unless absolutely necessary, and keep monitoring him until help arrives.",
+    "source": "RCUK 2025 First Aid Guidelines, Cervical spinal motion restriction section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Minimise neck movement / keep it stable",
+        "keywords": [
+          "minimise",
+          "still",
+          "stable",
+          "stabilise"
+        ]
+      },
+      {
+        "text": "Do NOT force them into a position",
+        "keywords": [
+          "force"
+        ],
+        "forbidden": true
+      },
+      {
+        "text": "Do NOT move or roll him unnecessarily",
+        "keywords": [
+          "move him",
+          "roll him"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "snake_bite_01",
+    "query": "I was bitten by an adder while hiking, the bite is swelling and painful.",
+    "reference_answer": "Call 999. Keep calm and rest, and keep the bitten limb still and immobilised to slow the venom spreading. Remove tight clothing, rings or a watch from that limb. Do not apply a tourniquet, ice, heat or a pressure dressing, and do not cut the wound or try to suck out the venom.",
+    "source": "RCUK 2025 First Aid Guidelines, Snake bite section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Keep the bitten limb still and immobilised, rest",
+        "keywords": [
+          "still",
+          "immobilis",
+          "rest"
+        ]
+      },
+      {
+        "text": "Remove tight clothing/rings near the bite",
+        "keywords": [
+          "remove",
+          "rings",
+          "tight clothing",
+          "watch"
+        ]
+      },
+      {
+        "text": "Do NOT apply a tourniquet, ice, heat or pressure dressing",
+        "keywords": [
+          "tourniquet",
+          "ice",
+          "heat",
+          "pressure dressing"
+        ],
+        "forbidden": true
+      },
+      {
+        "text": "Do NOT cut the wound or suck out venom",
+        "keywords": [
+          "cut the wound",
+          "suck out"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "open_chest_wound_01",
+    "query": "Someone has been stabbed in the chest, and I can hear air being sucked into the wound when he breathes.",
+    "reference_answer": "Call 999. Help him into a half-seated position leaning towards the injured side. Control any external bleeding with direct pressure but don't seal the wound completely — leave an open chest wound exposed to the air rather than covering it, since sealing it can let air build up in the chest. If you must use a dressing for transport, use a non-occlusive one and watch it closely.",
+    "source": "RCUK 2025 First Aid Guidelines, Open chest wounds section",
+    "checklist": [
+      {
+        "text": "Call 999",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency",
+          "ambulance"
+        ]
+      },
+      {
+        "text": "Help them into a half-seated position on the injured side",
+        "keywords": [
+          "half-seated",
+          "sit",
+          "lean"
+        ]
+      },
+      {
+        "text": "Control bleeding with pressure without sealing the wound",
+        "keywords": [
+          "pressure",
+          "non-occlusive"
+        ]
+      },
+      {
+        "text": "Do NOT seal/cover the wound with an airtight dressing",
+        "keywords": [
+          "seal the wound",
+          "airtight",
+          "occlusive dressing",
+          "cover it"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "amputation_01",
+    "query": "My coworker's finger was cut off by a machine, what do I do with the severed part?",
+    "reference_answer": "Call 999 and control the bleeding from the injury first. Wrap the amputated part in a sterile dressing or clean cloth moistened with saline or water, place it in a clean watertight bag, then place that bag in another container with ice or ice water — never let the part touch the ice directly or freeze it. Label it with the person's name and the time, and send it to hospital with them.",
+    "source": "RCUK 2025 First Aid Guidelines, Preservation of an amputated body part section",
+    "checklist": [
+      {
+        "text": "Call 999 and control the bleeding first",
+        "keywords": [
+          "999",
+          "emergency",
+          "bleeding",
+          "pressure"
+        ]
+      },
+      {
+        "text": "Wrap the part in a sterile/clean moist dressing",
+        "keywords": [
+          "sterile",
+          "clean cloth",
+          "moist"
+        ]
+      },
+      {
+        "text": "Keep it cold with ice/ice water in a sealed watertight bag",
+        "keywords": [
+          "ice",
+          "cold",
+          "watertight",
+          "bag"
+        ]
+      },
+      {
+        "text": "Do NOT let the part freeze or touch ice directly",
+        "keywords": [
+          "freez",
+          "direct contact with ice",
+          "touch the ice"
+        ],
+        "forbidden": true
+      }
+    ]
+  },
+  {
+    "id": "hypoglycemia_01",
+    "query": "My dad has diabetes and suddenly seems confused and shaky, what should I do?",
+    "reference_answer": "This could be hypoglycaemia (low blood sugar). If he's awake and able to swallow, give him glucose or dextrose tablets, or a sugary food/drink like fruit juice or sweets. Wait about 15 minutes and repeat if he hasn't improved. Call 999 if he becomes unresponsive or doesn't improve — and never give food or drink by mouth to someone who isn't fully responsive.",
+    "source": "RCUK 2025 First Aid Guidelines, Hypoglycaemia section",
+    "checklist": [
+      {
+        "text": "Give oral glucose or a sugary food/drink if awake and able to swallow",
+        "keywords": [
+          "glucose",
+          "sugar",
+          "juice",
+          "sweet"
+        ]
+      },
+      {
+        "text": "Call 999 if unresponsive or not improving",
+        "keywords": [
+          "999",
+          "112",
+          "911",
+          "emergency"
+        ]
+      },
+      {
+        "text": "Do NOT give food or drink by mouth to someone who isn't fully responsive",
+        "keywords": [
+          "give oral sugar",
+          "food or drink",
+          "by mouth"
+        ],
+        "forbidden": true
+      }
     ]
   }
 ]

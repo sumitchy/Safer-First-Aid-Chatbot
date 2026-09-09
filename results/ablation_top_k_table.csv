@@ -1,0 +1,4 @@
+top_k,mean_congruence,full_congruence_rate,dangerous_output_rate,dangerous_output_count,mean_latency_s
+2,0.7436,0.3077,0.0769,2,9.9357
+4 (default),0.8109,0.5,0.0385,1,11.6829
+6,0.859,0.6154,0.0769,2,12.3461

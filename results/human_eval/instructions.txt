@@ -1,0 +1,10 @@
+Instructions for human assessment
+
+For each row, read the response text and, for every listed item, write "Yes"
+or "No" in its matching answer column for whether the response includes
+that item. Leave an answer cell blank only if its matching item_N_text cell
+is also blank (that response's scenario has fewer checklist items than this
+sheet has columns for). Don't try to guess what system produced the
+response -- you don't have that information, which is intentional. Judge
+only what is actually written in the response text, not what you believe
+the correct first-aid answer should be.

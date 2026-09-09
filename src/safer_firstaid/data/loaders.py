@@ -46,6 +46,22 @@ def load_qa_csv(
     return pairs
 
 
+def load_qa_json(
+    path: Path,
+    question_key: str = "question",
+    answer_key: str = "answer",
+) -> list[dict]:
+    """Load a generic question/answer JSON (list of dicts) into pairs."""
+    raw = json.loads(Path(path).read_text(encoding="utf-8"))
+    pairs = []
+    for item in raw:
+        q = str(item.get(question_key, "")).strip()
+        a = str(item.get(answer_key, "")).strip()
+        if q and a:
+            pairs.append({"question": q, "answer": a})
+    return pairs
+
+
 def qa_to_scenarios_skeleton(pairs: list[dict], out_path: Path, source: str) -> None:
     """Write a scenarios.json skeleton (WITHOUT checklists) for you to complete.
 

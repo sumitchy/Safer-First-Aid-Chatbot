@@ -1,0 +1,22 @@
+# Ablation: embedding model = all-mpnet-base-v2 (vs default all-MiniLM-L6-v2).
+# Chunk size / top_k held at project defaults (800 / 4).
+
+llm:
+  provider: lmstudio
+  model: qwen/qwen3-vl-8b
+  base_url: http://localhost:1234/v1
+  temperature: 0.2
+  max_tokens: 2048
+
+retriever:
+  embedding_model: sentence-transformers/all-mpnet-base-v2
+  chunk_size: 800
+  chunk_overlap: 150
+  top_k: 4
+
+paths:
+  guidelines_dir: data/guidelines/real
+  index_dir: data/processed/ablation_mpnet_index
+  scenarios: data/datasets/scenarios.json
+  intents: data/datasets/intents.json
+  results_dir: results/ablation_mpnet

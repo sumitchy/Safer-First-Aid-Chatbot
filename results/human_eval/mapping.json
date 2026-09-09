@@ -1,0 +1,629 @@
+{
+  "R-32F8E6F6": {
+    "system": "RAG",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "choking_adult_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Give back blows",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Encourage coughing",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Give abdominal thrusts",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Do NOT give a drink to wash it down",
+        "forbidden": true,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-6620B0C5": {
+    "system": "RAG",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "cardiac_arrest_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Call 999 immediately",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Do NOT give food or water",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Start CPR / chest compressions",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Use an AED if available",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-FEF37BFB": {
+    "system": "RAG",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "severe_bleeding_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Do NOT remove the embedded object",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Apply direct/around-object pressure",
+        "forbidden": false,
+        "automatic": 1
+      }
+    ]
+  },
+  "R-C9C1ACC0": {
+    "system": "RAG",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "heart_attack_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Help them sit and rest",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Aspirin if not allergic",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-1FF551C2": {
+    "system": "RAG",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "burn_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Cool under running water 20 min",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Cover loosely with cling film",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Do NOT apply butter/cream/ice",
+        "forbidden": true,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-F45BF8E9": {
+    "system": "RAG",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "anaphylaxis_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Position appropriately",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Use adrenaline auto-injector / EpiPen",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-53712266": {
+    "system": "RAG",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "seizure_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Do NOT restrain",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Cushion the head",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Time the seizure",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Protect from injury / move objects",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Do NOT put anything in mouth",
+        "forbidden": true,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-453E266A": {
+    "system": "RAG",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "minor_cut_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Clean the wound",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Cover with a plaster/dressing",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Apply pressure to stop bleeding",
+        "forbidden": false,
+        "automatic": 1
+      }
+    ]
+  },
+  "R-FA6D29DF": {
+    "system": "VanillaLLM",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "choking_adult_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Do NOT give a drink to wash it down",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Give back blows",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Encourage coughing",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Give abdominal thrusts",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-8199EEB8": {
+    "system": "VanillaLLM",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "cardiac_arrest_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Start CPR / chest compressions",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Use an AED if available",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Call 999 immediately",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Do NOT give food or water",
+        "forbidden": true,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-DCC5BFA2": {
+    "system": "VanillaLLM",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "severe_bleeding_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Do NOT remove the embedded object",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Apply direct/around-object pressure",
+        "forbidden": false,
+        "automatic": 1
+      }
+    ]
+  },
+  "R-971D20D4": {
+    "system": "VanillaLLM",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "heart_attack_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Help them sit and rest",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Aspirin if not allergic",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-35A565DD": {
+    "system": "VanillaLLM",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "burn_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Cover loosely with cling film",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Do NOT apply butter/cream/ice",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Cool under running water 20 min",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-A227AA0C": {
+    "system": "VanillaLLM",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "anaphylaxis_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Use adrenaline auto-injector / EpiPen",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Position appropriately",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-908A7A56": {
+    "system": "VanillaLLM",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "seizure_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Cushion the head",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Do NOT restrain",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Time the seizure",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Do NOT put anything in mouth",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Protect from injury / move objects",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-15430962": {
+    "system": "VanillaLLM",
+    "backend": "hf:Qwen/Qwen2.5-0.5B-Instruct",
+    "scenario_id": "minor_cut_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Apply pressure to stop bleeding",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Clean the wound",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Cover with a plaster/dressing",
+        "forbidden": false,
+        "automatic": 1
+      }
+    ]
+  },
+  "R-0210D50E": {
+    "system": "IntentClassifier",
+    "backend": "intent-classifier",
+    "scenario_id": "choking_adult_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Give abdominal thrusts",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Encourage coughing",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Do NOT give a drink to wash it down",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Give back blows",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-A31503E9": {
+    "system": "IntentClassifier",
+    "backend": "intent-classifier",
+    "scenario_id": "cardiac_arrest_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Call 999 immediately",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Use an AED if available",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Do NOT give food or water",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Start CPR / chest compressions",
+        "forbidden": false,
+        "automatic": 1
+      }
+    ]
+  },
+  "R-C1C3C494": {
+    "system": "IntentClassifier",
+    "backend": "intent-classifier",
+    "scenario_id": "severe_bleeding_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Do NOT remove the embedded object",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Apply direct/around-object pressure",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      }
+    ]
+  },
+  "R-4A078601": {
+    "system": "IntentClassifier",
+    "backend": "intent-classifier",
+    "scenario_id": "heart_attack_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Aspirin if not allergic",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Help them sit and rest",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-E6777A88": {
+    "system": "IntentClassifier",
+    "backend": "intent-classifier",
+    "scenario_id": "burn_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Cover loosely with cling film",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Cool under running water 20 min",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Do NOT apply butter/cream/ice",
+        "forbidden": true,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-D237E4F1": {
+    "system": "IntentClassifier",
+    "backend": "intent-classifier",
+    "scenario_id": "anaphylaxis_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Call 999",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Use adrenaline auto-injector / EpiPen",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Position appropriately",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-06710194": {
+    "system": "IntentClassifier",
+    "backend": "intent-classifier",
+    "scenario_id": "seizure_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Do NOT put anything in mouth",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Protect from injury / move objects",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Time the seizure",
+        "forbidden": false,
+        "automatic": 0
+      },
+      {
+        "text": "Do NOT restrain",
+        "forbidden": true,
+        "automatic": 0
+      },
+      {
+        "text": "Cushion the head",
+        "forbidden": false,
+        "automatic": 0
+      }
+    ]
+  },
+  "R-45407052": {
+    "system": "IntentClassifier",
+    "backend": "intent-classifier",
+    "scenario_id": "minor_cut_01",
+    "source_file": "results/real/responses.jsonl",
+    "items": [
+      {
+        "text": "Apply pressure to stop bleeding",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Clean the wound",
+        "forbidden": false,
+        "automatic": 1
+      },
+      {
+        "text": "Cover with a plaster/dressing",
+        "forbidden": false,
+        "automatic": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "topic": "severe_bleeding",
+    "existing_coverage": 0,
+    "candidates": [
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0087",
+        "query": "What if the impaled object is causing severe bleeding?",
+        "reference_answer": "If the impaled object is causing severe bleeding, do not remove it. Apply pressure around the object to control the bleeding. Use sterile dressings or clean cloths to pack around the object. Seek emergency medical help immediately.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_firstaidqa",
+        "id": "FirstAidQA_3991",
+        "query": "What are the first aid steps if a splinter causes severe bleeding?",
+        "reference_answer": "If a splinter causes severe bleeding, apply pressure to the area with a clean cloth or sterile dressing to stop the bleeding. Once the bleeding is controlled, carefully remove the splinter, disinfect the wound with antiseptic, and cover it with a bandage. If the bleeding doesn\u2019t stop or if the splinter is deeply embedded, seek medical help immediately.",
+        "source": "FirstAidQA"
+      },
+      {
+        "pool": "scenarios_from_firstaidqa",
+        "id": "FirstAidQA_4629",
+        "query": "Can a knocked-out tooth be saved if the person is experiencing severe bleeding?",
+        "reference_answer": "Yes, a knocked-out tooth can be saved even if there is severe bleeding, but it is important to control the bleeding first. Apply gentle pressure to the bleeding area using a clean cloth or gauze, and keep the tooth moist while seeking dental care immediately.",
+        "source": "FirstAidQA"
+      }
+    ]
+  },
+  {
+    "topic": "stroke",
+    "existing_coverage": 0,
+    "candidates": [
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0211",
+        "query": "How to treat Stroke?",
+        "reference_answer": "Call emergency services immediately. Note the time when symptoms first appeared. Keep the person comfortable and calm. Do not give them anything to eat or drink. Monitor their condition until help arrives. Be prepared to perform CPR if necessary.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0212",
+        "query": "What to do for Stroke?",
+        "reference_answer": "Call emergency services immediately. Note the time when symptoms first appeared. Keep the person comfortable and calm. Do not give them anything to eat or drink. Monitor their condition until help arrives. Be prepared to perform CPR if necessary.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0213",
+        "query": "First aid for Stroke?",
+        "reference_answer": "Call emergency services immediately. Note the time when symptoms first appeared. Keep the person comfortable and calm. Do not give them anything to eat or drink. Monitor their condition until help arrives. Be prepared to perform CPR if necessary.",
+        "source": "kaggle_elvisblitti"
+      }
+    ]
+  },
+  {
+    "topic": "suicide",
+    "existing_coverage": 0,
+    "candidates": []
+  },
+  {
+    "topic": "choking",
+    "existing_coverage": 1,
+    "candidates": [
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0161",
+        "query": "How to treat Choking?",
+        "reference_answer": "Perform the Heimlich maneuver by standing behind the person and giving abdominal thrusts. If the person is unconscious, perform CPR and call for emergency help. Encourage the person to cough if they can. Avoid giving the person anything to eat or drink.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0162",
+        "query": "What to do if someone is Choking?",
+        "reference_answer": "Perform the Heimlich maneuver by standing behind the person and giving abdominal thrusts. If the person is unconscious, perform CPR and call for emergency help. Encourage the person to cough if they can. Avoid giving the person anything to eat or drink.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0163",
+        "query": "Choking first aid",
+        "reference_answer": "Perform the Heimlich maneuver by standing behind the person and giving abdominal thrusts. If the person is unconscious, perform CPR and call for emergency help. Encourage the person to cough if they can. Avoid giving the person anything to eat or drink.",
+        "source": "kaggle_elvisblitti"
+      }
+    ]
+  },
+  {
+    "topic": "cardiac_arrest",
+    "existing_coverage": 1,
+    "candidates": [
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0206",
+        "query": "How to treat Heart Attack?",
+        "reference_answer": "Call emergency services immediately. Keep the person calm and seated. Loosen any tight clothing. If the person is conscious, give them aspirin if they are not allergic. Monitor their condition until help arrives. Be prepared to perform CPR if the person becomes unconscious.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0207",
+        "query": "What to do for Heart Attack?",
+        "reference_answer": "Call emergency services immediately. Keep the person calm and seated. Loosen any tight clothing. If the person is conscious, give them aspirin if they are not allergic. Monitor their condition until help arrives. Be prepared to perform CPR if the person becomes unconscious.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0208",
+        "query": "First aid for Heart Attack?",
+        "reference_answer": "Call emergency services immediately. Keep the person calm and seated. Loosen any tight clothing. If the person is conscious, give them aspirin if they are not allergic. Monitor their condition until help arrives. Be prepared to perform CPR if the person becomes unconscious.",
+        "source": "kaggle_elvisblitti"
+      }
+    ]
+  },
+  {
+    "topic": "anaphylaxis",
+    "existing_coverage": 1,
+    "candidates": [
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0341",
+        "query": "How to treat Anaphylaxis?",
+        "reference_answer": "Administer an epinephrine auto-injector immediately if available. Call emergency services. Keep the person lying down with their legs elevated. Loosen any tight clothing. Monitor their condition until help arrives. Be prepared to perform CPR if necessary.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0342",
+        "query": "What to do for Anaphylaxis?",
+        "reference_answer": "Administer an epinephrine auto-injector immediately if available. Call emergency services. Keep the person lying down with their legs elevated. Loosen any tight clothing. Monitor their condition until help arrives. Be prepared to perform CPR if necessary.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0343",
+        "query": "First aid for Anaphylaxis?",
+        "reference_answer": "Administer an epinephrine auto-injector immediately if available. Call emergency services. Keep the person lying down with their legs elevated. Loosen any tight clothing. Monitor their condition until help arrives. Be prepared to perform CPR if necessary.",
+        "source": "kaggle_elvisblitti"
+      }
+    ]
+  },
+  {
+    "topic": "seizure",
+    "existing_coverage": 1,
+    "candidates": [
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0186",
+        "query": "What to do for Seizures?",
+        "reference_answer": "Stay calm and time the seizure. Protect the person from injury by moving objects away from them. Do not hold the person down or put anything in their mouth. Place them in the recovery position once the seizure stops. Seek medical help if the seizure lasts more than 5 minutes or if it's their first seizure.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0187",
+        "query": "How to handle a Seizure?",
+        "reference_answer": "Stay calm and time the seizure. Protect the person from injury by moving objects away from them. Do not hold the person down or put anything in their mouth. Place them in the recovery position once the seizure stops. Seek medical help if the seizure lasts more than 5 minutes or if it's their first seizure.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0188",
+        "query": "First aid for Seizures?",
+        "reference_answer": "Stay calm and time the seizure. Protect the person from injury by moving objects away from them. Do not hold the person down or put anything in their mouth. Place them in the recovery position once the seizure stops. Seek medical help if the seizure lasts more than 5 minutes or if it's their first seizure.",
+        "source": "kaggle_elvisblitti"
+      }
+    ]
+  },
+  {
+    "topic": "unconscious",
+    "existing_coverage": 1,
+    "candidates": [
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0005",
+        "query": "What to do if someone was chocking and is now unconscious?",
+        "reference_answer": "Place them on their back and kneel over them.\n    Place the heel of your hand slightly above their belly button.\n    Place your other hand on top of it.\n    Give quick upward thrusts to dislodge the object.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0026",
+        "query": "My brother is unconscious and not breathing.",
+        "reference_answer": "If an unconscious casualty is not breathing, it may be due to one of the following causes:\nThe head is tilted forward;\nThe tongue is blocking the air passage due to the loss of muscular control in the throat;\nSaliva is lying in the back of the throat and blocking the airway due to impaired reflexes;\nThere is a foreign body in the throat blocking the airway (e.g. vomit, dentures and weeds).\nIt is essential to establish a clear airway immediately to ensure the survival of the casualty.Open and clear the airway using the chin lift position.\nEnsure the patient is on his back; if necessary roll him onto his back.\nPlace one hand on his forehead and gently tilt the head back.\nPlace the fingers of your other hand along the line of the jaw.\nLift the chin using the fingers.\nThese combined actions, called 'head tilt chin lift', will open the airway.\nOnce breathing starts, place the patient in the Recovery Position.",
+        "source": "kaggle_elvisblitti"
+      },
+      {
+        "pool": "scenarios_from_data",
+        "id": "kaggle_elvisblitti_0133",
+        "query": "What should I do if I find someone unresponsive in the water?",
+        "reference_answer": "If you find someone unresponsive in the water, call for help immediately. If it's safe to do so, carefully remove them from the water. Check for breathing and a pulse. If they are not breathing, begin CPR right away. Provide chest compressions and rescue breaths until emergency services arrive or the person starts to breathe on their own. Use an automated external defibrillator (AED) if one is available and follow the prompts.",
+        "source": "kaggle_elvisblitti"
+      }
+    ]
+  },
+  {
+    "topic": "not_breathing",
+    "existing_coverage": 2,
+    "candidates": [
+      {
+        "pool": "scenarios_from_firstaidqa",
+        "id": "FirstAidQA_0126",
+        "query": "What can you do if a casualty\u2019s airway appears blocked and they're not breathing?",
+        "reference_answer": "Tilt their head back gently and lift their jaw to open the airway. Look, listen, and feel for breathing. If there's no breathing and you\u2019re trained, begin CPR. If untrained, follow dispatcher instructions and attempt chest compressions only until help arrives.",
+        "source": "FirstAidQA"
+      },
+      {
+        "pool": "scenarios_from_firstaidqa",
+        "id": "FirstAidQA_0546",
+        "query": "What does it mean if a casualty has no pulse but is still warm to the touch?",
+        "reference_answer": "If the casualty has no pulse but is warm, it may indicate sudden cardiac arrest that occurred recently. The first aider must immediately begin CPR and apply a defibrillator (AED) if available. Time is critical\u2014early intervention can significantly improve survival chances before the body begins to cool.",
+        "source": "FirstAidQA"
+      },
+      {
+        "pool": "scenarios_from_firstaidqa",
+        "id": "FirstAidQA_1222",
+        "query": "What should you do if the victim of a stonefish sting is not breathing?",
+        "reference_answer": "If the victim of a stonefish sting is not breathing, you should immediately start CPR (Cardiopulmonary Resuscitation) and continue until medical help arrives or the victim begins to breathe on their own.",
+        "source": "FirstAidQA"
+      }
+    ]
+  }
+]
