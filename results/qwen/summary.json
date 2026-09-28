@@ -1,26 +1,26 @@
 {
   "RAG": {
-    "n_scenarios": 8,
-    "mean_congruence": 0.8333,
-    "full_congruence_rate": 0.625,
-    "dangerous_output_rate": 0.125,
-    "dangerous_output_count": 1,
-    "mean_latency_s": 11.2786
+    "n_scenarios": 26,
+    "mean_congruence": 0.8365,
+    "full_congruence_rate": 0.5385,
+    "dangerous_output_rate": 0.0769,
+    "dangerous_output_count": 2,
+    "mean_latency_s": 11.0534
   },
   "VanillaLLM": {
-    "n_scenarios": 8,
-    "mean_congruence": 0.9271,
-    "full_congruence_rate": 0.375,
-    "dangerous_output_rate": 0.375,
-    "dangerous_output_count": 3,
-    "mean_latency_s": 19.8408
+    "n_scenarios": 26,
+    "mean_congruence": 0.891,
+    "full_congruence_rate": 0.4615,
+    "dangerous_output_rate": 0.2692,
+    "dangerous_output_count": 7,
+    "mean_latency_s": 20.0632
   },
   "IntentClassifier": {
-    "n_scenarios": 8,
-    "mean_congruence": 0.4271,
-    "full_congruence_rate": 0.25,
+    "n_scenarios": 26,
+    "mean_congruence": 0.3654,
+    "full_congruence_rate": 0.0769,
     "dangerous_output_rate": 0.0,
     "dangerous_output_count": 0,
-    "mean_latency_s": 0.0008
+    "mean_latency_s": 0.0006
   }
 }

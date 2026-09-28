@@ -1,0 +1,26 @@
+{
+  "RAG": {
+    "bleu": 0.0283,
+    "rouge1": 0.2393,
+    "rouge2": 0.0792,
+    "rougeL": 0.1649,
+    "bertscore_f1": 0.7861,
+    "flesch_reading_ease": 66.065
+  },
+  "VanillaLLM": {
+    "bleu": 0.0142,
+    "rouge1": 0.1504,
+    "rouge2": 0.0517,
+    "rougeL": 0.1016,
+    "bertscore_f1": 0.7454,
+    "flesch_reading_ease": 66.615
+  },
+  "IntentClassifier": {
+    "bleu": 0.1321,
+    "rouge1": 0.3308,
+    "rouge2": 0.1697,
+    "rougeL": 0.282,
+    "bertscore_f1": 0.7728,
+    "flesch_reading_ease": 66.025
+  }
+}

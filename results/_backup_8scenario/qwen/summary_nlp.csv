@@ -1,0 +1,4 @@
+system,bleu,rouge1,rouge2,rougeL,bertscore_f1,flesch_reading_ease
+RAG,0.0283,0.2393,0.0792,0.1649,0.7861,66.065
+VanillaLLM,0.0142,0.1504,0.0517,0.1016,0.7454,66.615
+IntentClassifier,0.1321,0.3308,0.1697,0.282,0.7728,66.025

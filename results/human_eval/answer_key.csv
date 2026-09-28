@@ -1,0 +1,46 @@
+response_id,system,backend,scenario_id,source_file
+RESP-0001,IntentClassifier,n/a (backend-independent),amputation_01,both (identical across backends)
+RESP-0002,IntentClassifier,n/a (backend-independent),cardiac_arrest_01,both (identical across backends)
+RESP-0003,IntentClassifier,n/a (backend-independent),choking_adult_01,both (identical across backends)
+RESP-0004,IntentClassifier,n/a (backend-independent),drowning_01,both (identical across backends)
+RESP-0005,IntentClassifier,n/a (backend-independent),minor_cut_01,both (identical across backends)
+RESP-0006,IntentClassifier,n/a (backend-independent),not_breathing_nopulse_01,both (identical across backends)
+RESP-0007,IntentClassifier,n/a (backend-independent),open_chest_wound_01,both (identical across backends)
+RESP-0008,IntentClassifier,n/a (backend-independent),opioid_overdose_01,both (identical across backends)
+RESP-0009,IntentClassifier,n/a (backend-independent),seizure_01,both (identical across backends)
+RESP-0010,IntentClassifier,n/a (backend-independent),severe_bleeding_01,both (identical across backends)
+RESP-0011,IntentClassifier,n/a (backend-independent),severe_bleeding_impaled_01,both (identical across backends)
+RESP-0012,IntentClassifier,n/a (backend-independent),severe_bleeding_splinter_01,both (identical across backends)
+RESP-0013,IntentClassifier,n/a (backend-independent),stroke_01,both (identical across backends)
+RESP-0014,IntentClassifier,n/a (backend-independent),unconscious_choking_01,both (identical across backends)
+RESP-0015,IntentClassifier,n/a (backend-independent),unconscious_notbreathing_01,both (identical across backends)
+RESP-0016,RAG,qwen3-vl-8b,anaphylaxis_01,results/qwen/responses.jsonl
+RESP-0017,RAG,qwen3-vl-8b,drowning_01,results/qwen/responses.jsonl
+RESP-0018,RAG,deepseek-r1,heart_attack_01,results/deepseek/responses.jsonl
+RESP-0019,RAG,qwen3-vl-8b,not_breathing_airway_01,results/qwen/responses.jsonl
+RESP-0020,RAG,deepseek-r1,not_breathing_nopulse_01,results/deepseek/responses.jsonl
+RESP-0021,RAG,qwen3-vl-8b,not_breathing_stonefish_01,results/qwen/responses.jsonl
+RESP-0022,RAG,deepseek-r1,open_chest_wound_01,results/deepseek/responses.jsonl
+RESP-0023,RAG,deepseek-r1,seizure_01,results/deepseek/responses.jsonl
+RESP-0024,RAG,qwen3-vl-8b,severe_bleeding_01,results/qwen/responses.jsonl
+RESP-0025,RAG,qwen3-vl-8b,severe_bleeding_impaled_01,results/qwen/responses.jsonl
+RESP-0026,RAG,deepseek-r1,severe_bleeding_tooth_01,results/deepseek/responses.jsonl
+RESP-0027,RAG,qwen3-vl-8b,snake_bite_01,results/qwen/responses.jsonl
+RESP-0028,RAG,deepseek-r1,suicide_01,results/deepseek/responses.jsonl
+RESP-0029,RAG,qwen3-vl-8b,unconscious_choking_01,results/qwen/responses.jsonl
+RESP-0030,RAG,deepseek-r1,unconscious_water_01,results/deepseek/responses.jsonl
+RESP-0031,VanillaLLM,qwen3-vl-8b,anaphylaxis_01,results/qwen/responses.jsonl
+RESP-0032,VanillaLLM,qwen3-vl-8b,burn_01,results/qwen/responses.jsonl
+RESP-0033,VanillaLLM,deepseek-r1,hypoglycemia_01,results/deepseek/responses.jsonl
+RESP-0034,VanillaLLM,deepseek-r1,not_breathing_airway_01,results/deepseek/responses.jsonl
+RESP-0035,VanillaLLM,qwen3-vl-8b,not_breathing_stonefish_01,results/qwen/responses.jsonl
+RESP-0036,VanillaLLM,qwen3-vl-8b,open_chest_wound_01,results/qwen/responses.jsonl
+RESP-0037,VanillaLLM,qwen3-vl-8b,seizure_01,results/qwen/responses.jsonl
+RESP-0038,VanillaLLM,deepseek-r1,severe_bleeding_01,results/deepseek/responses.jsonl
+RESP-0039,VanillaLLM,qwen3-vl-8b,severe_bleeding_impaled_01,results/qwen/responses.jsonl
+RESP-0040,VanillaLLM,deepseek-r1,severe_bleeding_splinter_01,results/deepseek/responses.jsonl
+RESP-0041,VanillaLLM,qwen3-vl-8b,severe_bleeding_tooth_01,results/qwen/responses.jsonl
+RESP-0042,VanillaLLM,qwen3-vl-8b,snake_bite_01,results/qwen/responses.jsonl
+RESP-0043,VanillaLLM,deepseek-r1,stroke_01,results/deepseek/responses.jsonl
+RESP-0044,VanillaLLM,deepseek-r1,unconscious_choking_01,results/deepseek/responses.jsonl
+RESP-0045,VanillaLLM,deepseek-r1,unconscious_notbreathing_01,results/deepseek/responses.jsonl
