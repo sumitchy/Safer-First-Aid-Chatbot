@@ -456,8 +456,10 @@ in priority order:
    not yet run through `safer_firstaid.data.loaders`.
 4. **Merge derived scenario/intent sets into the active config** — `real.yaml`
    still points at the original 8/4-item hand-authored files.
-5. **Human evaluation** — ≥2 first-aid-qualified assessors, Cohen's Kappa via
-   `evaluation.congruence.cohens_kappa`, per `BUILD_GUIDE.md` Section 6.
+5. **Human evaluation** — the first assessor's 171 checklist-item judgments
+   have been imported (Section 16); a second assessor's judgments are still
+   needed before inter-rater Cohen's Kappa can be computed. Confirm the first
+   assessor's N/A use before final analysis.
 6. **Stronger backend** — the Qwen2.5-0.5B run in this session was for pipeline
    verification; a real thesis run should use LM Studio/Ollama with a larger
    instruct model, or Gemini, and ideally compare across backends
@@ -2297,3 +2299,47 @@ overwritten by this session.
    `congruence.py`/`safety.py`, recovering the checklist-shortlist tooling
    referenced in Section 14.5) remain outstanding and unaffected by this
    session.
+
+---
+
+## 16. Session 7 — First Assessor Evaluation Returned
+
+**Date:** 2026-10-11
+
+**Scope:** Import the first assessor's completed workbook into the project's
+human-evaluation data without changing or interpreting the assessor's judgments.
+
+### 16.1 Import and validation
+
+The assessor's completed workbook,
+`data/assessor_replies/Assessor 1.xlsx`, was matched to the project's
+`results/human_eval/assessor_1.csv` template by `(response_id,
+checklist_item_id)`. All 171 checklist rows matched exactly, including their
+guideline statements; the workbook covered 45 response IDs. Judgments and notes
+were transferred into the corresponding CSV columns. The workbook itself was
+left unchanged.
+
+| Recorded judgment | Count |
+|---|---:|
+| Yes | 93 |
+| No | 22 |
+| N/A | 56 |
+| **Total** | **171** |
+
+There are 45 non-empty assessor notes. The 56 N/A judgments are retained as
+entered, not converted to Yes/No; the evaluation instructions describe N/A as
+rare, so their applicability should be confirmed before final analysis.
+
+### 16.2 Status and limitations
+
+This is one assessor's completed pass only. No inter-rater agreement or
+Cohen's Kappa is reported until the second assessor's judgments are received
+and aligned to the same response/checklist rows. These counts describe the
+returned sheet; they are not a chatbot performance result or a completed
+human-evaluation result.
+
+### 16.3 File manifest
+
+- `results/human_eval/assessor_1.csv` — populated from the returned workbook;
+  assessor judgments and notes added, all other evaluation data preserved.
+- `data/assessor_replies/Assessor 1.xlsx` — source workbook, unchanged.
