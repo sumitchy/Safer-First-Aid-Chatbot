@@ -2,7 +2,7 @@
 
 **Reducing Guideline-Discordant Advice Through Retrieval-Augmented Generation Grounded in Red Cross and Resuscitation Council Guidelines**
 
-Postgraduate Computing Project — Arden University
+Postgraduate Advance Computing Project — Arden University
 Sumit Chaudhary (24161337) · Project P20435
 
 ---
